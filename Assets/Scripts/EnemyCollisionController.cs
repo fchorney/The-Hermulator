@@ -13,7 +13,7 @@ public class EnemyCollisionController : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D collision) {
 		if (collision.collider.tag == "Player") {
-			enemyController.kill();
+			enemyController.kill(true);
 			this.enabled = false;
 		}
 	}

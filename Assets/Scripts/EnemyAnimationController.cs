@@ -3,22 +3,24 @@ using System.Collections;
 
 public class EnemyAnimationController : MonoBehaviour {
 
-	public ParticleRenderer explode;
+	public ParticleRenderer explosion;
 	public Renderer ship;
 
 	void Awake() {
-		explode.sortingLayerName = "Explosions";
+		explosion.sortingLayerName = "Explosions";
 	}
 
 	// Use this for initialization
 	void Start () {
-		explode.particleEmitter.emit = false;
+		explosion.particleEmitter.emit = false;
 	}
 	
-	public void Explode() {
+	public void Destroy(bool explode = false) {
 		ship.enabled = false;
-		explode.enabled = true;
-		explode.particleEmitter.Emit (10);
+		if(!explode)
+			return;
+		explosion.enabled = true;
+		explosion.particleEmitter.Emit (10);
 
 	}
 }

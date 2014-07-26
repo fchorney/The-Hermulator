@@ -43,9 +43,8 @@ public class EnemyController : MonoBehaviour {
 		}
 	}
 
-	public void kill() {
-		animationController.Explode();
-
+	public void kill(bool explode = false) {
+		animationController.Destroy(explode);
 	}
 }
 	

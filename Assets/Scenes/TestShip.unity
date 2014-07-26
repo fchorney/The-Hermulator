@@ -832,7 +832,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1280435651}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!1 &688508441
 GameObject:
   m_ObjectHideFlags: 0
@@ -1674,7 +1674,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e443791f393e4b68a242a8dc7328931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explode: {fileID: 688508443}
+  explosion: {fileID: 688508443}
   ship: {fileID: 1524216337}
 --- !u!1 &1643745363
 GameObject:

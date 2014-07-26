@@ -620,7 +620,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 478260786}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.418479711, y: .686112285, z: 0}
+  m_LocalPosition: {x: -.408761889, y: .688541889, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1280435651}
@@ -1488,7 +1488,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RegularSprite: {fileID: 21300000, guid: 85c5175522b4c44309eb23669dea19c1, type: 3}
-  YawSprite: {fileID: 21300002, guid: 10c8d5d6fda5340b8a620590e74f8e0e, type: 3}
+  YawLeftSprite: {fileID: 21300000, guid: fe489fa920abb419ead205dc00184b12, type: 3}
+  YawRightSprite: {fileID: 21300000, guid: 9e8e6ef1fc21f4644b40ceb0a18d58d1, type: 3}
   BodyRenderer: {fileID: 460387064}
   HitBox: {fileID: 1791807856}
 --- !u!82 &1435039970

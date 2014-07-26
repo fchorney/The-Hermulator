@@ -4,7 +4,8 @@ using System.Collections;
 public class ShipYawController : MonoBehaviour {
 
 	public Sprite RegularSprite;
-	public Sprite YawSprite;
+	public Sprite YawLeftSprite;
+	public Sprite YawRightSprite;
 	
 	public SpriteRenderer BodyRenderer;
 	public Transform HitBox;
@@ -20,27 +21,22 @@ public class ShipYawController : MonoBehaviour {
 	private int yawOff = 5;
 	private int yawMax = 12;
 
-	private float hitboxAdjAmount = 0.08832529f;
+	private float hitboxAdjAmount = 0.05225669f;
 	
 	private void YawLeft() {
-		BodyRenderer.sprite = YawSprite;
-		BodyRenderer.transform.localScale = new Vector3(-1, 1, 1);
+		BodyRenderer.sprite = YawLeftSprite;
 		yawState = State.LEFT;
 		HitBox.localPosition = new Vector3(-hitboxAdjAmount, HitBox.localPosition.y, HitBox.localPosition.z);
-
-		
 	}
 	
 	private void YawRight() {
-		BodyRenderer.sprite = YawSprite;
-		BodyRenderer.transform.localScale = Vector3.one;
+		BodyRenderer.sprite = YawRightSprite;
 		yawState = State.RIGHT;
 		HitBox.localPosition = new Vector3(hitboxAdjAmount, HitBox.localPosition.y, HitBox.localPosition.z);
 	}
 	
 	private void YawNormal() {
 		BodyRenderer.sprite = RegularSprite;
-		BodyRenderer.transform.localScale = Vector3.one;
 		yawState = State.NORMAL;
 		HitBox.localPosition = new Vector3(0, HitBox.localPosition.y, HitBox.localPosition.z);
 	}

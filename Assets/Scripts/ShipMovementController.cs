@@ -87,7 +87,7 @@ public class ShipMovementController : MonoBehaviour {
 
 				rigidbody2D.velocity = Vector2.zero;
 
-				LockRenderer.enabled = true;
+				//LockRenderer.enabled = true;
 
 
 				break;

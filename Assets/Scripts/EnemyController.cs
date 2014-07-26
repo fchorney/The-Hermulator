@@ -13,6 +13,8 @@ public class EnemyController : MonoBehaviour {
 	private GameObject player;
 	private EnemyAnimationController animationController;
 
+	private float speed = 0.05f;
+
 	void Start() {
 		player = GameObject.FindGameObjectWithTag("Player");
 		animationController = transform.GetComponentInChildren<EnemyAnimationController>();
@@ -25,21 +27,25 @@ public class EnemyController : MonoBehaviour {
 			float screenY = Camera.main.WorldToScreenPoint(transform.position).y;
 
 			if (screenY < Screen.height - 100) {
-				transform.parent = null;
+				//transform.parent = null;
 				state = State.Active;
 			}
 
 			break;
 		case State.Active:
 			Vector3 p = transform.position;
-
-			p.x = player.transform.position.x;
+			float playerX = player.transform.position.x;
+			if(p.x > playerX + speed)
+				p.x -= speed;
+			else if(p.x < playerX - speed)
+				p.x += speed;
+			else
+				p.x = playerX;
 
 			transform.position = p;
 
 			//transform.position += Vector3.up * LevelSpeed * Time.deltaTime;
 			break;
-
 		}
 	}
 

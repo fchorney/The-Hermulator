@@ -4,6 +4,8 @@ using System.Collections;
 public class GameController : MonoBehaviour {
 
 	public Transform Level;
+	public Transform TopEdge;
+
 	private float LevelSpeed = 6f;
 
 	public void Start() {
@@ -12,6 +14,11 @@ public class GameController : MonoBehaviour {
 	}
 
 	public void Update() {
-		Level.transform.position -= Vector3.up * LevelSpeed * Time.deltaTime;
+
+		float topY = Camera.main.WorldToScreenPoint(TopEdge.transform.position).y;
+
+		Debug.Log (topY);
+		if (topY > Screen.height)
+			Level.transform.position -= Vector3.up * LevelSpeed * Time.deltaTime;
 	}
 }

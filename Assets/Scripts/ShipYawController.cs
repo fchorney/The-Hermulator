@@ -56,7 +56,7 @@ public class ShipYawController : MonoBehaviour {
 		Vector3 position = BodyRenderer.transform.position;
 		Vector3 velocity = position - lastPos;
 
-		Debug.Log (velocity.x);
+		//Debug.Log (velocity.x);
 
 		if (velocity.x < -0.01) {
 			if (yawCounter > -yawMax)

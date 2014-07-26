@@ -783,6 +783,33 @@ SpriteRenderer:
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 0aed801cb3a1d4344a1edc55b4d5916f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &680310760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 680310761}
+  m_Layer: 9
+  m_Name: LeftGunner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &680310761
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 680310760}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.407096535, y: 2.38377857, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1435039964}
+  m_RootOrder: 3
 --- !u!1 &682380931
 GameObject:
   m_ObjectHideFlags: 0
@@ -1367,6 +1394,7 @@ GameObject:
   - 114: {fileID: 1435039968}
   - 114: {fileID: 1435039969}
   - 82: {fileID: 1435039970}
+  - 114: {fileID: 1435039971}
   m_Layer: 9
   m_Name: Ship
   m_TagString: Player
@@ -1387,6 +1415,8 @@ Transform:
   - {fileID: 1791807856}
   - {fileID: 1280435651}
   - {fileID: 202285192}
+  - {fileID: 680310761}
+  - {fileID: 1887430932}
   m_Father: {fileID: 0}
   m_RootOrder: 1
 --- !u!50 &1435039965
@@ -1519,6 +1549,20 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!114 &1435039971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1435039963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4ecaafd3a0477469b977f8e075ccdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftGunner: {fileID: 680310761}
+  rightGunner: {fileID: 1887430932}
+  bulletPool: {fileID: 2086709270}
 --- !u!1 &1459481854
 GameObject:
   m_ObjectHideFlags: 0
@@ -1790,6 +1834,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58edf0df94e1848819a0ea1d446d482a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1887430931
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1887430932}
+  m_Layer: 9
+  m_Name: RightGunner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1887430932
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1887430931}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .423544675, y: 2.38377857, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1435039964}
+  m_RootOrder: 4
 --- !u!1001 &1887836638
 Prefab:
   m_ObjectHideFlags: 0
@@ -1888,6 +1959,47 @@ SpriteRenderer:
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: f0dc137cfb4264fd2a47dbc11aef53b0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &2086709269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2086709271}
+  - 114: {fileID: 2086709270}
+  m_Layer: 9
+  m_Name: BulletPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2086709270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2086709269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bb95b4d6d65d794ba93b3806762cc55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabBullet: {fileID: 5000000, guid: 6cee3191b3478a9489c11b96ecb45500, type: 2}
+  poolsize: 1000
+--- !u!4 &2086709271
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2086709269}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.0149478912, y: -8.01329422, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
 --- !u!1 &2122252497
 GameObject:
   m_ObjectHideFlags: 0

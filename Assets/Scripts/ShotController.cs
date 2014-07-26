@@ -39,9 +39,10 @@ public class ShotController : MonoBehaviour {
 	
 	// Update is called once per frame
 	public void Fire(){
+		Debug.Log ("FIRE");
 		if (CanAttack && !bulletPool.maxBullet()) {
 			shotTransform = bulletPool.getBullet ();
-
+			Debug.Log ("SHOOT");
 			switch (gunnerToggle){
 			case GunnerSide.Left:
 				shotTransform.transform.position = leftGunner.position;

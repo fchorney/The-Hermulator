@@ -3,9 +3,9 @@ using System.Collections;
 
 public class BulletController : MonoBehaviour {
 
-	public Vector2 speed = new Vector2(10,100);
+	private Vector2 speed = new Vector2(1f,1f);
 
-	public Vector2 direction = new Vector2(0,100);
+	private Vector2 direction = new Vector2(0,10f);
 
 	public BulletPool bulletPool;
 

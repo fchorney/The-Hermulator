@@ -3,6 +3,7 @@ using System.Collections;
 
 public class GameController : MonoBehaviour {
 
+	public int Lives = 5;
 	public Transform Level;
 	public Transform TopEdge;
 

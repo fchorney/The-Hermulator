@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 public class BulletPool : MonoBehaviour {
 	public Rigidbody2D prefabBullet;
+	public int bulletLimit;
 
 	Queue<Rigidbody2D> bulletPool;
 	// Use this for initialization
@@ -27,7 +28,7 @@ public class BulletPool : MonoBehaviour {
 	}
 
 	public bool maxBullet(){
-		if (bulletOnScreen > 20){
+		if (bulletOnScreen > bulletLimit){
 			return true;
 		}
 		return false;
@@ -56,6 +57,7 @@ public class BulletPool : MonoBehaviour {
 			Rigidbody2D obj = Instantiate(prefabBullet, Vector3.zero, Quaternion.identity) as Rigidbody2D;
 			obj.GetComponent<BulletController>().hide();
 			obj.GetComponent<BulletController>().bulletPool=this;
+			obj.transform.parent = this.transform;
 			bulletPool.Enqueue(obj);
 		}
 		

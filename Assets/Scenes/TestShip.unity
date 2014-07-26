@@ -2475,6 +2475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabBullet: {fileID: 5000000, guid: 6cee3191b3478a9489c11b96ecb45500, type: 2}
+  bulletLimit: 20
   poolsize: 1000
 --- !u!4 &2086709271
 Transform:

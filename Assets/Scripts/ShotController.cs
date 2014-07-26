@@ -15,7 +15,7 @@ public class ShotController : MonoBehaviour {
 	private GunnerSide gunnerToggle;
 	void Start()
 	{
-		shootCooldown = 1.5f;
+		shootCooldown = 0f;
 		gunnerToggle = GunnerSide.Left;
 		bulletType = BulletType.Normal;
 		//bulletPool = transform.GetComponent<BulletPool> ();
@@ -33,7 +33,7 @@ public class ShotController : MonoBehaviour {
 	{
 		get
 		{
-			return shootCooldown <= 1.1f;
+			return shootCooldown <= 0f;
 		}
 	}
 	
@@ -41,7 +41,10 @@ public class ShotController : MonoBehaviour {
 	public void Fire(){
 		Debug.Log ("FIRE");
 		if (CanAttack && !bulletPool.maxBullet()) {
+
 			shotTransform = bulletPool.getBullet ();
+			shotTransform.GetComponent("AudioSource").audio.Play();
+
 			Debug.Log ("SHOOT");
 			switch (gunnerToggle){
 			case GunnerSide.Left:
@@ -56,7 +59,7 @@ public class ShotController : MonoBehaviour {
 				gunnerToggle = GunnerSide.Left;
 				break;
 			}
-
+			shootCooldown = .09f;
 
 		}
 	}

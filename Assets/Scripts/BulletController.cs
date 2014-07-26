@@ -5,7 +5,7 @@ public class BulletController : MonoBehaviour {
 
 	private Vector2 speed = new Vector2(1f,1f);
 
-	private Vector2 direction = new Vector2(0,10f);
+	private Vector2 direction = new Vector2(0,8f);
 
 	public BulletPool bulletPool;
 

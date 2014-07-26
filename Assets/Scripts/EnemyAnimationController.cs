@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class EnemyAnimationController : MonoBehaviour {
@@ -12,11 +12,13 @@ public class EnemyAnimationController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		explode.enabled = false;
+		explode.particleEmitter.emit = false;
 	}
 	
 	public void Explode() {
-		explode.enabled = true;
 		ship.enabled = false;
+		explode.enabled = true;
+		explode.particleEmitter.Emit (10);
+
 	}
 }

@@ -26,18 +26,18 @@ public class ShipAnimationController : MonoBehaviour {
 
 	void Start() {
 		PropTimer = 0;
-
 		GunTimer = 0;
-		explode.enabled = false;
+
+		explode.particleEmitter.emit = false;
+
 		shipController = transform.GetComponentInParent<ShipController>();
 	}
 
 	// Update is called once per frame
 	void Update () {
 
-		if(!shipController.isAlive()) {
+		if(!shipController.isAlive())
 			return;
-		}
 
 		PropTimer += Time.deltaTime;
 
@@ -53,7 +53,8 @@ public class ShipAnimationController : MonoBehaviour {
 		foreach (Renderer r in transform.GetComponentsInChildren<Renderer>()) {
 			r.enabled = false; 
 		}
-		explode.enabled = true;
 
+		explode.enabled = true;
+		explode.particleEmitter.Emit (50);
 	}
 }

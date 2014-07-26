@@ -13,16 +13,25 @@ public class HudController : MonoBehaviour {
 	private Rect bgRect;
 	private Rect lifeRect;
 
-	public void Awake() {
+	private void ResizeRects() {
 		int height = (int)((expectedHeight / 1920.0f) * Screen.height);
 		bgRect = new Rect(0, Screen.height - height, Screen.width, height);
-
-
+		
+		
 		int lifeWidth  = (int)((expectedLifeWidth / 1080.0f) * Screen.width);
 		int lifeHeight = (int)((expectedLifeHeight / 1920.0f) * Screen.height);
 		int lifeBuffer = (height - lifeHeight) / 2;
-
+		
 		lifeRect = new Rect(Screen.width - lifeWidth - 5, Screen.height - lifeHeight - lifeBuffer, lifeWidth, lifeHeight);
+	}
+
+	public void Awake() {
+		ResizeRects();
+	}
+
+	public void Update() {
+		if (Application.isEditor)
+			ResizeRects();
 	}
 
 	public void OnGUI() {

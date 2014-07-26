@@ -11,14 +11,15 @@ public class EnemyController : MonoBehaviour {
 
 	private State state;
 	private GameObject player;
+	private EnemyAnimationController animationController;
 
 	void Start() {
 		player = GameObject.FindGameObjectWithTag("Player");
+		animationController = transform.GetComponentInChildren<EnemyAnimationController>();
 	}
 
 	// Update is called once per frame
 	void Update () {
-
 		switch(state) {
 		case State.Waiting:
 			float screenY = Camera.main.WorldToScreenPoint(transform.position).y;
@@ -40,8 +41,10 @@ public class EnemyController : MonoBehaviour {
 			break;
 
 		}
+	}
 
-		Debug.Log ("wooo");
+	public void kill() {
+		animationController.Explode();
 	}
 }
 	

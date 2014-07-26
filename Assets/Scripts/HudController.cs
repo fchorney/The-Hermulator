@@ -19,17 +19,22 @@ public class HudController : MonoBehaviour {
 	private int OrigFontSize;
 
 	private void ResizeRects() {
-		int height = (int)((expectedHeight / 1920.0f) * Screen.height);
-		bgRect = new Rect(0, Screen.height - height, Screen.width, height);
+		Rect pr = Camera.main.pixelRect;
+		int sw = (int)pr.width;
+		int sh = (int)pr.height;
+
+		Debug.Log ("SW: " + sw + " SH: " + sh);
+		int height = (int)((expectedHeight / 1920.0f) * sh);
+		bgRect = new Rect(pr.x, pr.y + sh - height, sw, height);
 		
 		
-		int lifeWidth  = (int)((expectedLifeWidth / 1080.0f) * Screen.width);
-		int lifeHeight = (int)((expectedLifeHeight / 1920.0f) * Screen.height);
+		int lifeWidth  = (int)((expectedLifeWidth / 1080.0f) * sw);
+		int lifeHeight = (int)((expectedLifeHeight / 1920.0f) * sh);
 		int lifeBuffer = (height - lifeHeight) / 2;
 		
-		lifeRect = new Rect(Screen.width - lifeWidth - 5, Screen.height - lifeHeight - lifeBuffer, lifeWidth, lifeHeight);
+		lifeRect = new Rect(pr.x + sw - lifeWidth - 5, pr.y + sh - lifeHeight - lifeBuffer, lifeWidth, lifeHeight);
 
-		lifeStyle.fontSize = OrigFontSize / Screen.width;
+		lifeStyle.fontSize = OrigFontSize / sw;
 	}
 
 	public void Awake() {

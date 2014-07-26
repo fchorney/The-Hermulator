@@ -1522,6 +1522,20 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!114 &1435039971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1435039963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4ecaafd3a0477469b977f8e075ccdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftGunner: {fileID: 680310761}
+  rightGunner: {fileID: 1887430932}
+  bulletPool: {fileID: 2086709270}
 --- !u!1 &1446999016
 GameObject:
   m_ObjectHideFlags: 0
@@ -1636,7 +1650,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!1 &1459481854
 GameObject:
   m_ObjectHideFlags: 0

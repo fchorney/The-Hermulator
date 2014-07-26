@@ -7,6 +7,7 @@ public class EnemyCollisionController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		this.enabled = true;
 		enemyController = transform.GetComponentInParent<EnemyController>();
 	}
 

@@ -3,14 +3,23 @@ using System.Collections;
 
 public class ShipController : MonoBehaviour {
 
+	// left and right edge the ship will use
+	// in world coordinates
+	public Transform LeftEdge;
+	public Transform RightEdge;
+
 	// speed at which the ship moves to the cursor
 	// when the cursor is "far" from the player when it's
-	// in "loose" state
+	// 	  in "loose" state
 	private float moveSpeed = 20f;
 
 	// once a ships magnitude squared
 	// is greater than this, the ship goes to "locked" state
 	private float lockMagnitude = 1f;
+
+	// min and max x for the ship in screen coordinates 
+	private float minX;
+	private float maxX;
 
 	
 	// possible states
@@ -29,6 +38,9 @@ public class ShipController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		state = State.loose;
+
+		minX = Camera.main.WorldToScreenPoint(LeftEdge.transform.position).x;
+		maxX = Camera.main.WorldToScreenPoint(RightEdge.transform.position).x;
 	}
 	
 	// Update is called once per frame
@@ -38,6 +50,8 @@ public class ShipController : MonoBehaviour {
 
 			// Grab the current mouse pos
 			Vector2 screenPosition = Input.mousePosition;
+
+			screenPosition.x = Mathf.Clamp (screenPosition.x, minX, maxX);
 
 			// Convert the position from screen coordinates to world coordinates
 			Vector2 worldPosition = Camera.main.ScreenToWorldPoint(screenPosition);
@@ -62,6 +76,7 @@ public class ShipController : MonoBehaviour {
 			
 			case State.locked:
 				Vector3 tPos = transform.position;
+
 				tPos.x = worldPosition.x;
 				tPos.y = worldPosition.y;
 				transform.position = tPos;

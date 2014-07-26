@@ -51,7 +51,10 @@ public class ShipMovementController : MonoBehaviour {
 		LockRenderer.enabled = false;
 
 		if (Input.GetMouseButton (0)) {
-
+			ShotController weapon = GetComponent<ShotController>();
+			if (weapon != null){
+				weapon.Fire();
+			}
 			// Grab the current mouse pos
 			Vector2 screenPosition = Input.mousePosition;
 

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ShipController : MonoBehaviour {
+public class ShipMovementController : MonoBehaviour {
 
 	// left and right edge the ship will use
 	// in world coordinates

@@ -46,3 +46,7 @@ TagManager:
     userID: 1
     uniqueID: 3838719171
     locked: 0
+  - name: Explosions
+    userID: 2
+    uniqueID: 3225196801
+    locked: 0

@@ -8,6 +8,8 @@ public class ShipController : MonoBehaviour {
 	public Transform LeftEdge;
 	public Transform RightEdge;
 
+	public Renderer LockRenderer;
+
 	// speed at which the ship moves to the cursor
 	// when the cursor is "far" from the player when it's
 	// 	  in "loose" state
@@ -46,6 +48,8 @@ public class ShipController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
+		LockRenderer.enabled = false;
+
 		if (Input.GetMouseButton (0)) {
 
 			// Grab the current mouse pos
@@ -82,6 +86,9 @@ public class ShipController : MonoBehaviour {
 				transform.position = tPos;
 
 				rigidbody2D.velocity = Vector2.zero;
+
+				LockRenderer.enabled = true;
+
 
 				break;
 			}

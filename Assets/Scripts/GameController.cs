@@ -17,8 +17,8 @@ public class GameController : MonoBehaviour {
 
 		float topY = Camera.main.WorldToScreenPoint(TopEdge.transform.position).y;
 
-		Debug.Log (topY);
 		if (topY > Screen.height)
 			Level.transform.position -= Vector3.up * LevelSpeed * Time.deltaTime;
+
 	}
 }

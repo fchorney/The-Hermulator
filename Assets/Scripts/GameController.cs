@@ -5,6 +5,7 @@ public class GameController : MonoBehaviour {
 
 	public int Lives = 5;
 	public Transform Level;
+	public Transform Cloud;
 	public Transform TopEdge;
 
 	public CheckpointController[] Checkpoints;
@@ -21,6 +22,7 @@ public class GameController : MonoBehaviour {
 	public bool ShootingEnabled { get; private set; }
 
 	private float LevelSpeed = 6f;
+	private float CloudSpeed = 8f;
 
 	public float activeTop { get; private set; }
 	public float activeBottom { get; private set; }
@@ -51,13 +53,15 @@ public class GameController : MonoBehaviour {
 	public void Update() {
 
 		// continue to move the level until we hit the top edge
-		if (Checkpoint < Checkpoints.Length && Checkpoints[Checkpoint].transform.position.y < activeTop) {
-			if (Checkpoints[Checkpoint].CheckpointComplete)
-				Checkpoint++;
-		} else if (TopEdge.transform.position.y > activeTop) {
-			Level.transform.position -= Vector3.up * LevelSpeed * Time.deltaTime;
+		if (!GameOverBanner.enabled) {
+			if (Checkpoint < Checkpoints.Length && Checkpoints [Checkpoint].transform.position.y < activeTop) {
+				if (Checkpoints [Checkpoint].CheckpointComplete)
+					Checkpoint++;
+			} else if (TopEdge.transform.position.y > activeTop) {
+				Level.transform.position -= Vector3.up * LevelSpeed * Time.deltaTime;
+				Cloud.transform.position -= Vector3.up * CloudSpeed * Time.deltaTime;
+			}
 		}
-
 		if (GameOverBanner.enabled && Input.GetMouseButtonDown(0))
 			Application.LoadLevel (Application.loadedLevel);
 	}

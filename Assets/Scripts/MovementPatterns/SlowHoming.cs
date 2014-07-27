@@ -3,8 +3,6 @@ using System.Collections;
 
 public class SlowHoming : EnemyMovementPattern {
 
-	public float FlightSpeed = 6f;
-
 	public override void Move(GameObject obj) {
 		Vector3 position = obj.transform.position;
 		if(player != null) {

@@ -10,7 +10,6 @@ public class EnemyMovementController : MonoBehaviour {
 	private EnemyShotController shotController;
 
 	private GameController gameController;
-	private float activeTime;
 
 	protected enum State {
 		Waiting = 0,	
@@ -35,7 +34,7 @@ public class EnemyMovementController : MonoBehaviour {
 				MovementWaiting.Move(this.gameObject);
 				if (transform.position.y < gameController.activeTop) {
 					state = State.Active;
-					activeTime = Time.time;
+					MovementActive.TimeActive = Time.time;
 				}
 				break;
 			case State.Active:

@@ -7,6 +7,11 @@ public class GameController : MonoBehaviour {
 	public Transform Level;
 	public Transform TopEdge;
 
+	public CheckpointController[] Checkpoints;
+	private int Checkpoint;
+
+	public Renderer GameOverBanner;
+
 	public bool ShootingEnabled { get; private set; }
 
 	private float LevelSpeed = 6f;
@@ -27,14 +32,23 @@ public class GameController : MonoBehaviour {
 		activeTop = Camera.main.ViewportToWorldPoint(new Vector3(0, 1)).y;
 
 		ShootingEnabled = true;
+
+		Checkpoint = 0;
 	}
 
 	public void Update() {
 
 		// continue to move the level until we hit the top edge
-		float topY = Camera.main.WorldToScreenPoint(TopEdge.transform.position).y;
-		if (topY > Screen.height)
+		if (Checkpoint < Checkpoints.Length && Checkpoints[Checkpoint].transform.position.y < activeTop) {
+			if (Checkpoints[Checkpoint].CheckpointComplete)
+				Checkpoint++;
+		} else if (TopEdge.transform.position.y > activeTop) {
 			Level.transform.position -= Vector3.up * LevelSpeed * Time.deltaTime;
+		}
+
+
+		if (GameOverBanner.enabled && Input.GetMouseButtonDown(0))
+			Application.LoadLevel (Application.loadedLevel);
 	}
 
 	public void OnDeath(GameObject ship) {
@@ -53,6 +67,8 @@ public class GameController : MonoBehaviour {
 
 		if (Lives > 0) {
 			clone = Instantiate(ship, new Vector3(-10000, 10000), Quaternion.identity) as  GameObject;
+		} else {
+			GameOverBanner.enabled = true;
 		}
 	
 		Destroy(ship);

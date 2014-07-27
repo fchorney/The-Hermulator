@@ -14,7 +14,7 @@ public class EnemyController : MonoBehaviour {
 	private ExplosionController explosionController;
 	private GameController gameController;
 
-	private EnemyShotController shotController;
+	protected EnemyShotController shotController;
 	protected float flightSpeed= 2f;
 
 	public HealthScript enemyHealth;
@@ -105,7 +105,7 @@ public class EnemyController : MonoBehaviour {
 
 	private IEnumerator showDamageCoroutine() {
 		renderer.material.color = Color.red;
-		yield return new WaitForSeconds(2);
+		yield return new WaitForSeconds(0.5f);
 		renderer.material.color = Color.white;
 	}
 }

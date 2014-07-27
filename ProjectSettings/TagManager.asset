@@ -10,6 +10,8 @@ TagManager:
   - 
   - 
   - 
+  - PlayerBullet
+  - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
   Builtin Layer 2: Ignore Raycast
@@ -54,4 +56,8 @@ TagManager:
   - name: Explosions
     userID: 2
     uniqueID: 3225196801
+    locked: 0
+  - name: UI Foreground
+    userID: 3
+    uniqueID: 3522580167
     locked: 0

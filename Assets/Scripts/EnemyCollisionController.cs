@@ -12,6 +12,9 @@ public class EnemyCollisionController : MonoBehaviour {
 	void Start () {
 		this.enabled = true;
 		enemyController = transform.GetComponentInParent<EnemyController>();
+
+		if (enemyController == null)
+			Debug.Log ("ZOMG no controller");
 		//bulletPool = transform.GetComponentInParent<BulletPool> ();
 		//bulletPool = transform.GetComponentInParent<BulletPool>();
 	}

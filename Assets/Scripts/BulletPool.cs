@@ -6,6 +6,8 @@ public class BulletPool : MonoBehaviour {
 	public Rigidbody2D prefabBullet;
 	public int bulletLimit;
 
+	private GameController gameController;
+
 	Queue<Rigidbody2D> bulletPool;
 	// Use this for initialization
 
@@ -16,6 +18,10 @@ public class BulletPool : MonoBehaviour {
 	public BulletType bulletType;
 
 	public void returnBullet(Rigidbody2D bullet) {
+		BulletExplosionController bec = gameController.GetComponent<BulletExplosionController> ();
+
+		bec.Emit (1, bullet.position);
+
 		bulletOnScreen--;
 		BulletController bulletController = bullet.GetComponent<BulletController> ();
 
@@ -55,6 +61,7 @@ public class BulletPool : MonoBehaviour {
 	}
 
 	void Start () {
+		gameController = GameController.Get ();
 
 		bulletPool = new Queue<Rigidbody2D> ();
 

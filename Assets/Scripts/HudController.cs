@@ -23,7 +23,6 @@ public class HudController : MonoBehaviour {
 		int sw = (int)pr.width;
 		int sh = (int)pr.height;
 
-		Debug.Log ("SW: " + sw + " SH: " + sh);
 		int height = (int)((expectedHeight / 1920.0f) * sh);
 		bgRect = new Rect(pr.x, pr.y + sh - height, sw, height);
 		

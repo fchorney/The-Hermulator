@@ -23,7 +23,8 @@ public class ShipMovementController : MonoBehaviour {
 	private float minX;
 	private float maxX;
 
-	
+	private ShipController shipController;
+
 	// possible states
 	private enum State { 
 		// the ship is "loose", i.e. is not locked to a current touch
@@ -43,10 +44,15 @@ public class ShipMovementController : MonoBehaviour {
 
 		minX = Camera.main.WorldToScreenPoint(LeftEdge.transform.position).x;
 		maxX = Camera.main.WorldToScreenPoint(RightEdge.transform.position).x;
+
+		shipController = transform.GetComponent<ShipController>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
+
+		if (shipController.isFrozen())
+			return;
 	
 		LockRenderer.enabled = false;
 

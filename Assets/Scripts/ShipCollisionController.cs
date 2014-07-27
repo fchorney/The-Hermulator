@@ -11,6 +11,11 @@ public class ShipCollisionController : MonoBehaviour {
 	}
 
 	void OnCollisionEnter2D(Collision2D collision) {
+		if (shipController.isInvincible()) {
+			Physics2D.IgnoreCollision(this.collider2D, collision.collider);
+			return;
+		}
+
 		if (collision.collider.tag == "Enemy") {
 			shipController.kill();
 			this.enabled = false;

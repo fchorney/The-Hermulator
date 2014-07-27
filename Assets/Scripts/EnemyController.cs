@@ -16,12 +16,20 @@ public class EnemyController : MonoBehaviour {
 	private float speed = 0.05f;
 
 	void Start() {
-		player = GameObject.FindGameObjectWithTag("Player");
 		animationController = transform.GetComponentInChildren<EnemyAnimationController>();
+		FindPlayer();
+	}
+
+	void FindPlayer() {
+		player = GameObject.FindGameObjectWithTag("Player");
 	}
 
 	// Update is called once per frame
 	void Update () {
+
+		if (player == null)
+			FindPlayer();
+
 		switch(state) {
 		case State.Waiting:
 			float screenY = Camera.main.WorldToScreenPoint(transform.position).y;
@@ -33,16 +41,19 @@ public class EnemyController : MonoBehaviour {
 
 			break;
 		case State.Active:
-			Vector3 p = transform.position;
-			float playerX = player.transform.position.x;
-			if(p.x > playerX + speed)
-				p.x -= speed;
-			else if(p.x < playerX - speed)
-				p.x += speed;
-			else
-				p.x = playerX;
 
-			transform.position = p;
+			if (player != null) {
+				Vector3 p = transform.position;
+				float playerX = player.transform.position.x;
+				if(p.x > playerX + speed)
+					p.x -= speed;
+				else if(p.x < playerX - speed)
+					p.x += speed;
+				else
+					p.x = playerX;
+
+				transform.position = p;
+			}
 
 			//transform.position += Vector3.up * LevelSpeed * Time.deltaTime;
 			break;

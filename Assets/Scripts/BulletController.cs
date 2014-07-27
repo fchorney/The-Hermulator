@@ -11,7 +11,13 @@ public class BulletController : MonoBehaviour {
 	public int damage = 1;
 	public bool SurvivesEnemyCollision = false;
 
+	private GameController gameController;
+
 	private Vector2 movement;
+
+	void Start () {
+		gameController = GameController.Get();
+	}
 
 	public int getDamage() {
 		return damage;
@@ -52,9 +58,8 @@ public class BulletController : MonoBehaviour {
 			speed.x * direction.x,
 			speed.y * direction.y);
 
-		if (Camera.main.WorldToScreenPoint(transform.position).y > Screen.height) {
+		if (transform.position.y < gameController.activeBottom) {
 			returnToPool();
-			
 		}
 	}
 

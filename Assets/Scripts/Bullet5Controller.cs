@@ -1,18 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Bullet5Controller : MonoBehaviour {
+public class Bullet5Controller : BulletController {
 
 
-	private GameObject player;
-
-	protected Vector2 speed = new Vector2(1f,1f);
-	
-	protected Vector2 direction = new Vector2(0,8f);
-
-	void FindPlayer() {
-		player = GameObject.FindGameObjectWithTag("Player");
-	}
 	// Update is called once per frame
 	void MoveObject(){
 

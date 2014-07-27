@@ -11,8 +11,9 @@ public class BulletPool : MonoBehaviour {
 
 	public int poolsize;
 	private int bulletOnScreen;
-
-
+	public enum BulletType
+		{ PlayerNormal, EnemyNormal, Zigzag	};
+	public BulletType bulletType;
 
 	public void returnBullet(Rigidbody2D bullet) {
 		bulletOnScreen--;
@@ -32,6 +33,10 @@ public class BulletPool : MonoBehaviour {
 			return true;
 		}
 		return false;
+	}
+
+	public BulletType getBulletType(){
+		return bulletType;
 	}
 
 	public Rigidbody2D getBullet(){

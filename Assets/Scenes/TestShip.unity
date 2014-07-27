@@ -50292,6 +50292,7 @@ MonoBehaviour:
   prefabBullet: {fileID: 5000000, guid: d76aea02f3b9a435abba181e20a72fe4, type: 2}
   bulletLimit: 1000
   poolsize: 1000
+  bulletType: 0
 --- !u!4 &1265869097
 Transform:
   m_ObjectHideFlags: 0
@@ -79718,6 +79719,7 @@ MonoBehaviour:
   prefabBullet: {fileID: 5000000, guid: 6cee3191b3478a9489c11b96ecb45500, type: 2}
   bulletLimit: 20
   poolsize: 1000
+  bulletType: 1
 --- !u!4 &2086709271
 Transform:
   m_ObjectHideFlags: 0

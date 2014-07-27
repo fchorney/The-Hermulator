@@ -42,6 +42,7 @@ public class BulletController : MonoBehaviour {
 		transform.renderer.enabled = false;
 		this.gameObject.SetActive (false);
 		this.enabled = false;
+		state = 0;
 	}
 
 	public bool isEnemyShot() {
@@ -51,27 +52,63 @@ public class BulletController : MonoBehaviour {
 	protected void FindPlayer() {
 		player = GameObject.FindGameObjectWithTag("Player");
 	}
+	int state;
+	protected virtual void MoveObjectDifferent(){
+		if (Mathf.Sin (Time.time*3) > 0)
+						state = 2;
+				else
+						state = -2;
+		transform.rigidbody2D.velocity = new Vector2((speed.x * direction.x)+state, speed.y * direction.y );
+
+		//transform.rigidbody2D.position = new Vector2(speed.x * direction.x + Mathf.Sin (Time.time+.6f)*10, speed.y * direction.y );
+
+	}
+
+	protected virtual void MoveObjectZigZag(){
+		if (Mathf.Sin (Time.time*3) > 0)
+			state = 2;
+		else
+			state = -2;
+		transform.rigidbody2D.velocity = new Vector2((speed.x * direction.x)+state, speed.y * direction.y );
+	}
 
 	protected virtual void MoveObject() {
 		//Debug.Log ("baseClass");
-		transform.rigidbody2D.velocity = new Vector2(
-			speed.x * direction.x,
-			speed.y * direction.y);
+		transform.rigidbody2D.velocity = new Vector2(speed.x * direction.x, speed.y * direction.y );
 
-		// off bottom
-		if (transform.position.y < gameController.activeBottom) {
-			returnToPool();
-		}
+		Debug.Log (Mathf.Sin (Time.time) + " " +  Time.time);
 
-		// off top
-		if (transform.position.y > gameController.activeTop) {
-			returnToPool();
-		}
+		
 	}
+
+
+	protected bool boundsCheck(){
+			if (transform.position.y < gameController.activeBottom || transform.position.y > gameController.activeTop) {
+				return true;
+			}
+			return false;
+
+
+		}
 
 	// Update is called once per frame
 	protected virtual void Update () {
-		MoveObject ();
+		BulletPool.BulletType bulletType = bulletPool.getBulletType ();
+		switch (bulletType) {
+		case BulletPool.BulletType.EnemyNormal:
+			MoveObject ();
+			break;
+		case BulletPool.BulletType.PlayerNormal:
+			MoveObjectDifferent ();
+			break;
+		case BulletPool.BulletType.Zigzag:
+			MoveObjectZigZag();
+			break;
+		}
+		//if (collision.collider.tag == "Enemy") {
+		if (boundsCheck ()) {
+			returnToPool();
+		}
 
 		FindPlayer ();
 

@@ -13,6 +13,7 @@ public class MusicController : MonoBehaviour {
 	public Transform bossTrigger;
 
 	private bool enableBoss = false;
+	private GameController gameController;
 
 	private AudioSource audio_intro = null;
 	private AudioSource audio_loop = null;
@@ -33,6 +34,8 @@ public class MusicController : MonoBehaviour {
 		audio_intro = gameObject.AddComponent<AudioSource> ();
 		audio_loop = gameObject.AddComponent<AudioSource> ();
 		audio_boss = gameObject.AddComponent<AudioSource> ();
+
+		gameController = GameController.Get();
 	
 		// Initialize our audio clip properties
 		audio_intro.clip = intro;
@@ -93,7 +96,7 @@ public class MusicController : MonoBehaviour {
 		if (enableBoss) {
 				stagestate = StageState.boss;
 		} else {
-			if (bossTrigger < gameController.activeTop)
+			if (bossTrigger.position.y < gameController.activeTop)
 				enableBoss = true;
 		}
 	}

@@ -9,6 +9,7 @@ public class EnemyCollisionController : MonoBehaviour {
 	public bool DamageEnabled = true;
 
 	private EnemyController enemyController;
+	private GameController gameController;
 
 	// time that we started displaying damage indicator
 	private float DamageTime;
@@ -25,6 +26,7 @@ public class EnemyCollisionController : MonoBehaviour {
 	void Start () {
 		this.enabled = true;
 		enemyController = transform.GetComponentInParent<EnemyController>();
+		gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
 		//bulletPool = transform.GetComponentInParent<BulletPool> ();
 		//bulletPool = transform.GetComponentInParent<BulletPool>();
 	}
@@ -61,6 +63,7 @@ public class EnemyCollisionController : MonoBehaviour {
 					Physics2D.IgnoreCollision(this.collider2D, collision.collider);
 				else {
 					if (DamageEnabled) {
+
 						enemyController.kill(true);
 						this.enabled = false;
 					}
@@ -71,7 +74,9 @@ public class EnemyCollisionController : MonoBehaviour {
 			BulletController bullet = collision.collider.GetComponent<BulletController>();
 			HealthController hp = this.GetComponentInParent<HealthController>();
 
+
 			if (DamageEnabled) {
+				gameController.addToScore(1000);
 				hp.Damage(bullet.getDamage());
 				ShowDamage();
 			}

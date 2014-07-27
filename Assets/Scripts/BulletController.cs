@@ -78,9 +78,6 @@ public class BulletController : MonoBehaviour {
 	protected virtual void MoveObject() {
 		//Debug.Log ("baseClass");
 		transform.rigidbody2D.velocity = new Vector2(speed.x * direction.x, speed.y * direction.y );
-
-		Debug.Log (Mathf.Sin (Time.time) + " " +  Time.time);
-
 		
 	}
 

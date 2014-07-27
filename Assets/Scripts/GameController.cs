@@ -16,7 +16,7 @@ public class GameController : MonoBehaviour {
 	public int score;
 
 	public void addToScore(int points){
-		score += score;
+		score += points;
 	}
 
 	public bool ShootingEnabled { get; private set; }

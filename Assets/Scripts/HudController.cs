@@ -17,6 +17,7 @@ public class HudController : MonoBehaviour {
 	private Rect scoreRect;
 
 	private GameController gameController;
+
 	private int OrigFontSize;
 	private int myFontSize;
 
@@ -28,7 +29,7 @@ public class HudController : MonoBehaviour {
 		int height = (int)((expectedHeight / 1920.0f) * sh);
 		bgRect = new Rect(pr.x, pr.y + sh - height, sw, height);
 
-		//scoreRect = new Rect (pr.x, pr.y + sh - height, sw, height);
+		scoreRect = new Rect (pr.x, pr.y + sh - height, sw, height);
 		
 		int lifeWidth  = (int)((expectedLifeWidth / 1080.0f) * sw);
 		int lifeHeight = (int)((expectedLifeHeight / 1920.0f) * sh);
@@ -46,6 +47,9 @@ public class HudController : MonoBehaviour {
 
 	public void Start() {
 		gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+
+
+
 	}
 
 	public void Update() {
@@ -59,7 +63,7 @@ public class HudController : MonoBehaviour {
 		GUI.DrawTexture(lifeRect, lifeIndicator);
 
 		GUI.Label(lifeRect, "" + gameController.Lives, lifeStyle);
-		//GUI.Label(scoreRect, "Score: " + gameController.score, lifeStyle);
+		GUI.Label(scoreRect, "Score: " + gameController.score, lifeStyle);
 		lifeStyle.fontSize = OrigFontSize;
 	}
 }

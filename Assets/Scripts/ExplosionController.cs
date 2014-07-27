@@ -7,17 +7,17 @@ public class ExplosionController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		explosions.enabled = false;
 		explosions.sortingLayerName = "Explosions";
+		explosions.particleSystem.loop = true;
 	}
 
 	public void Emit(int size, Vector3 position) {
 		explosions.transform.position = position;
-		explosions.particleEmitter.Emit (size);
+		explosions.particleEmitter.Emit (10);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
+		explosions.transform.position = transform.position;
 	}
 }

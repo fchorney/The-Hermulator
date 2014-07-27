@@ -11,14 +11,12 @@ public class EnemyController : MonoBehaviour {
 
 	protected State state;
 	private GameObject player;
-	private EnemyAnimationController animationController;
 	private ExplosionController explosionController;
 	protected float flightSpeed= 0.05f;
 
 	protected Vector3 enemyPosition;
 
 	void Start() {
-		animationController = transform.GetComponentInChildren<EnemyAnimationController>();
 		explosionController = GameObject.FindGameObjectWithTag ("GameController").GetComponent<ExplosionController> ();
 		FindPlayer();
 	}

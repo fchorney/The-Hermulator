@@ -6,7 +6,7 @@ public class SpawnerMovementPattern : EnemyMovementPattern {
 	public float DoorCloseWaitTime = 1f;
 	public float DoorAnimTime = 2f;
 
-	public Transform enemy;
+	public Transform[] enemies;
 	public BulletPool bulletPool;
 
 	public Transform SpawnDoorLeft, SpawnDoorRight;
@@ -14,9 +14,11 @@ public class SpawnerMovementPattern : EnemyMovementPattern {
 	private enum State { WAITING=0, OPENING, CLOSING }
 	private State state;
 	private float stateTime;
+	private int enemyIndex;
 
 	void Start () {
 		state = State.WAITING;
+		enemyIndex = 0;
 	}
 
 
@@ -74,12 +76,20 @@ public class SpawnerMovementPattern : EnemyMovementPattern {
 	public void SpawnEnemy() {
 	
 		Debug.Log ("Spawn");
-		Instantiate(enemy, transform.position, Quaternion.identity);
+		if (enemies.Length > 0) {
 
-		EnemyShotController shoots = enemy.GetComponent<EnemyShotController>();
-		if (shoots != null) {
-			shoots.bulletPool = bulletPool;
+			Transform obj = Instantiate(enemies[enemyIndex], transform.position, Quaternion.identity) as Transform;
+		
+			enemyIndex = (enemyIndex + 1) % enemies.Length;
+
+			if (obj != null) {
+				EnemyShotController shoots = obj.GetComponent<EnemyShotController>();
+
+				if (shoots != null) {
+					shoots.bulletPool = bulletPool;
+				}
+			}
+
 		}
-
 	}
 }

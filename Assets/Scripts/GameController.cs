@@ -89,6 +89,9 @@ public class GameController : MonoBehaviour {
 	}
 
 	public static GameController Get() {
-		return GameObject.FindGameObjectWithTag ("GameController").GetComponent<GameController> ();
+		GameObject root = GameObject.FindGameObjectWithTag ("GameController");
+		if (root != null)
+			return root.GetComponent<GameController> ();
+		return null;
 	}
 }

@@ -96,8 +96,9 @@ public class MusicController : MonoBehaviour {
 		if (enableBoss) {
 				stagestate = StageState.boss;
 		} else {
-			if (bossTrigger.position.y < gameController.activeTop)
-				enableBoss = true;
+			if (bossTrigger != null && gameController != null)
+				if (bossTrigger.position.y < gameController.activeTop)
+					enableBoss = true;
 		}
 	}
 }

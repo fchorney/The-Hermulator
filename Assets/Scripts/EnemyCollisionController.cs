@@ -4,6 +4,7 @@ using System.Collections;
 public class EnemyCollisionController : MonoBehaviour {
 
 	private EnemyController enemyController;
+
 	//private BulletPool bulletPool;
 	private enum CollisionType { Player, Bullet };
 
@@ -11,6 +12,7 @@ public class EnemyCollisionController : MonoBehaviour {
 	void Start () {
 		this.enabled = true;
 		enemyController = transform.GetComponentInParent<EnemyController>();
+		//bulletPool = transform.GetComponentInParent<BulletPool> ();
 		//bulletPool = transform.GetComponentInParent<BulletPool>();
 	}
 
@@ -33,9 +35,13 @@ public class EnemyCollisionController : MonoBehaviour {
 			}
 			break;
 		case CollisionType.Bullet:
-			enemyController.enemyHealth.Damage(collision.collider.GetComponent<BulletController>().getDamage());
+			BulletController bullet = collision.collider.GetComponent<BulletController>();
+
+			enemyController.enemyHealth.Damage(bullet.getDamage());
 			if (enemyController.enemyHealth.getHP() <= 0)
 				enemyController.kill(true);
+
+			bullet.returnToPool();
 			//bulletPool.returnBullet(collision.collider.rigidbody2D);
 			break;
 		}

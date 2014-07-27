@@ -16,6 +16,10 @@ public class BulletController : MonoBehaviour {
 		return damage;
 	}
 
+	public void returnToPool(){
+		bulletPool.returnBullet(transform.rigidbody2D);
+	}
+
 	public void show(){
 		transform.renderer.enabled = true;
 
@@ -47,7 +51,7 @@ public class BulletController : MonoBehaviour {
 			speed.x * direction.x,
 			speed.y * direction.y);
 		if (Camera.main.WorldToScreenPoint(transform.position).y > Screen.height) {
-			bulletPool.returnBullet(transform.rigidbody2D);
+			returnToPool();
 			
 		}
 	}

@@ -50,6 +50,7 @@ public class BulletController : MonoBehaviour {
 		transform.rigidbody2D.velocity = new Vector2(
 			speed.x * direction.x,
 			speed.y * direction.y);
+
 		if (Camera.main.WorldToScreenPoint(transform.position).y > Screen.height) {
 			returnToPool();
 			

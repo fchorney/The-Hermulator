@@ -11,7 +11,9 @@ public class HealthController : MonoBehaviour {
 	}
 
 	public void ShowDamage() {
-		StartCoroutine(showDamageCoroutine());
+
+		if (this.renderer)
+			StartCoroutine(showDamageCoroutine());
 	}
 	
 	private IEnumerator showDamageCoroutine() {

@@ -14,6 +14,8 @@ public class EnemyController : MonoBehaviour {
 	private ExplosionController explosionController;
 	protected float flightSpeed= 0.05f;
 
+	protected float activeTime;
+
 	protected Vector3 enemyPosition;
 
 
@@ -65,6 +67,7 @@ public class EnemyController : MonoBehaviour {
 		
 		if (screenY < Screen.height - 100){
 			state = State.Active;
+			activeTime = Time.time;
 		}
 	}
 

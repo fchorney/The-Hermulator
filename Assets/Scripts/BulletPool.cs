@@ -57,7 +57,7 @@ public class BulletPool : MonoBehaviour {
 	void Start () {
 
 		bulletPool = new Queue<Rigidbody2D> ();
-		bulletOnScreen = 0;
+
 		for(int i = 0; i < poolsize; i++) {
 			Rigidbody2D obj = Instantiate(prefabBullet, Vector3.zero, Quaternion.identity) as Rigidbody2D;
 			obj.GetComponent<BulletController>().hide();

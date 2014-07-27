@@ -31,14 +31,16 @@ public class EnemyMovementController : MonoBehaviour {
 	void Update () {
 		switch(state) {
 			case State.Waiting:
-				MovementWaiting.Move(this.gameObject);
+				if (MovementWaiting != null)
+					MovementWaiting.Move(this.gameObject);
 				if (transform.position.y < gameController.activeTop) {
 					state = State.Active;
 					MovementActive.Activate();
 				}
 				break;
 			case State.Active:
-				MovementActive.Move(this.gameObject);
+				if (MovementActive != null)
+					MovementActive.Move(this.gameObject);
 				if (shotController != null)
 					shotController.Fire();
 				break;

@@ -17,7 +17,7 @@ public class EnemyMovementPattern : MonoBehaviour {
 		}
 	}
 
-	public void Activate() {
+	public virtual void Activate() {
 		activeTime = Time.time;
 	}
 

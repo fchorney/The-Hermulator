@@ -17,6 +17,7 @@ public class HudController : MonoBehaviour {
 
 	private GameController gameController;
 	private int OrigFontSize;
+	private int myFontSize;
 
 	private void ResizeRects() {
 		Rect pr = Camera.main.pixelRect;
@@ -33,7 +34,7 @@ public class HudController : MonoBehaviour {
 		
 		lifeRect = new Rect(pr.x + sw - lifeWidth - 5, pr.y + sh - lifeHeight - lifeBuffer, lifeWidth, lifeHeight);
 
-		lifeStyle.fontSize = OrigFontSize / sw;
+		myFontSize = OrigFontSize / sw;
 	}
 
 	public void Awake() {
@@ -51,10 +52,12 @@ public class HudController : MonoBehaviour {
 	}
 
 	public void OnGUI() {
+		lifeStyle.fontSize = myFontSize;
 		GUI.DrawTexture(bgRect, backgroundTexture);
 		GUI.DrawTexture(lifeRect, lifeIndicator);
 
 		GUI.Label(lifeRect, "" + gameController.Lives, lifeStyle);
 
+		lifeStyle.fontSize = OrigFontSize;
 	}
 }

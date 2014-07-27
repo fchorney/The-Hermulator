@@ -212,6 +212,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &11571432
 GameObject:
   m_ObjectHideFlags: 0
@@ -603,6 +605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1001 &15389652
 Prefab:
@@ -1034,6 +1037,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &33369931
 GameObject:
   m_ObjectHideFlags: 0
@@ -1408,6 +1413,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &37939086
 GameObject:
   m_ObjectHideFlags: 0
@@ -1565,6 +1572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1001 &41388324
 Prefab:
@@ -1654,6 +1662,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &43855981
 GameObject:
   m_ObjectHideFlags: 0
@@ -1790,6 +1800,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &48177741
 GameObject:
   m_ObjectHideFlags: 0
@@ -1976,6 +1988,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &51833880
 GameObject:
   m_ObjectHideFlags: 0
@@ -2016,6 +2030,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &52175916
 GameObject:
   m_ObjectHideFlags: 0
@@ -2160,6 +2176,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &54830526
 GameObject:
   m_ObjectHideFlags: 0
@@ -2200,6 +2218,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &58608723
 GameObject:
   m_ObjectHideFlags: 0
@@ -2240,6 +2260,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &58744611
 GameObject:
   m_ObjectHideFlags: 0
@@ -2616,6 +2638,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &68158801
 GameObject:
   m_ObjectHideFlags: 0
@@ -2775,6 +2799,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &70951233
 GameObject:
   m_ObjectHideFlags: 0
@@ -3585,6 +3611,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &95926216
 GameObject:
@@ -3626,6 +3653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &96287855
 GameObject:
@@ -3943,6 +3971,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!4 &98822713
 Transform:
   m_ObjectHideFlags: 0
@@ -5138,6 +5168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &130011250
 GameObject:
@@ -5668,6 +5699,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &136896291
 GameObject:
   m_ObjectHideFlags: 0
@@ -5804,6 +5837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &140243565
 GameObject:
@@ -6162,6 +6196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &149488582
 GameObject:
@@ -6573,6 +6608,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &160403351
 GameObject:
   m_ObjectHideFlags: 0
@@ -6759,6 +6796,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &172126986
 GameObject:
@@ -7112,6 +7150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &178712463
 GameObject:
@@ -7890,6 +7929,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &193135472
 GameObject:
   m_ObjectHideFlags: 0
@@ -8299,6 +8340,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &205178660
 GameObject:
   m_ObjectHideFlags: 0
@@ -8477,6 +8520,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &210606896
 GameObject:
   m_ObjectHideFlags: 0
@@ -8759,6 +8804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &222378255
 GameObject:
@@ -8800,6 +8846,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &222441718
 GameObject:
   m_ObjectHideFlags: 0
@@ -8840,6 +8888,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &224433548
 GameObject:
   m_ObjectHideFlags: 0
@@ -9101,6 +9151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &228251305
 GameObject:
@@ -9363,6 +9414,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &235029515
 GameObject:
   m_ObjectHideFlags: 0
@@ -9549,6 +9602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &238051038
 GameObject:
@@ -9590,6 +9644,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &238593014
 GameObject:
   m_ObjectHideFlags: 0
@@ -9807,6 +9863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &253172455
 GameObject:
@@ -10480,6 +10537,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &265287447
 GameObject:
   m_ObjectHideFlags: 0
@@ -10547,6 +10606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1001 &270051012
 Prefab:
@@ -10636,6 +10696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &271767001
 GameObject:
@@ -10815,6 +10876,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &276534834
 GameObject:
   m_ObjectHideFlags: 0
@@ -11185,6 +11248,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1001 &282078302
 Prefab:
@@ -11777,6 +11841,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &298786662
 GameObject:
   m_ObjectHideFlags: 0
@@ -12295,6 +12361,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &311043344
 GameObject:
   m_ObjectHideFlags: 0
@@ -12335,6 +12403,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &311645835
 GameObject:
   m_ObjectHideFlags: 0
@@ -12402,6 +12472,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1001 &311964659
 Prefab:
   m_ObjectHideFlags: 0
@@ -12486,6 +12558,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &312875475
 GameObject:
   m_ObjectHideFlags: 0
@@ -12824,6 +12898,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &319999499
 GameObject:
   m_ObjectHideFlags: 0
@@ -12962,6 +13038,34 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: 1, y: 1}
   m_Center: {x: 0, y: 0}
+--- !u!1 &322418704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100016, guid: 573f42e8959823941b7bf51e2700a313, type: 2}
+  m_PrefabInternal: {fileID: 936694184}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 322418705}
+  - 114: {fileID: 911407005}
+  m_Layer: 10
+  m_Name: Wait
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &322418705
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400016, guid: 573f42e8959823941b7bf51e2700a313, type: 2}
+  m_PrefabInternal: {fileID: 936694184}
+  m_GameObject: {fileID: 322418704}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.600492, y: -19.6393967, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 369003654}
+  m_RootOrder: 1
 --- !u!1 &326598252
 GameObject:
   m_ObjectHideFlags: 0
@@ -13129,6 +13233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &336363396
 GameObject:
@@ -13170,6 +13275,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1001 &337805970
 Prefab:
   m_ObjectHideFlags: 0
@@ -13356,6 +13463,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &341399697
 GameObject:
   m_ObjectHideFlags: 0
@@ -13521,6 +13630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &343652294
 GameObject:
@@ -13666,6 +13776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &350480566
 GameObject:
@@ -13707,6 +13818,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &350609663
 GameObject:
   m_ObjectHideFlags: 0
@@ -13885,6 +13998,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &354246509
 GameObject:
   m_ObjectHideFlags: 0
@@ -14388,6 +14503,35 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1694122931}
   m_RootOrder: 5
+--- !u!1 &369003653
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100020, guid: 573f42e8959823941b7bf51e2700a313, type: 2}
+  m_PrefabInternal: {fileID: 936694184}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 369003654}
+  m_Layer: 10
+  m_Name: Movements
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &369003654
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400020, guid: 573f42e8959823941b7bf51e2700a313, type: 2}
+  m_PrefabInternal: {fileID: 936694184}
+  m_GameObject: {fileID: 369003653}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.40168214, y: 120.91114, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 997532221}
+  - {fileID: 322418705}
+  m_Father: {fileID: 911407004}
+  m_RootOrder: 8
 --- !u!1 &370779143
 GameObject:
   m_ObjectHideFlags: 0
@@ -14624,6 +14768,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &376145957
 GameObject:
   m_ObjectHideFlags: 0
@@ -14664,6 +14810,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &378159095
 GameObject:
   m_ObjectHideFlags: 0
@@ -14800,6 +14948,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &379846117
 GameObject:
   m_ObjectHideFlags: 0
@@ -14840,6 +14990,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &380154363
 GameObject:
@@ -14881,6 +15032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1001 &382370529
 Prefab:
@@ -15066,6 +15218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &383153573
 GameObject:
@@ -15107,6 +15260,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &383510153
 GameObject:
   m_ObjectHideFlags: 0
@@ -15397,6 +15552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &389070437
 GameObject:
@@ -15681,6 +15837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &396521371
 GameObject:
@@ -15778,6 +15935,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &403247878
 GameObject:
   m_ObjectHideFlags: 0
@@ -16111,6 +16270,7 @@ MonoBehaviour:
   prefabBullet: {fileID: 5000000, guid: 6bea41a3d491f4db69aab8d0ad337a35, type: 2}
   bulletLimit: 100
   poolsize: 100
+  bulletType: 0
 --- !u!4 &408484733
 Transform:
   m_ObjectHideFlags: 0
@@ -16238,6 +16398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1001 &416479671
 Prefab:
@@ -16494,6 +16655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &421021160
 GameObject:
@@ -16705,6 +16867,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &424529567
 GameObject:
   m_ObjectHideFlags: 0
@@ -16843,6 +17007,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &427713972
 GameObject:
   m_ObjectHideFlags: 0
@@ -17075,6 +17241,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &432855894
 GameObject:
   m_ObjectHideFlags: 0
@@ -17198,6 +17366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &437557105
 GameObject:
@@ -17238,7 +17407,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42cdb533b50634b57a348f3d1483716b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WaitForKill: []
+  WaitForKill:
+  - {fileID: 911407003}
 --- !u!1 &440346179
 GameObject:
   m_ObjectHideFlags: 0
@@ -18203,6 +18373,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &466999358
 GameObject:
   m_ObjectHideFlags: 0
@@ -18270,6 +18442,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &469063601
 GameObject:
   m_ObjectHideFlags: 0
@@ -18496,6 +18670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &474503798
 GameObject:
@@ -18693,6 +18868,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &482162245
 GameObject:
   m_ObjectHideFlags: 0
@@ -18802,6 +18979,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &487135873
 GameObject:
   m_ObjectHideFlags: 0
@@ -18869,6 +19048,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &489055002
 GameObject:
   m_ObjectHideFlags: 0
@@ -19454,6 +19635,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &497689871
 GameObject:
   m_ObjectHideFlags: 0
@@ -19523,6 +19706,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1001 &498800212
 Prefab:
   m_ObjectHideFlags: 0
@@ -19638,6 +19823,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &501247355
 GameObject:
@@ -20092,6 +20278,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &508005282
 GameObject:
   m_ObjectHideFlags: 0
@@ -20132,6 +20320,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &508759757
 GameObject:
   m_ObjectHideFlags: 0
@@ -20172,6 +20362,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &511513169
 GameObject:
@@ -20601,6 +20792,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &518508590
 GameObject:
   m_ObjectHideFlags: 0
@@ -20758,6 +20951,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &520037680
 GameObject:
   m_ObjectHideFlags: 0
@@ -21572,6 +21767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &536545667
 GameObject:
@@ -21994,6 +22190,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &546731822
 GameObject:
   m_ObjectHideFlags: 0
@@ -22034,6 +22232,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &547078920
 GameObject:
   m_ObjectHideFlags: 0
@@ -22143,6 +22343,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &547671190
 GameObject:
   m_ObjectHideFlags: 0
@@ -22515,6 +22717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1001 &553811167
 Prefab:
@@ -22700,6 +22903,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &564082653
 GameObject:
   m_ObjectHideFlags: 0
@@ -22809,6 +23014,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &564564581
 GameObject:
   m_ObjectHideFlags: 0
@@ -23346,6 +23553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &576983903
 GameObject:
@@ -23485,6 +23693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &582154956
 GameObject:
@@ -23741,6 +23950,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &584735132
 GameObject:
   m_ObjectHideFlags: 0
@@ -23781,6 +23992,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &585497185
 GameObject:
@@ -23822,6 +24034,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &590357436
 GameObject:
@@ -24049,6 +24262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &591013313
 GameObject:
@@ -24364,6 +24578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &603365733
 GameObject:
@@ -24536,6 +24751,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &612897265
 GameObject:
@@ -24577,6 +24793,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &613208517
 GameObject:
   m_ObjectHideFlags: 0
@@ -24851,6 +25069,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &618961857
 GameObject:
@@ -25293,6 +25512,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &627085844
 GameObject:
   m_ObjectHideFlags: 0
@@ -25657,6 +25878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &632099711
 GameObject:
@@ -25842,6 +26064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &636529359
 GameObject:
@@ -26338,6 +26561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &650671435
 GameObject:
@@ -26613,6 +26837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &657419421
 GameObject:
@@ -26654,6 +26879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &659076543
 GameObject:
@@ -26695,6 +26921,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &659611230
 GameObject:
   m_ObjectHideFlags: 0
@@ -26879,6 +27107,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &663817134
 GameObject:
   m_ObjectHideFlags: 0
@@ -27326,6 +27556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &671096487
 GameObject:
@@ -27609,6 +27840,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &675975864
 GameObject:
@@ -28772,6 +29004,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &703308136
 GameObject:
@@ -29308,6 +29541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &718365170
 GameObject:
@@ -29349,6 +29583,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &718887231
 GameObject:
   m_ObjectHideFlags: 0
@@ -30203,6 +30439,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &755914334
 GameObject:
   m_ObjectHideFlags: 0
@@ -30701,6 +30939,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &769463421
 GameObject:
@@ -30742,6 +30981,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &772911481
 GameObject:
   m_ObjectHideFlags: 0
@@ -31138,6 +31379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &777155471
 GameObject:
@@ -31785,6 +32027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &789256170
 GameObject:
@@ -31876,6 +32119,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &791325810
 GameObject:
   m_ObjectHideFlags: 0
@@ -31945,6 +32190,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &791837638
 GameObject:
   m_ObjectHideFlags: 0
@@ -32434,6 +32681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &800478220
 GameObject:
@@ -33313,6 +33561,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &818822699
 GameObject:
   m_ObjectHideFlags: 0
@@ -33668,6 +33918,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1001 &833123325
 Prefab:
   m_ObjectHideFlags: 0
@@ -33974,6 +34226,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &847111520
 GameObject:
   m_ObjectHideFlags: 0
@@ -34068,6 +34322,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &848732725
 GameObject:
   m_ObjectHideFlags: 0
@@ -34108,6 +34364,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &849429319
 GameObject:
   m_ObjectHideFlags: 0
@@ -34346,6 +34604,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &859899265
 GameObject:
   m_ObjectHideFlags: 0
@@ -34999,6 +35259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &883498880
 GameObject:
@@ -35109,6 +35370,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &884034905
 GameObject:
   m_ObjectHideFlags: 0
@@ -35149,6 +35412,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &886267783
 GameObject:
   m_ObjectHideFlags: 0
@@ -35458,6 +35723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &893532762
 GameObject:
@@ -35795,6 +36061,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &902989559
 GameObject:
@@ -36134,6 +36401,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &911125522
 GameObject:
   m_ObjectHideFlags: 0
@@ -36212,9 +36481,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 911407004}
   - 212: {fileID: 911407006}
-  - 114: {fileID: 911407005}
   - 114: {fileID: 911407008}
   - 114: {fileID: 911407007}
+  - 114: {fileID: 911407011}
+  - 114: {fileID: 911407010}
   - 114: {fileID: 911407009}
   m_Layer: 10
   m_Name: midboss
@@ -36241,6 +36511,7 @@ Transform:
   - {fileID: 346931221}
   - {fileID: 911669915}
   - {fileID: 1648891694}
+  - {fileID: 369003654}
   m_Father: {fileID: 2111919048}
   m_RootOrder: 143
 --- !u!114 &911407005
@@ -36249,12 +36520,14 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 11400004, guid: 573f42e8959823941b7bf51e2700a313,
     type: 2}
   m_PrefabInternal: {fileID: 936694184}
-  m_GameObject: {fileID: 911407003}
+  m_GameObject: {fileID: 322418704}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7ae213bef87ce24cb8861d1a1b0ce46, type: 3}
+  m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!212 &911407006
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36321,6 +36594,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MovementActive: {fileID: 1035720293}
   MovementWaiting: {fileID: 238051040}
+  MovementAggressive: {fileID: 0}
+--- !u!114 &911407010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400016, guid: 573f42e8959823941b7bf51e2700a313,
+    type: 2}
+  m_PrefabInternal: {fileID: 936694184}
+  m_GameObject: {fileID: 911407003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5158d6c2d66fa46bd9bdeef9c92dbd14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &911407011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400012, guid: 573f42e8959823941b7bf51e2700a313,
+    type: 2}
+  m_PrefabInternal: {fileID: 936694184}
+  m_GameObject: {fileID: 911407003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a0ce315ed4f06e44800eef226731c29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MovementActive: {fileID: 997532222}
+  MovementWaiting: {fileID: 911407005}
   MovementAggressive: {fileID: 0}
 --- !u!1 &911669914
 GameObject:
@@ -36506,6 +36806,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1001 &915256459
 Prefab:
   m_ObjectHideFlags: 0
@@ -36594,6 +36896,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1001 &915807345
 Prefab:
   m_ObjectHideFlags: 0
@@ -36682,6 +36986,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1001 &916383864
 Prefab:
   m_ObjectHideFlags: 0
@@ -36944,6 +37250,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &925096357
 GameObject:
   m_ObjectHideFlags: 0
@@ -36984,6 +37292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1001 &926554543
 Prefab:
@@ -37100,6 +37409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &928789616
 GameObject:
@@ -37410,6 +37720,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &933652814
 GameObject:
@@ -37728,6 +38039,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &941356061
 GameObject:
   m_ObjectHideFlags: 0
@@ -37768,6 +38081,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &942408957
 GameObject:
   m_ObjectHideFlags: 0
@@ -37925,6 +38240,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &943714431
 GameObject:
   m_ObjectHideFlags: 0
@@ -37965,6 +38282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &946297614
 GameObject:
@@ -38358,6 +38676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &960444587
 GameObject:
@@ -38426,6 +38745,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &961969992
 GameObject:
   m_ObjectHideFlags: 0
@@ -38466,6 +38787,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1001 &965610013
 Prefab:
   m_ObjectHideFlags: 0
@@ -38583,6 +38906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &967937373
 GameObject:
@@ -38624,6 +38948,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &976919596
 GameObject:
   m_ObjectHideFlags: 0
@@ -38810,6 +39136,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &978876588
 GameObject:
   m_ObjectHideFlags: 0
@@ -38850,6 +39178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &980462177
 GameObject:
@@ -38960,6 +39289,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3780e9b440114393967a46c2e608151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
   DoorCloseWaitTime: 1
   DoorAnimTime: 1
   enemy: {fileID: 400006, guid: ea943a047fbf56148a2d00f0a84b400f, type: 2}
@@ -39359,6 +39690,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &990850737
 GameObject:
   m_ObjectHideFlags: 0
@@ -39399,6 +39732,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &992378589
 GameObject:
   m_ObjectHideFlags: 0
@@ -39566,6 +39901,48 @@ Transform:
   - {fileID: 561359484}
   m_Father: {fileID: 582673966}
   m_RootOrder: 0
+--- !u!1 &997532220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100018, guid: 573f42e8959823941b7bf51e2700a313, type: 2}
+  m_PrefabInternal: {fileID: 936694184}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 997532221}
+  - 114: {fileID: 997532222}
+  m_Layer: 10
+  m_Name: Midboss Movement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &997532221
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400018, guid: 573f42e8959823941b7bf51e2700a313, type: 2}
+  m_PrefabInternal: {fileID: 936694184}
+  m_GameObject: {fileID: 997532220}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.600492, y: -19.6393967, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 369003654}
+  m_RootOrder: 0
+--- !u!114 &997532222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400014, guid: 573f42e8959823941b7bf51e2700a313,
+    type: 2}
+  m_PrefabInternal: {fileID: 936694184}
+  m_GameObject: {fileID: 997532220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a239897da5d53f4bad825234fcbc094, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 2
 --- !u!1 &997808652
 GameObject:
   m_ObjectHideFlags: 0
@@ -39869,6 +40246,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1004241445
 GameObject:
   m_ObjectHideFlags: 0
@@ -39938,6 +40317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1007857085
 GameObject:
@@ -40267,6 +40647,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1001 &1016010367
 Prefab:
   m_ObjectHideFlags: 0
@@ -40544,6 +40926,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1020147517
 GameObject:
   m_ObjectHideFlags: 0
@@ -40584,6 +40968,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1023354704
 GameObject:
   m_ObjectHideFlags: 0
@@ -40837,6 +41223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1030179855
 GameObject:
@@ -40974,6 +41361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1039413370
 GameObject:
@@ -41153,6 +41541,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1043257495
 GameObject:
   m_ObjectHideFlags: 0
@@ -41220,6 +41610,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1044429594
 GameObject:
@@ -41578,6 +41969,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1047218990
 GameObject:
   m_ObjectHideFlags: 0
@@ -42376,6 +42769,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1001 &1067422619
 Prefab:
   m_ObjectHideFlags: 0
@@ -42491,6 +42886,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1001 &1071444092
 Prefab:
@@ -43079,6 +43475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1079110909
 GameObject:
@@ -43120,6 +43517,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2a90cbddd10a4c3ab103a659a4d7667, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
   HeadJoint: {fileID: 238593015}
   LeftAntennaJoint1: {fileID: 977663747}
   LeftAntennaJoint2: {fileID: 1257028918}
@@ -43263,6 +43662,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1084313272
 GameObject:
   m_ObjectHideFlags: 0
@@ -43543,6 +43944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1092096998
 GameObject:
@@ -43901,6 +44303,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1100352038
 GameObject:
   m_ObjectHideFlags: 0
@@ -43941,6 +44345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1101672521
 GameObject:
@@ -44509,6 +44914,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1121148944
 GameObject:
   m_ObjectHideFlags: 0
@@ -44645,6 +45052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1129745875
 GameObject:
@@ -45301,6 +45709,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1153483104
 GameObject:
@@ -46086,6 +46495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1171671515
 GameObject:
@@ -46457,6 +46867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1181215832
 GameObject:
@@ -46498,6 +46909,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1001 &1183800315
 Prefab:
   m_ObjectHideFlags: 0
@@ -47183,6 +47596,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1198855455
 GameObject:
   m_ObjectHideFlags: 0
@@ -47758,6 +48173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1209795441
 GameObject:
@@ -48188,6 +48604,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1218423565
 GameObject:
   m_ObjectHideFlags: 0
@@ -48531,6 +48949,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1225384183
 GameObject:
   m_ObjectHideFlags: 0
@@ -48571,6 +48991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1226370268
 GameObject:
@@ -48666,6 +49087,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1231131407
 GameObject:
   m_ObjectHideFlags: 0
@@ -49055,6 +49478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1240499372
 GameObject:
@@ -49096,6 +49520,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1240815460
 GameObject:
@@ -49401,6 +49826,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1244815129
 GameObject:
@@ -49471,6 +49897,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1246578440
 GameObject:
@@ -49986,6 +50413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1257028917
 GameObject:
@@ -50124,6 +50552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1260839518
 GameObject:
@@ -50680,6 +51109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1274519201
 GameObject:
@@ -51431,6 +51861,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1292619824
 GameObject:
   m_ObjectHideFlags: 0
@@ -51548,6 +51980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1296314415
 GameObject:
@@ -51589,6 +52022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1299649829
 GameObject:
@@ -51822,6 +52256,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1306913480
 GameObject:
   m_ObjectHideFlags: 0
@@ -52439,6 +52875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1314034849
 GameObject:
@@ -52852,6 +53289,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1323200391
 GameObject:
@@ -53066,6 +53504,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1332739652
 GameObject:
   m_ObjectHideFlags: 0
@@ -53106,6 +53546,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1334731565
 GameObject:
   m_ObjectHideFlags: 0
@@ -53380,6 +53822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1345090687
 GameObject:
@@ -53421,6 +53864,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1346487987
 GameObject:
@@ -53704,6 +54148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1351530973
 GameObject:
@@ -54261,6 +54706,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1360927213
 GameObject:
@@ -54379,6 +54825,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1364530599
 GameObject:
   m_ObjectHideFlags: 0
@@ -54992,6 +55440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1376603839
 GameObject:
@@ -55171,6 +55620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1378874104
 GameObject:
@@ -55515,6 +55965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1381972053
 GameObject:
@@ -55955,6 +56406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1393204050
 GameObject:
@@ -55996,6 +56448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1393311092
 GameObject:
@@ -56838,6 +57291,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1413679838
 GameObject:
   m_ObjectHideFlags: 0
@@ -56878,6 +57333,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1413716052
 GameObject:
   m_ObjectHideFlags: 0
@@ -56918,6 +57375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1418515510
 GameObject:
@@ -57414,6 +57872,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1429900841
 GameObject:
@@ -57622,6 +58081,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1432667206
 GameObject:
   m_ObjectHideFlags: 0
@@ -58069,6 +58530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1441792967
 GameObject:
@@ -58414,6 +58876,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1455078190
 GameObject:
   m_ObjectHideFlags: 0
@@ -59114,6 +59578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1473079485
 GameObject:
@@ -59295,6 +59760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!4 &1483386310
 Transform:
@@ -59728,6 +60194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1494741150
 GameObject:
@@ -60133,6 +60600,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1001 &1506839611
 Prefab:
   m_ObjectHideFlags: 0
@@ -61277,6 +61746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1540847241
 GameObject:
@@ -61813,6 +62283,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1554378281
 GameObject:
   m_ObjectHideFlags: 0
@@ -61970,6 +62442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1555020984
 GameObject:
@@ -62011,6 +62484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1555877532
 GameObject:
@@ -62121,6 +62595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1558292733
 GameObject:
@@ -62544,6 +63019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1569688596
 GameObject:
@@ -62846,6 +63322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1574201447
 GameObject:
@@ -63624,6 +64101,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1601751202
 GameObject:
   m_ObjectHideFlags: 0
@@ -63664,6 +64143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1603242878
 GameObject:
@@ -63774,6 +64254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1605188727
 GameObject:
@@ -63815,6 +64296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1605306173
 GameObject:
@@ -64391,6 +64873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1621083083
 GameObject:
@@ -64611,6 +65094,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1628807170
 GameObject:
@@ -65410,6 +65894,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1658766813
 GameObject:
   m_ObjectHideFlags: 0
@@ -65644,6 +66130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1666082162
 GameObject:
@@ -65823,6 +66310,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1672937555
 GameObject:
   m_ObjectHideFlags: 0
@@ -65890,6 +66379,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1676260826
 GameObject:
   m_ObjectHideFlags: 0
@@ -66224,6 +66715,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1682743140
 GameObject:
   m_ObjectHideFlags: 0
@@ -66264,6 +66757,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1685431533
 GameObject:
   m_ObjectHideFlags: 0
@@ -66517,6 +67012,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1001 &1693387116
 Prefab:
   m_ObjectHideFlags: 0
@@ -66916,6 +67413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1701006607
 GameObject:
@@ -67197,6 +67695,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1710768678
 GameObject:
   m_ObjectHideFlags: 0
@@ -67237,6 +67737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1711693539
 GameObject:
@@ -67278,6 +67779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1712525224
 GameObject:
@@ -67319,6 +67821,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1713321507
 GameObject:
   m_ObjectHideFlags: 0
@@ -67503,6 +68007,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1719881093
 GameObject:
@@ -67711,6 +68216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1724863942
 GameObject:
@@ -67971,6 +68477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1729964011
 GameObject:
@@ -68613,6 +69120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1745992720
 GameObject:
@@ -68895,6 +69403,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1757908994
 GameObject:
   m_ObjectHideFlags: 0
@@ -69061,6 +69571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1760366611
 GameObject:
@@ -69129,6 +69640,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1762384829
 GameObject:
   m_ObjectHideFlags: 0
@@ -70778,6 +71291,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1800419159
 GameObject:
   m_ObjectHideFlags: 0
@@ -70887,6 +71402,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1801935383
 GameObject:
   m_ObjectHideFlags: 0
@@ -71257,6 +71774,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1812092580
 GameObject:
   m_ObjectHideFlags: 0
@@ -71324,6 +71843,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1816593733
 GameObject:
@@ -71572,6 +72092,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1823827889
 GameObject:
   m_ObjectHideFlags: 0
@@ -71836,6 +72358,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1831266420
 GameObject:
   m_ObjectHideFlags: 0
@@ -72022,6 +72546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1833069004
 GameObject:
@@ -72063,6 +72588,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1833417005
 GameObject:
   m_ObjectHideFlags: 0
@@ -72385,6 +72912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1843168404
 GameObject:
@@ -72522,6 +73050,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1850051186
 GameObject:
@@ -72755,6 +73284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1862089528
 GameObject:
@@ -73011,6 +73541,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1870679433
 GameObject:
   m_ObjectHideFlags: 0
@@ -73245,6 +73777,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1884108391
 GameObject:
@@ -73286,6 +73819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1884136018
 GameObject:
@@ -74482,6 +75016,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1915832860
 GameObject:
   m_ObjectHideFlags: 0
@@ -74522,6 +75058,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1918523719
 GameObject:
@@ -74964,6 +75501,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1923246631
 GameObject:
@@ -75005,6 +75543,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1923736557
 GameObject:
   m_ObjectHideFlags: 0
@@ -75045,6 +75585,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1925999130
 GameObject:
   m_ObjectHideFlags: 0
@@ -75795,6 +76337,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &1958809776
 GameObject:
   m_ObjectHideFlags: 0
@@ -76309,6 +76853,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1969365660
 GameObject:
@@ -76790,6 +77335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &1978536968
 GameObject:
@@ -77576,6 +78122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1001 &2017417527
 Prefab:
@@ -77692,6 +78239,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &2020173014
 GameObject:
   m_ObjectHideFlags: 0
@@ -78065,6 +78614,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &2030418716
 GameObject:
@@ -78484,6 +79034,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &2045713551
 GameObject:
   m_ObjectHideFlags: 0
@@ -78710,6 +79262,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &2046892278
 GameObject:
   m_ObjectHideFlags: 0
@@ -79145,6 +79699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &2060375798
 GameObject:
@@ -79340,6 +79895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &2066700632
 GameObject:
@@ -79381,6 +79937,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &2068743639
 GameObject:
@@ -79656,6 +80213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &2073262775
 GameObject:
@@ -80002,6 +80560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &2085173198
 GameObject:
@@ -80139,6 +80698,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &2086709269
 GameObject:
   m_ObjectHideFlags: 0
@@ -81328,6 +81889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &2113983884
 GameObject:
@@ -81645,6 +82207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &2120911290
 GameObject:
@@ -81803,6 +82366,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &2122252497
 GameObject:
   m_ObjectHideFlags: 0
@@ -81870,6 +82435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3df5de1ad4b2de43bcc4bfa95a9c08f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!1 &2123656061
 GameObject:
@@ -82049,6 +82615,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &2126478234
 GameObject:
   m_ObjectHideFlags: 0
@@ -82304,6 +82872,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
 --- !u!1 &2143933923
 GameObject:
   m_ObjectHideFlags: 0

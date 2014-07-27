@@ -7,6 +7,7 @@ public class SpawnerMovementPattern : EnemyMovementPattern {
 	public float DoorAnimTime = 2f;
 
 	public Transform enemy;
+	public BulletPool bulletPool;
 
 	public Transform SpawnDoorLeft, SpawnDoorRight;
 	
@@ -75,6 +76,10 @@ public class SpawnerMovementPattern : EnemyMovementPattern {
 		Debug.Log ("Spawn");
 		Instantiate(enemy, transform.position, Quaternion.identity);
 
+		EnemyShotController shoots = enemy.GetComponent<EnemyShotController>();
+		if (shoots != null) {
+			shoots.bulletPool = bulletPool;
+		}
 
 	}
 }

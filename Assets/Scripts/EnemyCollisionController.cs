@@ -19,8 +19,16 @@ public class EnemyCollisionController : MonoBehaviour {
 		CollisionType ct = (CollisionType)System.Enum.Parse(typeof(CollisionType), collision.collider.tag);
 		switch (ct) {
 		case CollisionType.Player:
-			enemyController.kill(true);
-			this.enabled = false;
+			ShipController ship = collision.collider.GetComponent<ShipController>();
+			if (ship) {
+				if (ship.isInvincible())
+					// when ship is invisible, don't register a collision
+					Physics2D.IgnoreCollision(this.collider2D, collision.collider);
+				else {
+					enemyController.kill(true);
+					this.enabled = false;
+				}
+			}
 			break;
 		case CollisionType.PlayerBullet:
 			enemyController.kill(true);

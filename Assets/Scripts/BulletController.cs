@@ -11,6 +11,8 @@ public class BulletController : MonoBehaviour {
 	public int damage = 1;
 	public bool SurvivesEnemyCollision = false;
 
+	float stateTime;
+
 	private GameController gameController;
 
 	private Vector2 movement;
@@ -32,6 +34,7 @@ public class BulletController : MonoBehaviour {
 
 		this.gameObject.SetActive (true);
 		this.enabled = true;
+		stateTime = Time.time;
 	}
 
 	public void SetDirection(Vector2 direction) {
@@ -54,10 +57,10 @@ public class BulletController : MonoBehaviour {
 	}
 	int state;
 	protected virtual void MoveObjectDifferent(){
-		if (Mathf.Sin (Time.time*3) > 0)
-						state = 2;
-				else
-						state = -2;
+		if (Mathf.Sin ((Time.time-stateTime)*3) > 0)
+			state = 2;
+		else
+			state = -2;
 		transform.rigidbody2D.velocity = new Vector2((speed.x * direction.x)+state, speed.y * direction.y );
 
 		//transform.rigidbody2D.position = new Vector2(speed.x * direction.x + Mathf.Sin (Time.time+.6f)*10, speed.y * direction.y );

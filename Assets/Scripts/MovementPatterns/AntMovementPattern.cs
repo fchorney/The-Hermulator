@@ -13,8 +13,18 @@ public class AntMovementPattern : EnemyMovementPattern {
 	private float rotSpeed = 1f;
 	private bool alive;
 
+	private AudioSource audio;
+	public AudioClip wakeup_sfx;
+	public AudioClip die_sfx;
+
+
 	public override void Activate() {
 		alive = true;
+
+		audio = gameObject.AddComponent<AudioSource>();
+		audio.clip = wakeup_sfx;
+		audio.loop = false;
+		audio.PlayDelayed (0.3f);
 	}
 
 	public override void Move(GameObject self) {
@@ -43,6 +53,8 @@ public class AntMovementPattern : EnemyMovementPattern {
 		if (self.GetComponentsInChildren<EnemyController>().Length == 0)
 		{
 			alive = false;
+			audio.clip = die_sfx;
+			audio.Play ();
 			StartCoroutine(StartExplosions(self));
 		}
 	}

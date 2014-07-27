@@ -1592,6 +1592,14 @@ Prefab:
       propertyPath: bulletPool
       value: 
       objectReference: {fileID: 816606540}
+    - target: {fileID: 11400010, guid: bc1781608d106463aaf906b10410258e, type: 2}
+      propertyPath: wakeup_sfx
+      value: 
+      objectReference: {fileID: 8300000, guid: f6277871b8d17d241bc6148934c7ec72, type: 3}
+    - target: {fileID: 11400010, guid: bc1781608d106463aaf906b10410258e, type: 2}
+      propertyPath: die_sfx
+      value: 
+      objectReference: {fileID: 8300000, guid: c87acf48f4c255b4dbdce51f90097aca, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bc1781608d106463aaf906b10410258e, type: 2}
   m_RootGameObject: {fileID: 973271803}
@@ -2598,6 +2606,8 @@ MonoBehaviour:
   RightAntennaJoint2: {fileID: 1018345516}
   LeftPincerJoint: {fileID: 166063909}
   RightPincerJoint: {fileID: 740281748}
+  wakeup_sfx: {fileID: 8300000, guid: f6277871b8d17d241bc6148934c7ec72, type: 3}
+  die_sfx: {fileID: 8300000, guid: c87acf48f4c255b4dbdce51f90097aca, type: 3}
 --- !u!1 &1238592800
 GameObject:
   m_ObjectHideFlags: 0

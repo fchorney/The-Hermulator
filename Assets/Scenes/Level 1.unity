@@ -28521,6 +28521,8 @@ MonoBehaviour:
   RightAntennaJoint2: {fileID: 1140866780}
   LeftPincerJoint: {fileID: 297802164}
   RightPincerJoint: {fileID: 1112968593}
+  wakeup_sfx: {fileID: 0}
+  die_sfx: {fileID: 0}
 --- !u!1 &2077136532
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,8 +7,6 @@ public class EnemyMovementController : MonoBehaviour {
 	public EnemyMovementPattern MovementWaiting;
 	public EnemyMovementPattern MovementAggressive;
 
-	public float FlightSpeed = 2f;
-
 	private EnemyShotController shotController;
 
 	private GameController gameController;
@@ -34,14 +32,14 @@ public class EnemyMovementController : MonoBehaviour {
 	void Update () {
 		switch(state) {
 			case State.Waiting:
-				MovementWaiting.Move(this);
+				MovementWaiting.Move(this.gameObject);
 				if (transform.position.y < gameController.activeTop) {
 					state = State.Active;
 					activeTime = Time.time;
 				}
 				break;
 			case State.Active:
-				MovementActive.Move(this);
+				MovementActive.Move(this.gameObject);
 				if (shotController != null)
 					shotController.Fire();
 				break;

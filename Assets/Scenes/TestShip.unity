@@ -211,7 +211,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &11571432
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,7 +396,6 @@ MonoBehaviour:
   MovementActive: {fileID: 148435233}
   MovementWaiting: {fileID: 1363934423}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1001 &12809302
 Prefab:
   m_ObjectHideFlags: 0
@@ -915,7 +913,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1554664374}
   MovementWaiting: {fileID: 1015528021}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1001 &27824773
 Prefab:
   m_ObjectHideFlags: 0
@@ -1033,7 +1030,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &33369931
 GameObject:
   m_ObjectHideFlags: 0
@@ -1406,7 +1402,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &37939086
 GameObject:
   m_ObjectHideFlags: 0
@@ -1524,7 +1519,6 @@ MonoBehaviour:
   MovementActive: {fileID: 437290554}
   MovementWaiting: {fileID: 1670582896}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &40227592
 GameObject:
   m_ObjectHideFlags: 0
@@ -1654,7 +1648,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &43855981
 GameObject:
   m_ObjectHideFlags: 0
@@ -1790,7 +1783,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &48177741
 GameObject:
   m_ObjectHideFlags: 0
@@ -1908,7 +1900,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1878185387}
   MovementWaiting: {fileID: 402268647}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &49491739
 GameObject:
   m_ObjectHideFlags: 0
@@ -1978,7 +1969,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &51833880
 GameObject:
   m_ObjectHideFlags: 0
@@ -2019,7 +2009,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &52175916
 GameObject:
   m_ObjectHideFlags: 0
@@ -2164,7 +2153,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &54830526
 GameObject:
   m_ObjectHideFlags: 0
@@ -2205,7 +2193,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &58608723
 GameObject:
   m_ObjectHideFlags: 0
@@ -2246,7 +2233,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &58744611
 GameObject:
   m_ObjectHideFlags: 0
@@ -2364,7 +2350,6 @@ MonoBehaviour:
   MovementActive: {fileID: 609551160}
   MovementWaiting: {fileID: 274348130}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &61067196
 GameObject:
   m_ObjectHideFlags: 0
@@ -2482,7 +2467,6 @@ MonoBehaviour:
   MovementActive: {fileID: 414893116}
   MovementWaiting: {fileID: 423882429}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &61253864
 GameObject:
   m_ObjectHideFlags: 0
@@ -2625,7 +2609,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &68158801
 GameObject:
   m_ObjectHideFlags: 0
@@ -2784,7 +2767,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &70951233
 GameObject:
   m_ObjectHideFlags: 0
@@ -3366,7 +3348,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1359334558}
   MovementWaiting: {fileID: 54830528}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &86361720
 GameObject:
   m_ObjectHideFlags: 0
@@ -3944,7 +3925,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!4 &98822713
 Transform:
   m_ObjectHideFlags: 0
@@ -4519,7 +4499,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1727689691}
   MovementWaiting: {fileID: 1673327720}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &110262230
 GameObject:
   m_ObjectHideFlags: 0
@@ -4637,7 +4616,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1127516030}
   MovementWaiting: {fileID: 848312565}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &111971181
 GameObject:
   m_ObjectHideFlags: 0
@@ -4933,7 +4911,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1569440331}
   MovementWaiting: {fileID: 1181215834}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1001 &123030206
 Prefab:
   m_ObjectHideFlags: 0
@@ -5099,7 +5076,6 @@ MonoBehaviour:
   MovementActive: {fileID: 925096359}
   MovementWaiting: {fileID: 58608725}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &129405361
 GameObject:
   m_ObjectHideFlags: 0
@@ -5258,7 +5234,6 @@ MonoBehaviour:
   MovementActive: {fileID: 933480848}
   MovementWaiting: {fileID: 967937375}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &130529156
 GameObject:
   m_ObjectHideFlags: 0
@@ -5666,7 +5641,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &136896291
 GameObject:
   m_ObjectHideFlags: 0
@@ -6566,7 +6540,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &160403351
 GameObject:
   m_ObjectHideFlags: 0
@@ -6713,7 +6686,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1601751204}
   MovementWaiting: {fileID: 2041042836}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &165344005
 GameObject:
   m_ObjectHideFlags: 0
@@ -7036,7 +7008,6 @@ MonoBehaviour:
   MovementActive: {fileID: 226471866}
   MovementWaiting: {fileID: 160094803}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &177004515
 GameObject:
   m_ObjectHideFlags: 0
@@ -7251,7 +7222,6 @@ MonoBehaviour:
   MovementActive: {fileID: 893023217}
   MovementWaiting: {fileID: 233757679}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &179575295
 GameObject:
   m_ObjectHideFlags: 0
@@ -7419,7 +7389,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1240499374}
   MovementWaiting: {fileID: 383153575}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1001 &181036955
 Prefab:
   m_ObjectHideFlags: 0
@@ -7776,7 +7745,6 @@ MonoBehaviour:
   MovementActive: {fileID: 382847411}
   MovementWaiting: {fileID: 1413679840}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &188781993
 GameObject:
   m_ObjectHideFlags: 0
@@ -7885,7 +7853,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &193135472
 GameObject:
   m_ObjectHideFlags: 0
@@ -8254,7 +8221,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1209375069}
   MovementWaiting: {fileID: 915466735}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &204552069
 GameObject:
   m_ObjectHideFlags: 0
@@ -8295,7 +8261,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &205178660
 GameObject:
   m_ObjectHideFlags: 0
@@ -8472,7 +8437,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &210606896
 GameObject:
   m_ObjectHideFlags: 0
@@ -8667,7 +8631,6 @@ MonoBehaviour:
   MovementActive: {fileID: 585497187}
   MovementWaiting: {fileID: 311895466}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1001 &217320624
 Prefab:
   m_ObjectHideFlags: 0
@@ -8797,7 +8760,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &222441718
 GameObject:
   m_ObjectHideFlags: 0
@@ -8838,7 +8800,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &224433548
 GameObject:
   m_ObjectHideFlags: 0
@@ -9033,7 +8994,6 @@ MonoBehaviour:
   MovementActive: {fileID: 2016260363}
   MovementWaiting: {fileID: 508005284}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &226335924
 GameObject:
   m_ObjectHideFlags: 0
@@ -9361,7 +9321,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &235029515
 GameObject:
   m_ObjectHideFlags: 0
@@ -9479,7 +9438,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1604232158}
   MovementWaiting: {fileID: 310221470}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &237101844
 GameObject:
   m_ObjectHideFlags: 0
@@ -9590,7 +9548,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &238593014
 GameObject:
   m_ObjectHideFlags: 0
@@ -10034,7 +9991,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1700891569}
   MovementWaiting: {fileID: 1682743142}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &255571886
 GameObject:
   m_ObjectHideFlags: 0
@@ -10383,7 +10339,6 @@ MonoBehaviour:
   MovementActive: {fileID: 2028774470}
   MovementWaiting: {fileID: 262799697}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &258742642
 GameObject:
   m_ObjectHideFlags: 0
@@ -10478,7 +10433,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &265287447
 GameObject:
   m_ObjectHideFlags: 0
@@ -10812,7 +10766,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &276534834
 GameObject:
   m_ObjectHideFlags: 0
@@ -10930,7 +10883,6 @@ MonoBehaviour:
   MovementActive: {fileID: 217356367}
   MovementWaiting: {fileID: 2046545463}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &276690002
 GameObject:
   m_ObjectHideFlags: 0
@@ -11770,7 +11722,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &298786662
 GameObject:
   m_ObjectHideFlags: 0
@@ -12246,7 +12197,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1842433916}
   MovementWaiting: {fileID: 884034907}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &310221468
 GameObject:
   m_ObjectHideFlags: 0
@@ -12287,7 +12237,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &311043344
 GameObject:
   m_ObjectHideFlags: 0
@@ -12328,7 +12277,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &311645835
 GameObject:
   m_ObjectHideFlags: 0
@@ -12396,7 +12344,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &312473797
 GameObject:
   m_ObjectHideFlags: 0
@@ -12437,7 +12384,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &312875475
 GameObject:
   m_ObjectHideFlags: 0
@@ -12774,7 +12720,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &319999499
 GameObject:
   m_ObjectHideFlags: 0
@@ -13118,7 +13063,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1001 &337805970
 Prefab:
   m_ObjectHideFlags: 0
@@ -13304,7 +13248,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &341399697
 GameObject:
   m_ObjectHideFlags: 0
@@ -13654,7 +13597,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &350609663
 GameObject:
   m_ObjectHideFlags: 0
@@ -13831,7 +13773,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &354246509
 GameObject:
   m_ObjectHideFlags: 0
@@ -14026,7 +13967,6 @@ MonoBehaviour:
   MovementActive: {fileID: 347646146}
   MovementWaiting: {fileID: 466678354}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &356407668
 GameObject:
   m_ObjectHideFlags: 0
@@ -14567,7 +14507,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &376145957
 GameObject:
   m_ObjectHideFlags: 0
@@ -14608,7 +14547,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &378159095
 GameObject:
   m_ObjectHideFlags: 0
@@ -14744,7 +14682,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &379846117
 GameObject:
   m_ObjectHideFlags: 0
@@ -15051,7 +14988,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &383510153
 GameObject:
   m_ObjectHideFlags: 0
@@ -15302,7 +15238,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1296314417}
   MovementWaiting: {fileID: 1799087383}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &387406988
 GameObject:
   m_ObjectHideFlags: 0
@@ -15587,7 +15522,6 @@ MonoBehaviour:
   MovementActive: {fileID: 2120234468}
   MovementWaiting: {fileID: 2125327632}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &395364702
 GameObject:
   m_ObjectHideFlags: 0
@@ -15725,7 +15659,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &403247878
 GameObject:
   m_ObjectHideFlags: 0
@@ -15911,7 +15844,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1722774980}
   MovementWaiting: {fileID: 191899917}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1001 &407061285
 Prefab:
   m_ObjectHideFlags: 0
@@ -16554,7 +16486,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1079110911}
   MovementWaiting: {fileID: 1956526377}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!114 &422379983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16608,7 +16539,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &424529567
 GameObject:
   m_ObjectHideFlags: 0
@@ -16747,7 +16677,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &427713972
 GameObject:
   m_ObjectHideFlags: 0
@@ -16978,7 +16907,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &432855894
 GameObject:
   m_ObjectHideFlags: 0
@@ -17423,7 +17351,6 @@ MonoBehaviour:
   MovementActive: {fileID: 341987507}
   MovementWaiting: {fileID: 769463423}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &443088608
 GameObject:
   m_ObjectHideFlags: 0
@@ -17626,7 +17553,6 @@ MonoBehaviour:
   MovementActive: {fileID: 718253875}
   MovementWaiting: {fileID: 790652478}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &446125750
 GameObject:
   m_ObjectHideFlags: 0
@@ -18009,7 +17935,6 @@ MonoBehaviour:
   MovementActive: {fileID: 387406990}
   MovementWaiting: {fileID: 583712267}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &466678352
 GameObject:
   m_ObjectHideFlags: 0
@@ -18050,7 +17975,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &466999358
 GameObject:
   m_ObjectHideFlags: 0
@@ -18118,7 +18042,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &469063601
 GameObject:
   m_ObjectHideFlags: 0
@@ -18540,7 +18463,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &482162245
 GameObject:
   m_ObjectHideFlags: 0
@@ -18649,7 +18571,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &487135873
 GameObject:
   m_ObjectHideFlags: 0
@@ -18717,7 +18638,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &489055002
 GameObject:
   m_ObjectHideFlags: 0
@@ -19232,7 +19152,6 @@ MonoBehaviour:
   MovementActive: {fileID: 177842979}
   MovementWaiting: {fileID: 1915363322}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &495514934
 GameObject:
   m_ObjectHideFlags: 0
@@ -19300,7 +19219,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &497689871
 GameObject:
   m_ObjectHideFlags: 0
@@ -19370,7 +19288,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1001 &498800212
 Prefab:
   m_ObjectHideFlags: 0
@@ -19631,7 +19548,6 @@ MonoBehaviour:
   MovementActive: {fileID: 280026758}
   MovementWaiting: {fileID: 41467178}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &502540585
 GameObject:
   m_ObjectHideFlags: 0
@@ -19805,7 +19721,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1295866558}
   MovementWaiting: {fileID: 1760889606}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &504390057
 GameObject:
   m_ObjectHideFlags: 0
@@ -19941,7 +19856,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &508005282
 GameObject:
   m_ObjectHideFlags: 0
@@ -19982,7 +19896,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &508759757
 GameObject:
   m_ObjectHideFlags: 0
@@ -20448,7 +20361,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &518508590
 GameObject:
   m_ObjectHideFlags: 0
@@ -20605,7 +20517,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &520037680
 GameObject:
   m_ObjectHideFlags: 0
@@ -21109,7 +21020,6 @@ MonoBehaviour:
   MovementActive: {fileID: 927989266}
   MovementWaiting: {fileID: 311043346}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &531698143
 GameObject:
   m_ObjectHideFlags: 0
@@ -21795,7 +21705,6 @@ MonoBehaviour:
   MovementActive: {fileID: 657419423}
   MovementWaiting: {fileID: 340372954}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &545565343
 GameObject:
   m_ObjectHideFlags: 0
@@ -21836,7 +21745,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &546731822
 GameObject:
   m_ObjectHideFlags: 0
@@ -21877,7 +21785,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &547078920
 GameObject:
   m_ObjectHideFlags: 0
@@ -21986,7 +21893,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &547671190
 GameObject:
   m_ObjectHideFlags: 0
@@ -22249,7 +22155,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1178255643}
   MovementWaiting: {fileID: 831997669}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &552716595
 GameObject:
   m_ObjectHideFlags: 0
@@ -22542,7 +22447,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &564082653
 GameObject:
   m_ObjectHideFlags: 0
@@ -22651,7 +22555,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &564564581
 GameObject:
   m_ObjectHideFlags: 0
@@ -23145,7 +23048,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1238485638}
   MovementWaiting: {fileID: 1066910893}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &574924634
 GameObject:
   m_ObjectHideFlags: 0
@@ -23540,7 +23442,6 @@ MonoBehaviour:
   MovementActive: {fileID: 40227594}
   MovementWaiting: {fileID: 561359485}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &583712265
 GameObject:
   m_ObjectHideFlags: 0
@@ -23581,7 +23482,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &584735132
 GameObject:
   m_ObjectHideFlags: 0
@@ -23849,7 +23749,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1628552979}
   MovementWaiting: {fileID: 1682120858}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &590905480
 GameObject:
   m_ObjectHideFlags: 0
@@ -24088,7 +23987,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1259589302}
   MovementWaiting: {fileID: 791622313}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &599187865
 GameObject:
   m_ObjectHideFlags: 0
@@ -24419,7 +24317,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &613208517
 GameObject:
   m_ObjectHideFlags: 0
@@ -25128,7 +25025,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &627085844
 GameObject:
   m_ObjectHideFlags: 0
@@ -25607,7 +25503,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1470530841}
   MovementWaiting: {fileID: 488070101}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &632221542
 GameObject:
   m_ObjectHideFlags: 0
@@ -26128,7 +26023,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1413716054}
   MovementWaiting: {fileID: 350480568}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &649582079
 GameObject:
   m_ObjectHideFlags: 0
@@ -26523,7 +26417,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &659611230
 GameObject:
   m_ObjectHideFlags: 0
@@ -26707,7 +26600,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &663817134
 GameObject:
   m_ObjectHideFlags: 0
@@ -26990,7 +26882,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1007165620}
   MovementWaiting: {fileID: 843322806}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &667826274
 GameObject:
   m_ObjectHideFlags: 0
@@ -27272,7 +27163,6 @@ MonoBehaviour:
   MovementActive: {fileID: 649582081}
   MovementWaiting: {fileID: 943672863}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &672904354
 GameObject:
   m_ObjectHideFlags: 0
@@ -27970,7 +27860,6 @@ MonoBehaviour:
   MovementActive: {fileID: 900693258}
   MovementWaiting: {fileID: 1599540162}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &693507583
 GameObject:
   m_ObjectHideFlags: 0
@@ -28088,7 +27977,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1922791490}
   MovementWaiting: {fileID: 1332086493}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &695404609
 GameObject:
   m_ObjectHideFlags: 0
@@ -28458,7 +28346,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1088010959}
   MovementWaiting: {fileID: 431675507}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &703041710
 GameObject:
   m_ObjectHideFlags: 0
@@ -28916,7 +28803,6 @@ MonoBehaviour:
   MovementActive: {fileID: 2057945499}
   MovementWaiting: {fileID: 1194697093}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1001 &712619065
 Prefab:
   m_ObjectHideFlags: 0
@@ -29168,7 +29054,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &718887231
 GameObject:
   m_ObjectHideFlags: 0
@@ -29354,7 +29239,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1043833112}
   MovementWaiting: {fileID: 70749634}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &721784275
 GameObject:
   m_ObjectHideFlags: 0
@@ -30018,7 +29902,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &755914334
 GameObject:
   m_ObjectHideFlags: 0
@@ -30556,7 +30439,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &772911481
 GameObject:
   m_ObjectHideFlags: 0
@@ -31405,7 +31287,6 @@ MonoBehaviour:
   MovementActive: {fileID: 978876590}
   MovementWaiting: {fileID: 1830803938}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &783981704
 GameObject:
   m_ObjectHideFlags: 0
@@ -31634,7 +31515,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &791325810
 GameObject:
   m_ObjectHideFlags: 0
@@ -31704,7 +31584,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &791837638
 GameObject:
   m_ObjectHideFlags: 0
@@ -32083,7 +31962,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1391588110}
   MovementWaiting: {fileID: 8011844}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &797598291
 GameObject:
   m_ObjectHideFlags: 0
@@ -32310,7 +32188,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1225384185}
   MovementWaiting: {fileID: 1217855101}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &800860410
 GameObject:
   m_ObjectHideFlags: 0
@@ -32620,7 +32497,6 @@ MonoBehaviour:
   MovementActive: {fileID: 767473850}
   MovementWaiting: {fileID: 222378257}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1001 &806793191
 Prefab:
   m_ObjectHideFlags: 0
@@ -32854,7 +32730,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1381850115}
   MovementWaiting: {fileID: 1811645289}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &811268327
 GameObject:
   m_ObjectHideFlags: 0
@@ -33070,7 +32945,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &818822699
 GameObject:
   m_ObjectHideFlags: 0
@@ -33283,7 +33157,6 @@ MonoBehaviour:
   MovementActive: {fileID: 129405363}
   MovementWaiting: {fileID: 941257473}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &826208976
 GameObject:
   m_ObjectHideFlags: 0
@@ -33426,7 +33299,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1001 &833123325
 Prefab:
   m_ObjectHideFlags: 0
@@ -33732,7 +33604,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &847111520
 GameObject:
   m_ObjectHideFlags: 0
@@ -33827,7 +33698,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &848732725
 GameObject:
   m_ObjectHideFlags: 0
@@ -33868,7 +33738,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &849429319
 GameObject:
   m_ObjectHideFlags: 0
@@ -34106,7 +33975,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &859899265
 GameObject:
   m_ObjectHideFlags: 0
@@ -34465,7 +34333,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1847342937}
   MovementWaiting: {fileID: 941356063}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &875399705
 GameObject:
   m_ObjectHideFlags: 0
@@ -34583,7 +34450,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1759513053}
   MovementWaiting: {fileID: 483276242}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &876187124
 GameObject:
   m_ObjectHideFlags: 0
@@ -34869,7 +34735,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &884034905
 GameObject:
   m_ObjectHideFlags: 0
@@ -34910,7 +34775,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &886267783
 GameObject:
   m_ObjectHideFlags: 0
@@ -35153,7 +35017,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1832771872}
   MovementWaiting: {fileID: 1292610196}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &890201698
 GameObject:
   m_ObjectHideFlags: 0
@@ -35893,7 +35756,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &911125522
 GameObject:
   m_ObjectHideFlags: 0
@@ -36081,7 +35943,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1035720293}
   MovementWaiting: {fileID: 238051040}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &911669914
 GameObject:
   m_ObjectHideFlags: 0
@@ -36226,7 +36087,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1573947804}
   MovementWaiting: {fileID: 495870340}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &913317352
 GameObject:
   m_ObjectHideFlags: 0
@@ -36267,7 +36127,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1001 &915256459
 Prefab:
   m_ObjectHideFlags: 0
@@ -36356,7 +36215,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1001 &915807345
 Prefab:
   m_ObjectHideFlags: 0
@@ -36445,7 +36303,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1001 &916383864
 Prefab:
   m_ObjectHideFlags: 0
@@ -36708,7 +36565,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &925096357
 GameObject:
   m_ObjectHideFlags: 0
@@ -37010,7 +36866,6 @@ MonoBehaviour:
   MovementActive: {fileID: 473735150}
   MovementWaiting: {fileID: 1506502515}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &930053521
 GameObject:
   m_ObjectHideFlags: 0
@@ -37492,7 +37347,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &941356061
 GameObject:
   m_ObjectHideFlags: 0
@@ -37533,7 +37387,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &942408957
 GameObject:
   m_ObjectHideFlags: 0
@@ -37690,7 +37543,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &943714431
 GameObject:
   m_ObjectHideFlags: 0
@@ -38190,7 +38042,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &961969992
 GameObject:
   m_ObjectHideFlags: 0
@@ -38231,7 +38082,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1001 &965610013
 Prefab:
   m_ObjectHideFlags: 0
@@ -38390,7 +38240,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &976919596
 GameObject:
   m_ObjectHideFlags: 0
@@ -38508,7 +38357,6 @@ MonoBehaviour:
   MovementActive: {fileID: 536029812}
   MovementWaiting: {fileID: 312473799}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &977663746
 GameObject:
   m_ObjectHideFlags: 0
@@ -38578,7 +38426,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &978876588
 GameObject:
   m_ObjectHideFlags: 0
@@ -39078,7 +38925,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &990850737
 GameObject:
   m_ObjectHideFlags: 0
@@ -39119,7 +38965,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &992378589
 GameObject:
   m_ObjectHideFlags: 0
@@ -39585,7 +39430,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1004241445
 GameObject:
   m_ObjectHideFlags: 0
@@ -39982,7 +39826,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1001 &1016010367
 Prefab:
   m_ObjectHideFlags: 0
@@ -40258,7 +40101,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1020147517
 GameObject:
   m_ObjectHideFlags: 0
@@ -40299,7 +40141,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1023354704
 GameObject:
   m_ObjectHideFlags: 0
@@ -40485,7 +40326,6 @@ MonoBehaviour:
   MovementActive: {fileID: 788695276}
   MovementWaiting: {fileID: 1043003777}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1027165780
 GameObject:
   m_ObjectHideFlags: 0
@@ -40866,7 +40706,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1043257495
 GameObject:
   m_ObjectHideFlags: 0
@@ -41052,7 +40891,6 @@ MonoBehaviour:
   MovementActive: {fileID: 395364704}
   MovementWaiting: {fileID: 1801662072}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1044603030
 GameObject:
   m_ObjectHideFlags: 0
@@ -41170,7 +41008,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1555020986}
   MovementWaiting: {fileID: 961969994}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1044859896
 GameObject:
   m_ObjectHideFlags: 0
@@ -41294,7 +41131,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1047218990
 GameObject:
   m_ObjectHideFlags: 0
@@ -41412,7 +41248,6 @@ MonoBehaviour:
   MovementActive: {fileID: 2084530273}
   MovementWaiting: {fileID: 204552071}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1048516592
 GameObject:
   m_ObjectHideFlags: 0
@@ -41625,7 +41460,6 @@ MonoBehaviour:
   MovementActive: {fileID: 2066700634}
   MovementWaiting: {fileID: 1019336467}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1050358474
 GameObject:
   m_ObjectHideFlags: 0
@@ -42051,7 +41885,6 @@ MonoBehaviour:
   MovementActive: {fileID: 2122320975}
   MovementWaiting: {fileID: 612897267}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1066910891
 GameObject:
   m_ObjectHideFlags: 0
@@ -42092,7 +41925,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1001 &1067422619
 Prefab:
   m_ObjectHideFlags: 0
@@ -42401,7 +42233,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1273159422}
   MovementWaiting: {fileID: 518174458}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1072068144
 GameObject:
   m_ObjectHideFlags: 0
@@ -42569,7 +42400,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1100352040}
   MovementWaiting: {fileID: 376145959}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1075605851
 GameObject:
   m_ObjectHideFlags: 0
@@ -42837,7 +42667,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2a90cbddd10a4c3ab103a659a4d7667, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
   HeadJoint: {fileID: 238593015}
   LeftAntennaJoint1: {fileID: 977663747}
   LeftAntennaJoint2: {fileID: 1257028918}
@@ -42980,7 +42809,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1084313272
 GameObject:
   m_ObjectHideFlags: 0
@@ -43098,7 +42926,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1711693541}
   MovementWaiting: {fileID: 988284689}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1085906197
 GameObject:
   m_ObjectHideFlags: 0
@@ -43578,7 +43405,6 @@ MonoBehaviour:
   MovementActive: {fileID: 584735134}
   MovementWaiting: {fileID: 923704095}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1098104262
 GameObject:
   m_ObjectHideFlags: 0
@@ -43619,7 +43445,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1100352038
 GameObject:
   m_ObjectHideFlags: 0
@@ -43942,7 +43767,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1078943646}
   MovementWaiting: {fileID: 53947130}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1001 &1112925471
 Prefab:
   m_ObjectHideFlags: 0
@@ -44225,7 +44049,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1121148944
 GameObject:
   m_ObjectHideFlags: 0
@@ -44506,7 +44329,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1710768680}
   MovementWaiting: {fileID: 661526485}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1130598264
 GameObject:
   m_ObjectHideFlags: 0
@@ -45281,7 +45103,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1538842691}
   MovementWaiting: {fileID: 51833882}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1161747319
 GameObject:
   m_ObjectHideFlags: 0
@@ -45645,7 +45466,6 @@ MonoBehaviour:
   MovementActive: {fileID: 95885359}
   MovementWaiting: {fileID: 481221991}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1001 &1169846949
 Prefab:
   m_ObjectHideFlags: 0
@@ -46127,7 +45947,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1377951336}
   MovementWaiting: {fileID: 1020147519}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1178255641
 GameObject:
   m_ObjectHideFlags: 0
@@ -46209,7 +46028,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1001 &1183800315
 Prefab:
   m_ObjectHideFlags: 0
@@ -46443,7 +46261,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1171333359}
   MovementWaiting: {fileID: 848732727}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1001 &1185893776
 Prefab:
   m_ObjectHideFlags: 0
@@ -46806,7 +46623,6 @@ MonoBehaviour:
   MovementActive: {fileID: 508759759}
   MovementWaiting: {fileID: 913317354}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1001 &1192562595
 Prefab:
   m_ObjectHideFlags: 0
@@ -46895,7 +46711,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1198855455
 GameObject:
   m_ObjectHideFlags: 0
@@ -47321,7 +47136,6 @@ MonoBehaviour:
   MovementActive: {fileID: 601387357}
   MovementWaiting: {fileID: 1923246633}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1203925676
 GameObject:
   m_ObjectHideFlags: 0
@@ -47750,7 +47564,6 @@ MonoBehaviour:
   MovementActive: {fileID: 574924636}
   MovementWaiting: {fileID: 1432285471}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1217013043
 GameObject:
   m_ObjectHideFlags: 0
@@ -47870,7 +47683,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1218423565
 GameObject:
   m_ObjectHideFlags: 0
@@ -48210,7 +48022,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1225384183
 GameObject:
   m_ObjectHideFlags: 0
@@ -48346,7 +48157,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1231131407
 GameObject:
   m_ObjectHideFlags: 0
@@ -48493,7 +48303,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1343185052}
   MovementWaiting: {fileID: 546731824}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1232474817
 GameObject:
   m_ObjectHideFlags: 0
@@ -48639,7 +48448,6 @@ MonoBehaviour:
   MovementActive: {fileID: 265675180}
   MovementWaiting: {fileID: 1822030545}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1237374774
 GameObject:
   m_ObjectHideFlags: 0
@@ -49325,7 +49133,6 @@ MonoBehaviour:
   MovementActive: {fileID: 137870582}
   MovementWaiting: {fileID: 1411660160}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1249834196
 GameObject:
   m_ObjectHideFlags: 0
@@ -49443,7 +49250,6 @@ MonoBehaviour:
   MovementActive: {fileID: 632069722}
   MovementWaiting: {fileID: 37141368}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1252085471
 GameObject:
   m_ObjectHideFlags: 0
@@ -49973,7 +49779,6 @@ MonoBehaviour:
   MovementActive: {fileID: 15332786}
   MovementWaiting: {fileID: 547363626}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1263624402
 GameObject:
   m_ObjectHideFlags: 0
@@ -50319,7 +50124,6 @@ MonoBehaviour:
   MovementActive: {fileID: 883073377}
   MovementWaiting: {fileID: 467189482}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1273159420
 GameObject:
   m_ObjectHideFlags: 0
@@ -50546,7 +50350,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1349286966}
   MovementWaiting: {fileID: 1046693573}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1282099584
 GameObject:
   m_ObjectHideFlags: 0
@@ -50664,7 +50467,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1322706294}
   MovementWaiting: {fileID: 48078258}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1284901326
 GameObject:
   m_ObjectHideFlags: 0
@@ -50927,7 +50729,6 @@ MonoBehaviour:
   MovementActive: {fileID: 967013771}
   MovementWaiting: {fileID: 1228154060}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1290240809
 GameObject:
   m_ObjectHideFlags: 0
@@ -51045,7 +50846,6 @@ MonoBehaviour:
   MovementActive: {fileID: 237655033}
   MovementWaiting: {fileID: 1083826155}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1291557284
 GameObject:
   m_ObjectHideFlags: 0
@@ -51113,7 +50913,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1292619824
 GameObject:
   m_ObjectHideFlags: 0
@@ -51503,7 +51302,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1307384595
 GameObject:
   m_ObjectHideFlags: 0
@@ -51813,7 +51611,6 @@ MonoBehaviour:
   MovementActive: {fileID: 590905482}
   MovementWaiting: {fileID: 1120480347}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1309050742
 GameObject:
   m_ObjectHideFlags: 0
@@ -52369,7 +52166,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1717460320}
   MovementWaiting: {fileID: 1869653052}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1320023877
 GameObject:
   m_ObjectHideFlags: 0
@@ -52596,7 +52392,6 @@ MonoBehaviour:
   MovementActive: {fileID: 270712115}
   MovementWaiting: {fileID: 519094891}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1324563064
 GameObject:
   m_ObjectHideFlags: 0
@@ -52693,7 +52488,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1332739652
 GameObject:
   m_ObjectHideFlags: 0
@@ -52734,7 +52528,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1334731565
 GameObject:
   m_ObjectHideFlags: 0
@@ -53289,7 +53082,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1557600901}
   MovementWaiting: {fileID: 372988785}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1349286964
 GameObject:
   m_ObjectHideFlags: 0
@@ -53611,7 +53403,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1745208059}
   MovementWaiting: {fileID: 32756479}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1001 &1355055771
 Prefab:
   m_ObjectHideFlags: 0
@@ -54002,7 +53793,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1364530599
 GameObject:
   m_ObjectHideFlags: 0
@@ -54120,7 +53910,6 @@ MonoBehaviour:
   MovementActive: {fileID: 776385859}
   MovementWaiting: {fileID: 353738364}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1364614808
 GameObject:
   m_ObjectHideFlags: 0
@@ -54908,7 +54697,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1483386309}
   MovementWaiting: {fileID: 98822712}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1379191143
 GameObject:
   m_ObjectHideFlags: 0
@@ -55094,7 +54882,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1393204052}
   MovementWaiting: {fileID: 659076545}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1381850113
 GameObject:
   m_ObjectHideFlags: 0
@@ -55999,7 +55786,6 @@ MonoBehaviour:
   MovementActive: {fileID: 500922242}
   MovementWaiting: {fileID: 1658608850}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1400709263
 GameObject:
   m_ObjectHideFlags: 0
@@ -56212,7 +55998,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1312189374}
   MovementWaiting: {fileID: 1757694139}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1404143278
 GameObject:
   m_ObjectHideFlags: 0
@@ -56357,7 +56142,6 @@ MonoBehaviour:
   MovementActive: {fileID: 2072903309}
   MovementWaiting: {fileID: 977694670}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1408092559
 GameObject:
   m_ObjectHideFlags: 0
@@ -56454,7 +56238,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1413679838
 GameObject:
   m_ObjectHideFlags: 0
@@ -56495,7 +56278,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1413716052
 GameObject:
   m_ObjectHideFlags: 0
@@ -56654,7 +56436,6 @@ MonoBehaviour:
   MovementActive: {fileID: 335272693}
   MovementWaiting: {fileID: 916372833}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1420220520
 GameObject:
   m_ObjectHideFlags: 0
@@ -57237,7 +57018,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1432667206
 GameObject:
   m_ObjectHideFlags: 0
@@ -57355,7 +57135,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1345090689}
   MovementWaiting: {fileID: 960847735}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1435890174
 GameObject:
   m_ObjectHideFlags: 0
@@ -57502,7 +57281,6 @@ MonoBehaviour:
   MovementActive: {fileID: 799426555}
   MovementWaiting: {fileID: 298384216}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1437913723
 GameObject:
   m_ObjectHideFlags: 0
@@ -58030,7 +57808,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1455078190
 GameObject:
   m_ObjectHideFlags: 0
@@ -58522,7 +58299,6 @@ MonoBehaviour:
   MovementActive: {fileID: 578630289}
   MovementWaiting: {fileID: 1554153891}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1467178618
 GameObject:
   m_ObjectHideFlags: 0
@@ -59249,7 +59025,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1969207602}
   MovementWaiting: {fileID: 2140774626}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1001 &1491293122
 Prefab:
   m_ObjectHideFlags: 0
@@ -59740,7 +59515,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1001 &1506839611
 Prefab:
   m_ObjectHideFlags: 0
@@ -59933,7 +59707,6 @@ MonoBehaviour:
   MovementActive: {fileID: 618139612}
   MovementWaiting: {fileID: 564455912}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1510217818
 GameObject:
   m_ObjectHideFlags: 0
@@ -60078,7 +59851,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1427774270}
   MovementWaiting: {fileID: 1224865957}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1511118029
 GameObject:
   m_ObjectHideFlags: 0
@@ -60332,7 +60104,6 @@ MonoBehaviour:
   MovementActive: {fileID: 633613341}
   MovementWaiting: {fileID: 498209167}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1001 &1515955341
 Prefab:
   m_ObjectHideFlags: 0
@@ -60606,7 +60377,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1663749866}
   MovementWaiting: {fileID: 2085893926}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1526726270
 GameObject:
   m_ObjectHideFlags: 0
@@ -61350,7 +61120,6 @@ MonoBehaviour:
   MovementActive: {fileID: 420710287}
   MovementWaiting: {fileID: 1923736559}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1551939474
 GameObject:
   m_ObjectHideFlags: 0
@@ -61418,7 +61187,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1554378281
 GameObject:
   m_ObjectHideFlags: 0
@@ -61536,7 +61304,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1070067560}
   MovementWaiting: {fileID: 1687388965}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1554664372
 GameObject:
   m_ObjectHideFlags: 0
@@ -62726,7 +62493,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1861924538}
   MovementWaiting: {fileID: 1709960402}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1579743733
 GameObject:
   m_ObjectHideFlags: 0
@@ -62941,7 +62707,6 @@ MonoBehaviour:
   MovementActive: {fileID: 656904895}
   MovementWaiting: {fileID: 1833069006}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1588242645
 GameObject:
   m_ObjectHideFlags: 0
@@ -63181,7 +62946,6 @@ MonoBehaviour:
   MovementActive: {fileID: 95926218}
   MovementWaiting: {fileID: 1098104264}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1599540160
 GameObject:
   m_ObjectHideFlags: 0
@@ -63222,7 +62986,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1601751202
 GameObject:
   m_ObjectHideFlags: 0
@@ -64321,7 +64084,6 @@ MonoBehaviour:
   MovementActive: {fileID: 2113175936}
   MovementWaiting: {fileID: 67104836}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1001 &1629575869
 Prefab:
   m_ObjectHideFlags: 0
@@ -64998,7 +64760,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1658766813
 GameObject:
   m_ObjectHideFlags: 0
@@ -65408,7 +65169,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1672937555
 GameObject:
   m_ObjectHideFlags: 0
@@ -65476,7 +65236,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1676260826
 GameObject:
   m_ObjectHideFlags: 0
@@ -65808,7 +65567,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1682743140
 GameObject:
   m_ObjectHideFlags: 0
@@ -65849,7 +65607,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1685431533
 GameObject:
   m_ObjectHideFlags: 0
@@ -66101,7 +65858,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1001 &1693387116
 Prefab:
   m_ObjectHideFlags: 0
@@ -66267,7 +66023,6 @@ MonoBehaviour:
   MovementActive: {fileID: 675837083}
   MovementWaiting: {fileID: 318863314}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1695166857
 GameObject:
   m_ObjectHideFlags: 0
@@ -66412,7 +66167,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1245017378}
   MovementWaiting: {fileID: 1454872918}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1699672515
 GameObject:
   m_ObjectHideFlags: 0
@@ -66782,7 +66536,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1710768678
 GameObject:
   m_ObjectHideFlags: 0
@@ -66905,7 +66658,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1713321507
 GameObject:
   m_ObjectHideFlags: 0
@@ -67023,7 +66775,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1440655931}
   MovementWaiting: {fileID: 135692586}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1717371766
 GameObject:
   m_ObjectHideFlags: 0
@@ -67673,7 +67424,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1253352049}
   MovementWaiting: {fileID: 755105423}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1731245123
 GameObject:
   m_ObjectHideFlags: 0
@@ -67886,7 +67636,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1605188729}
   MovementWaiting: {fileID: 336363398}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1732055504
 GameObject:
   m_ObjectHideFlags: 0
@@ -68072,7 +67821,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1149273297}
   MovementWaiting: {fileID: 2121274119}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1734548136
 GameObject:
   m_ObjectHideFlags: 0
@@ -68479,7 +68227,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1758742938
 GameObject:
   m_ObjectHideFlags: 0
@@ -68615,7 +68362,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1762384829
 GameObject:
   m_ObjectHideFlags: 0
@@ -69186,7 +68932,6 @@ MonoBehaviour:
   MovementActive: {fileID: 379846119}
   MovementWaiting: {fileID: 1002981795}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1779738521
 GameObject:
   m_ObjectHideFlags: 0
@@ -70097,7 +69842,6 @@ MonoBehaviour:
   MovementActive: {fileID: 670295340}
   MovementWaiting: {fileID: 49781636}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1797855322
 GameObject:
   m_ObjectHideFlags: 0
@@ -70254,7 +69998,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1800419159
 GameObject:
   m_ObjectHideFlags: 0
@@ -70363,7 +70106,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1801935383
 GameObject:
   m_ObjectHideFlags: 0
@@ -70730,7 +70472,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1812092580
 GameObject:
   m_ObjectHideFlags: 0
@@ -71043,7 +70784,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1823827889
 GameObject:
   m_ObjectHideFlags: 0
@@ -71227,7 +70967,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1831266420
 GameObject:
   m_ObjectHideFlags: 0
@@ -71345,7 +71084,6 @@ MonoBehaviour:
   MovementActive: {fileID: 553666143}
   MovementWaiting: {fileID: 210421164}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1831571513
 GameObject:
   m_ObjectHideFlags: 0
@@ -71456,7 +71194,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1833417005
 GameObject:
   m_ObjectHideFlags: 0
@@ -72261,7 +71998,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1814672652}
   MovementWaiting: {fileID: 990850739}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1867751495
 GameObject:
   m_ObjectHideFlags: 0
@@ -72399,7 +72135,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1870679433
 GameObject:
   m_ObjectHideFlags: 0
@@ -73105,7 +72840,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1620540057}
   MovementWaiting: {fileID: 2019241882}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1892925209
 GameObject:
   m_ObjectHideFlags: 0
@@ -73475,7 +73209,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1027200137}
   MovementWaiting: {fileID: 883546387}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1908194877
 GameObject:
   m_ObjectHideFlags: 0
@@ -73863,7 +73596,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1915832860
 GameObject:
   m_ObjectHideFlags: 0
@@ -74119,7 +73851,6 @@ MonoBehaviour:
   MovementActive: {fileID: 703289561}
   MovementWaiting: {fileID: 1332739654}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1921778356
 GameObject:
   m_ObjectHideFlags: 0
@@ -74237,7 +73968,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1242653343}
   MovementWaiting: {fileID: 545565345}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1922251557
 GameObject:
   m_ObjectHideFlags: 0
@@ -74387,7 +74117,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1923736557
 GameObject:
   m_ObjectHideFlags: 0
@@ -74428,7 +74157,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1925999130
 GameObject:
   m_ObjectHideFlags: 0
@@ -75176,7 +74904,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &1958809776
 GameObject:
   m_ObjectHideFlags: 0
@@ -75294,7 +75021,6 @@ MonoBehaviour:
   MovementActive: {fileID: 380154365}
   MovementWaiting: {fileID: 379611545}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1959067367
 GameObject:
   m_ObjectHideFlags: 0
@@ -75412,7 +75138,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1978266302}
   MovementWaiting: {fileID: 858371582}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &1960413062
 GameObject:
   m_ObjectHideFlags: 0
@@ -76707,7 +76432,6 @@ MonoBehaviour:
   MovementActive: {fileID: 251875308}
   MovementWaiting: {fileID: 718365172}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &2008215604
 GameObject:
   m_ObjectHideFlags: 0
@@ -76879,7 +76603,6 @@ MonoBehaviour:
   MovementActive: {fileID: 2064743485}
   MovementWaiting: {fileID: 426962544}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &2013900451
 GameObject:
   m_ObjectHideFlags: 0
@@ -77065,7 +76788,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &2020173014
 GameObject:
   m_ObjectHideFlags: 0
@@ -77183,7 +76905,6 @@ MonoBehaviour:
   MovementActive: {fileID: 165344007}
   MovementWaiting: {fileID: 1304269574}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &2020288954
 GameObject:
   m_ObjectHideFlags: 0
@@ -77692,7 +77413,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1915832862}
   MovementWaiting: {fileID: 222441720}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &2035492556
 GameObject:
   m_ObjectHideFlags: 0
@@ -77855,7 +77575,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &2045713551
 GameObject:
   m_ObjectHideFlags: 0
@@ -77973,7 +77692,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1884108393}
   MovementWaiting: {fileID: 506532835}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &2046247944
 GameObject:
   m_ObjectHideFlags: 0
@@ -78082,7 +77800,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &2046892278
 GameObject:
   m_ObjectHideFlags: 0
@@ -79449,7 +79166,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &2086709269
 GameObject:
   m_ObjectHideFlags: 0
@@ -79609,7 +79325,6 @@ MonoBehaviour:
   MovementActive: {fileID: 943714433}
   MovementWaiting: {fileID: 627043099}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &2094329381
 GameObject:
   m_ObjectHideFlags: 0
@@ -79911,7 +79626,6 @@ MonoBehaviour:
   MovementActive: {fileID: 959939491}
   MovementWaiting: {fileID: 909739986}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &2099559047
 GameObject:
   m_ObjectHideFlags: 0
@@ -80192,7 +79906,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1375211419}
   MovementWaiting: {fileID: 1712525226}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &2104065048
 GameObject:
   m_ObjectHideFlags: 0
@@ -81066,7 +80779,6 @@ MonoBehaviour:
   MovementActive: {fileID: 1493189767}
   MovementWaiting: {fileID: 815492123}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!1 &2121274117
 GameObject:
   m_ObjectHideFlags: 0
@@ -81107,7 +80819,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &2122252497
 GameObject:
   m_ObjectHideFlags: 0
@@ -81352,7 +81063,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &2126478234
 GameObject:
   m_ObjectHideFlags: 0
@@ -81607,7 +81317,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!1 &2143933923
 GameObject:
   m_ObjectHideFlags: 0

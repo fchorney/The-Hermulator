@@ -3,10 +3,12 @@ using System.Collections;
 
 public class FastRush : EnemyMovementPattern {
 
-	public override void Move (EnemyMovementController controller) {
-		Vector3 position = controller.gameObject.transform.position;
-		position.y -= controller.FlightSpeed;
-		controller.gameObject.transform.position = position;
+	public float FlightSpeed = 6f;
+
+	public override void Move (GameObject obj) {
+		Vector3 position = obj.transform.position;
+		position.y -= FlightSpeed * Time.deltaTime;
+		obj.transform.position = position;
 		
 	}
 }

@@ -3,11 +3,14 @@ using System.Collections;
 
 public class SlowHoming : EnemyMovementPattern {
 
-	public override void Move(EnemyMovementController controller) {
-		Vector3 position = controller.gameObject.transform.position;
+	public float FlightSpeed = 6f;
+
+	public override void Move(GameObject obj) {
+		Vector3 position = obj.transform.position;
 		if(player != null) {
 			float playerX = player.transform.position.x;
-			float delta = controller.FlightSpeed * Time.deltaTime;
+			float delta = FlightSpeed * Time.deltaTime;
+
 			if(position.x > playerX + delta)
 				position.x -= delta;
 			else if(position.x < playerX - delta)
@@ -15,7 +18,7 @@ public class SlowHoming : EnemyMovementPattern {
 			else
 				position.x = playerX;
 			
-			controller.gameObject.transform.position = position;
+			obj.transform.position = position;
 		}
 	}
 }

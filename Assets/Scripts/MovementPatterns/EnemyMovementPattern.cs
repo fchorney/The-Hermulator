@@ -5,7 +5,7 @@ public class EnemyMovementPattern : MonoBehaviour {
 
 	protected GameObject player;
 
-	public virtual void Move(EnemyMovementController controller) {
+	public virtual void Move(GameObject obj) {
 		// do nothing;
 	}
 

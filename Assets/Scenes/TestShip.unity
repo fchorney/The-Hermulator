@@ -2855,6 +2855,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosions: {fileID: 1241789907}
+  sfx: {fileID: 8300000, guid: a7e0f3fbb70860143876c7c87d2dff01, type: 3}
 --- !u!1 &1500828176
 GameObject:
   m_ObjectHideFlags: 0

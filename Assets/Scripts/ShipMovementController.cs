@@ -8,8 +8,6 @@ public class ShipMovementController : MonoBehaviour {
 	public Transform LeftEdge;
 	public Transform RightEdge;
 
-	public Renderer LockRenderer;
-
 	// speed at which the ship moves to the cursor
 	// when the cursor is "far" from the player when it's
 	// 	  in "loose" state
@@ -50,12 +48,9 @@ public class ShipMovementController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
+	
 		if (shipController.isFrozen())
 			return;
-	
-		LockRenderer.enabled = false;
-
 		if (Input.GetMouseButton (0)) {
 			ShotController weapon = GetComponent<ShotController>();
 			if (weapon != null){

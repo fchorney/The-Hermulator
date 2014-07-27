@@ -10,7 +10,6 @@ GameObject:
   - 4: {fileID: 400006}
   - 212: {fileID: 21200000}
   - 114: {fileID: 11400004}
-  - 114: {fileID: 11400006}
   m_Layer: 10
   m_Name: midboss
   m_TagString: Untagged
@@ -340,19 +339,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7ae213bef87ce24cb8861d1a1b0ce46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &11400006
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e443791f393e4b68a242a8dc7328931, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  explosion: {fileID: 2600000}
-  ship: {fileID: 21200000}
 --- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1

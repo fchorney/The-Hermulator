@@ -21,25 +21,9 @@ public class AntMovementPattern : EnemyMovementPattern {
 
 		if (!alive)
 			return;
+	
 
-		Transform target = null;
-
-		if (player != null) 
-		{
-			ShipController sc = player.GetComponent<ShipController>();
-
-			if (sc && sc.Target != null) {
-				target = sc.Target.transform;
-			}
-		}
-
-		if (target != null) {
-			Vector3 dir = target.position - HeadJoint.position;
-			float angle = Mathf.Atan2(dir.y,dir.x) * Mathf.Rad2Deg + 90;
-			targetRotation = Quaternion.AngleAxis(angle, Vector3.forward);
-		} else {
-			targetRotation = Quaternion.AngleAxis(0, Vector3.forward);
-		}
+		targetRotation = Quaternion.AngleAxis(Mathf.Sin(Mathf.PI * 2 * Time.time/3) * 90, Vector3.forward);
 
 		HeadJoint.transform.rotation = Quaternion.Slerp(HeadJoint.transform.rotation, targetRotation, rotSpeed * Time.deltaTime);
 	
@@ -51,6 +35,10 @@ public class AntMovementPattern : EnemyMovementPattern {
 
 		LeftPincerJoint.localRotation = Quaternion.Euler(new Vector3(0, 0, 15*Mathf.Sin (t/13f * Mathf.PI * 2 ) - 10));
 		RightPincerJoint.localRotation = Quaternion.Euler(new Vector3(0, 0, 15*Mathf.Sin (t/13f * Mathf.PI * 2 + Mathf.PI) + 10));
+
+		foreach (EnemyShotController esc in self.GetComponentsInChildren<EnemyShotController>()) {
+			esc.Fire();
+		}
 
 		if (self.GetComponentsInChildren<EnemyController>().Length == 0)
 		{

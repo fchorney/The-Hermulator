@@ -81,7 +81,7 @@ public class GameController : MonoBehaviour {
 
 		// clear bullets
 		foreach (GameObject obj in GameObject.FindGameObjectsWithTag("Bullet"))
-			obj.GetComponent<BulletController>().bulletPool.returnBullet(obj.rigidbody2D);
+			obj.GetComponent<BulletController>().returnToPool();
 
 		if (Lives > 0) {
 			clone = Instantiate(ship, new Vector3(-10000, 10000), Quaternion.identity) as  GameObject;

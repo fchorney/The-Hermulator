@@ -5,8 +5,11 @@ public class EnemyShotController : MonoBehaviour {
 
 	public Transform[] shotSpots;
 	private int shotIndex;
-	private float shootCooldown;
 	public BulletPool bulletPool;
+
+	public float shotTime = 0.09f;
+
+	private float shotCooldown;
 
 	private GameController gameController;
 
@@ -16,9 +19,9 @@ public class EnemyShotController : MonoBehaviour {
 
 	void Update()
 	{
-		if (shootCooldown > 0)
+		if (shotCooldown > 0)
 		{
-			shootCooldown -= Time.deltaTime;
+			shotCooldown -= Time.deltaTime;
 		}
 	}
 	
@@ -26,7 +29,7 @@ public class EnemyShotController : MonoBehaviour {
 	{
 		get
 		{
-			return gameController.ShootingEnabled && shootCooldown <= 0f;
+			return gameController.ShootingEnabled && shotCooldown <= 0f;
 		}
 	}
 
@@ -42,8 +45,9 @@ public class EnemyShotController : MonoBehaviour {
 			shot.gameObject.layer = LayerMask.NameToLayer("EnemyBullet");
 			shot.transform.position = spot.position;
 
+
+			shotCooldown += shotTime;
 			shotIndex = (shotIndex + 1) % shotSpots.Length;
-			shootCooldown = .09f;
 		}
 	}
 }

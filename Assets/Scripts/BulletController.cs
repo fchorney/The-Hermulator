@@ -56,7 +56,7 @@ public class BulletController : MonoBehaviour {
 		player = GameObject.FindGameObjectWithTag("Player");
 	}
 	int state;
-	protected virtual void MoveObjectDifferent(){
+	protected virtual void MoveObjectWave(){
 		if (Mathf.Sin ((Time.time-stateTime)*3) > 0)
 			state = 2;
 		else
@@ -96,13 +96,15 @@ public class BulletController : MonoBehaviour {
 
 	// Update is called once per frame
 	protected virtual void Update () {
+
+
 		BulletPool.BulletType bulletType = bulletPool.getBulletType ();
 		switch (bulletType) {
-		case BulletPool.BulletType.EnemyNormal:
+		case BulletPool.BulletType.Normal:
 			MoveObject ();
 			break;
-		case BulletPool.BulletType.PlayerNormal:
-			MoveObjectDifferent ();
+		case BulletPool.BulletType.Wave:
+			MoveObjectWave ();
 			break;
 		case BulletPool.BulletType.Zigzag:
 			MoveObjectZigZag();
@@ -113,8 +115,8 @@ public class BulletController : MonoBehaviour {
 			returnToPool();
 		}
 
-		FindPlayer ();
 
+		FindPlayer ();
 
 	}
 }

@@ -16270,7 +16270,7 @@ MonoBehaviour:
   prefabBullet: {fileID: 5000000, guid: 6bea41a3d491f4db69aab8d0ad337a35, type: 2}
   bulletLimit: 100
   poolsize: 100
-  bulletType: 0
+  bulletType: 2
 --- !u!4 &408484733
 Transform:
   m_ObjectHideFlags: 0
@@ -39294,6 +39294,7 @@ MonoBehaviour:
   DoorCloseWaitTime: 1
   DoorAnimTime: 1
   enemy: {fileID: 400006, guid: ea943a047fbf56148a2d00f0a84b400f, type: 2}
+  bulletPool: {fileID: 0}
   SpawnDoorLeft: {fileID: 1306913481}
   SpawnDoorRight: {fileID: 787032094}
 --- !u!1 &981282520
@@ -50889,7 +50890,7 @@ MonoBehaviour:
   prefabBullet: {fileID: 5000000, guid: d76aea02f3b9a435abba181e20a72fe4, type: 2}
   bulletLimit: 1000
   poolsize: 1000
-  bulletType: 0
+  bulletType: 1
 --- !u!4 &1265869097
 Transform:
   m_ObjectHideFlags: 0
@@ -58640,6 +58641,7 @@ GameObject:
   - 114: {fileID: 1446999017}
   - 114: {fileID: 1446999020}
   - 114: {fileID: 1446999021}
+  - 114: {fileID: 1446999022}
   m_Layer: 0
   m_Name: GameController
   m_TagString: GameController
@@ -58737,6 +58739,7 @@ MonoBehaviour:
   - {fileID: 1978070517}
   - {fileID: 437557107}
   GameOverBanner: {fileID: 36752992}
+  score: 0
 --- !u!4 &1446999019
 Transform:
   m_ObjectHideFlags: 0
@@ -58782,6 +58785,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosions: {fileID: 1241789907}
   sfx: {fileID: 8300000, guid: a7e0f3fbb70860143876c7c87d2dff01, type: 3}
+--- !u!114 &1446999022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1446999016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b99c986a7dd6b74bb5d5e95bf77ec44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1448493546
 GameObject:
   m_ObjectHideFlags: 0
@@ -80730,7 +80744,7 @@ MonoBehaviour:
   prefabBullet: {fileID: 5000000, guid: 6cee3191b3478a9489c11b96ecb45500, type: 2}
   bulletLimit: 20
   poolsize: 1000
-  bulletType: 1
+  bulletType: 0
 --- !u!4 &2086709271
 Transform:
   m_ObjectHideFlags: 0

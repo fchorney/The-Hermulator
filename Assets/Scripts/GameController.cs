@@ -12,6 +12,12 @@ public class GameController : MonoBehaviour {
 
 	public Renderer GameOverBanner;
 
+	public int score;
+
+	public void addToScore(int points){
+		score += score;
+	}
+
 	public bool ShootingEnabled { get; private set; }
 
 	private float LevelSpeed = 6f;
@@ -38,6 +44,8 @@ public class GameController : MonoBehaviour {
 		ShootingEnabled = true;
 
 		Checkpoint = 0;
+
+		score = 0;
 	}
 
 	public void Update() {

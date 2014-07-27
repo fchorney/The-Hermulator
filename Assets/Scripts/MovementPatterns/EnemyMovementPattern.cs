@@ -4,14 +4,11 @@ using System.Collections;
 public class EnemyMovementPattern : MonoBehaviour {
 
 	protected GameObject player;
-	protected float activeTime;
+	public float activeTime;
+	public float FlightSpeed = 6f;
 
 	public virtual void Move(GameObject obj) {
 		// do nothing;
-	}
-
-	void Start() {
-		FindPlayer();
 	}
 
 	void Update() {

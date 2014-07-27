@@ -34,14 +34,14 @@ public class EnemyMovementController : MonoBehaviour {
 	void Update () {
 		switch(state) {
 			case State.Waiting:
-				MovementWaiting.Move(this.gameObject);
+				MovementWaiting.Move(this);
 				if (transform.position.y < gameController.activeTop) {
 					state = State.Active;
 					activeTime = Time.time;
 				}
 				break;
 			case State.Active:
-				MovementActive.Move(this.gameObject);
+				MovementActive.Move(this);
 				shotController.Fire();
 				break;
 			case State.Agressive:

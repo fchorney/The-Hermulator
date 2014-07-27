@@ -2,11 +2,10 @@
 using System.Collections;
 
 public class EnemyMovementPattern : MonoBehaviour {
-	public float FlightSpeed = 2f;
 
 	protected GameObject player;
 
-	public virtual void Move(GameObject self) {
+	public virtual void Move(EnemyMovementController controller) {
 		// do nothing;
 	}
 

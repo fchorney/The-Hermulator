@@ -64,7 +64,7 @@ public class GameController : MonoBehaviour {
 		}
 
 		if ((GameOverBanner.enabled || WinBanner.enabled) && Input.GetMouseButtonDown(0))
-			Application.LoadLevel (Application.loadedLevel);
+			Application.LoadLevel ("Menu");
 
 		Cloud.transform.position -= Vector3.up * CloudSpeed * Time.deltaTime;
 	}

@@ -3,7 +3,18 @@ using System.Collections;
 
 public class EnemyCollisionController : MonoBehaviour {
 
+	public Color damageColor = Color.red;
+	public Color normalColor = Color.white;
+
 	private EnemyController enemyController;
+
+	// time that we started displaying damage indicator
+	private float DamageTime;
+
+	// time to display damage
+	private float DamageDisplayTime = 0.05f;
+
+
 
 	//private BulletPool bulletPool;
 	private enum CollisionType { Player, Bullet };
@@ -12,13 +23,28 @@ public class EnemyCollisionController : MonoBehaviour {
 	void Start () {
 		this.enabled = true;
 		enemyController = transform.GetComponentInParent<EnemyController>();
-
-		if (enemyController == null)
-			Debug.Log ("ZOMG no controller");
 		//bulletPool = transform.GetComponentInParent<BulletPool> ();
 		//bulletPool = transform.GetComponentInParent<BulletPool>();
 	}
 
+	public void ShowDamage() {
+		if (!this.renderer)
+			return;
+
+		DamageTime = Time.time;
+	}
+
+	void Update() {
+		SpriteRenderer renderer = this.renderer as SpriteRenderer;
+		if (renderer != null) {
+			if (Time.time < DamageTime + DamageDisplayTime) {
+				renderer.color = damageColor;
+			} else {
+				renderer.color = normalColor;
+			}
+		}
+	}
+	
 	void OnCollisionEnter2D(Collision2D collision) {
 
 		CollisionType ct = (CollisionType)System.Enum.Parse(typeof(CollisionType), collision.collider.tag);
@@ -42,6 +68,7 @@ public class EnemyCollisionController : MonoBehaviour {
 			HealthController hp = this.GetComponentInParent<HealthController>();
 
 			hp.Damage(bullet.getDamage());
+			ShowDamage();
 
 			if (!bullet.SurvivesEnemyCollision)
 				bullet.returnToPool();

@@ -49,9 +49,13 @@ TagManager:
     userID: 0
     uniqueID: 0
     locked: 0
-  - name: Foreground
+  - name: Ships
     userID: 1
     uniqueID: 3838719171
+    locked: 0
+  - name: Bullets
+    userID: 4
+    uniqueID: 2687653037
     locked: 0
   - name: Explosions
     userID: 2

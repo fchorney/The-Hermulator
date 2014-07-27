@@ -26,8 +26,10 @@ public class EnemyController : MonoBehaviour {
 	public void kill(bool explode = false) {
 
 
-		if (explode)
+		if (explode) {
 			explosionController.Emit (50, transform.position);
+			Debug.Log ("Explode @ " + transform.position);
+		}
 
 		//animationController.Explode(explode);
 		Destroy (this.gameObject);

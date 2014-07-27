@@ -22,11 +22,15 @@ public class GameController : MonoBehaviour {
 	public float activeLeft { get; private set; }
 	public float activeRight { get; private set; }
 
+	private MusicController musicController;
+
 	public void Start() {
 		// Turn off gravity for the game
 		Physics2D.gravity = Vector2.zero;
 
 		GameObject.FindGameObjectWithTag("Player").GetComponent<ShipController>().startSpawnTimer();
+
+		musicController = GetComponent<MusicController>();
 
 		activeBottom = Camera.main.ViewportToWorldPoint(new Vector3(0, 0)).y;
 		activeTop = Camera.main.ViewportToWorldPoint(new Vector3(0, 1)).y;
@@ -44,6 +48,8 @@ public class GameController : MonoBehaviour {
 				Checkpoint++;
 		} else if (TopEdge.transform.position.y > activeTop) {
 			Level.transform.position -= Vector3.up * LevelSpeed * Time.deltaTime;
+		} else if (!musicController.enableBoss) {
+			musicController.enableBoss = true;
 		}
 
 

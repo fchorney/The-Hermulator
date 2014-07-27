@@ -128,6 +128,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPool: {fileID: 0}
+  damage: 1
+  SurvivesEnemyCollision: 0
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -146,7 +148,7 @@ SpriteRenderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayerID: 3838719171
+  m_SortingLayerID: 2687653037
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 42e4d3c293e32c341b1a9418dbffb09f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

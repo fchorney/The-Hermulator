@@ -16,10 +16,7 @@ public class EnemyController : MonoBehaviour {
 
 	protected EnemyShotController shotController;
 	protected float flightSpeed= 2f;
-
-	public HealthScript enemyHealth;
-
-
+	
 	protected float activeTime;
 
 	protected Vector3 enemyPosition;
@@ -27,15 +24,9 @@ public class EnemyController : MonoBehaviour {
 	public virtual void Start() {
 		explosionController = GameObject.FindGameObjectWithTag ("GameController").GetComponent<ExplosionController> ();
 		gameController = GameObject.FindGameObjectWithTag ("GameController").GetComponent<GameController> ();
-
 		shotController = transform.GetComponent<EnemyShotController>();
 
-		enemyHealth = transform.GetComponent<HealthScript> ();
-
-
 		FindPlayer();
-
-		enemyHealth.setHP (3);
 	}
 
 	void FindPlayer() {
@@ -99,14 +90,5 @@ public class EnemyController : MonoBehaviour {
 		Destroy (this.gameObject);
 	}
 
-	public void ShowDamage() {
-		StartCoroutine(showDamageCoroutine());
-	}
-
-	private IEnumerator showDamageCoroutine() {
-		renderer.material.color = Color.red;
-		yield return new WaitForSeconds(0.5f);
-		renderer.material.color = Color.white;
-	}
 }
 	

@@ -39,18 +39,14 @@ public class EnemyCollisionController : MonoBehaviour {
 			break;
 		case CollisionType.Bullet:
 			BulletController bullet = collision.collider.GetComponent<BulletController>();
+			HealthController hp = this.GetComponentInParent<HealthController>();
 
-			enemyController.enemyHealth.Damage(bullet.getDamage());
-			enemyController.enemyHealth.Damage(collision.collider.GetComponent<BulletController>().getDamage());
-			enemyController.ShowDamage();
-			if (enemyController.enemyHealth.getHP() <= 0)
-				enemyController.kill(true);
+			hp.Damage(bullet.getDamage());
 
-			bullet.returnToPool();
-			//bulletPool.returnBullet(collision.collider.rigidbody2D);
+			if (!bullet.SurvivesEnemyCollision)
+				bullet.returnToPool();
 			break;
 		}
-		//if (collision.collider.tag == "Player") {
 
 	}
 

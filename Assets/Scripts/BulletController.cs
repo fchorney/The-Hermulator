@@ -9,6 +9,7 @@ public class BulletController : MonoBehaviour {
 	protected GameObject player;
 	public BulletPool bulletPool;
 	public int damage = 1;
+	public bool SurvivesEnemyCollision = false;
 
 	private Vector2 movement;
 

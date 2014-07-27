@@ -1297,6 +1297,8 @@ MonoBehaviour:
   RightAntennaJoint2: {fileID: 400020}
   LeftPincerJoint: {fileID: 400002}
   RightPincerJoint: {fileID: 400008}
+  wakeup_sfx: {fileID: 8300000, guid: f6277871b8d17d241bc6148934c7ec72, type: 3}
+  die_sfx: {fileID: 8300000, guid: c87acf48f4c255b4dbdce51f90097aca, type: 3}
 --- !u!114 &11400012
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -12,6 +12,7 @@ public class GameController : MonoBehaviour {
 	private int Checkpoint;
 
 	public Renderer GameOverBanner;
+	public Renderer WinBanner;
 
 	public int score;
 
@@ -61,7 +62,8 @@ public class GameController : MonoBehaviour {
 				Level.transform.position -= Vector3.up * LevelSpeed * Time.deltaTime;
 			}
 		}
-		if (GameOverBanner.enabled && Input.GetMouseButtonDown(0))
+
+		if ((GameOverBanner.enabled || WinBanner.enabled) && Input.GetMouseButtonDown(0))
 			Application.LoadLevel (Application.loadedLevel);
 
 		Cloud.transform.position -= Vector3.up * CloudSpeed * Time.deltaTime;

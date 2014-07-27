@@ -11,8 +11,17 @@ public class AntMovementPattern : EnemyMovementPattern {
 	
 	private Quaternion targetRotation;
 	private float rotSpeed = 1f;
-	
+	private bool alive;
+
+	public override void Activate() {
+		alive = true;
+	}
+
 	public override void Move(GameObject self) {
+
+		if (!alive)
+			return;
+
 		Transform target = null;
 
 		if (player != null) 
@@ -42,5 +51,32 @@ public class AntMovementPattern : EnemyMovementPattern {
 
 		LeftPincerJoint.localRotation = Quaternion.Euler(new Vector3(0, 0, 15*Mathf.Sin (t/13f * Mathf.PI * 2 ) - 10));
 		RightPincerJoint.localRotation = Quaternion.Euler(new Vector3(0, 0, 15*Mathf.Sin (t/13f * Mathf.PI * 2 + Mathf.PI) + 10));
+
+		if (self.GetComponentsInChildren<EnemyController>().Length == 0)
+		{
+			alive = false;
+			StartCoroutine(StartExplosions(self));
+		}
+	}
+
+	private IEnumerator StartExplosions (GameObject self) {
+
+		ExplosionController explosions = GameObject.FindGameObjectWithTag("GameController").GetComponent<ExplosionController>();
+
+		float r = 2.0f;
+
+		for (int i = 0; i < 20; i ++) {
+			Vector3 position = new Vector3(Random.Range(-r, r) + transform.position.x, Random.Range(-r, r) + transform.position.y);
+			explosions.Emit(50, position);
+			yield return new WaitForSeconds(0.1f);
+		}
+
+
+		GameController gc = GameController.Get();
+
+		// show win banner if player isn't dead
+		gc.WinBanner.enabled = !gc.GameOverBanner.enabled;
+
+		Destroy(self);
 	}
 }

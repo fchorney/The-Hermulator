@@ -6,6 +6,7 @@ public class EnemyMovementPattern : MonoBehaviour {
 	protected GameObject player;
 	public float activeTime;
 	public float FlightSpeed = 6f;
+	private GameController gameController;
 
 	public virtual void Move(GameObject obj) {
 		// do nothing;
@@ -15,6 +16,10 @@ public class EnemyMovementPattern : MonoBehaviour {
 		if (player == null) {
 			FindPlayer();
 		}
+	}
+
+	void Start() {
+		gameController = GameController.Get();
 	}
 
 	public virtual void Activate() {

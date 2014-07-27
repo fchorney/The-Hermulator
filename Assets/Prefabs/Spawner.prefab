@@ -92,7 +92,7 @@ GameObject:
   - 114: {fileID: 11400004}
   m_Layer: 10
   m_Name: enemy-spawner
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -196,7 +196,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100012}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -21.0286121, z: 0}
+  m_LocalPosition: {x: -3.02434015, y: -12.5817261, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400010}
@@ -246,7 +246,9 @@ MonoBehaviour:
   FlightSpeed: 6
   DoorCloseWaitTime: 1
   DoorAnimTime: 1
-  enemy: {fileID: 400008, guid: aea1f3e5d34427c4da1e4bf36cd2cb71, type: 2}
+  enemies:
+  - {fileID: 400008, guid: d42600b9055742149935d8e684958efc, type: 2}
+  - {fileID: 400006, guid: 00dca2fb600b16143931b7e11997d69c, type: 2}
   bulletPool: {fileID: 0}
   SpawnDoorLeft: {fileID: 400008}
   SpawnDoorRight: {fileID: 400006}
@@ -286,7 +288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b733da6b3705248e0bf0bfe517a47035, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 100
+  hp: 20
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

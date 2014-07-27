@@ -169,7 +169,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100010}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.64556885, y: -24.6274681, z: 0}
+  m_LocalPosition: {x: -.0360984802, y: -25.7600479, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400004}
@@ -210,6 +210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!114 &11400002
 MonoBehaviour:
@@ -222,6 +223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e662bf4837324a468cb0f5238400325, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
   FlightSpeed: 2
 --- !u!114 &11400004
 MonoBehaviour:
@@ -237,7 +239,6 @@ MonoBehaviour:
   MovementActive: {fileID: 11400002}
   MovementWaiting: {fileID: 11400000}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: .0500000007
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -251,6 +252,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageColor: {r: 1, g: 0, b: 0, a: 1}
   normalColor: {r: 1, g: 1, b: 1, a: 1}
+  DamageEnabled: 1
 --- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -286,7 +288,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotSpots:
-  - {fileID: 0}
   - {fileID: 400008}
   bulletPool: {fileID: 0}
 --- !u!212 &21200000

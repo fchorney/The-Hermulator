@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class Spiral : EnemyMovementPattern {
-	float circleSize = 3f;
+	float circleSize = 6;
 	float circleSpeed = 3;
 
 	public override void Move (GameObject obj) {

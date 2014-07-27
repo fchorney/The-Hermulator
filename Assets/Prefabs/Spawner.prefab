@@ -242,9 +242,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3780e9b440114393967a46c2e608151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeTime: 0
+  FlightSpeed: 6
   DoorCloseWaitTime: 1
   DoorAnimTime: 1
-  enemy: {fileID: 400006, guid: ea943a047fbf56148a2d00f0a84b400f, type: 2}
+  enemy: {fileID: 400008, guid: aea1f3e5d34427c4da1e4bf36cd2cb71, type: 2}
+  bulletPool: {fileID: 0}
   SpawnDoorLeft: {fileID: 400008}
   SpawnDoorRight: {fileID: 400006}
 --- !u!114 &11400004

@@ -3,10 +3,10 @@ using System.Collections;
 
 public class BulletController : MonoBehaviour {
 
-	private Vector2 speed = new Vector2(1f,1f);
+	protected Vector2 speed = new Vector2(1f,1f);
 
-	private Vector2 direction = new Vector2(0,8f);
-
+	protected Vector2 direction = new Vector2(0,8f);
+	protected GameObject player;
 	public BulletPool bulletPool;
 
 	private Vector2 movement;
@@ -24,20 +24,27 @@ public class BulletController : MonoBehaviour {
 		this.enabled = false;
 	}
 
+	protected void FindPlayer() {
+		player = GameObject.FindGameObjectWithTag("Player");
+	}
 
-
-
-
-	// Update is called once per frame
-	void Update () {
-
+	protected virtual void MoveObject() {
+		//Debug.Log ("baseClass");
 		transform.rigidbody2D.velocity = new Vector2(
 			speed.x * direction.x,
 			speed.y * direction.y);
 		if (Camera.main.WorldToScreenPoint(transform.position).y > Screen.height) {
 			bulletPool.returnBullet(transform.rigidbody2D);
+			
+		}
+	}
 
-				}
+	// Update is called once per frame
+	protected virtual void Update () {
+		MoveObject ();
+
+		FindPlayer ();
+
 
 	}
 }

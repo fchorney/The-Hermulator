@@ -16,6 +16,8 @@ public class EnemyController : MonoBehaviour {
 
 	protected Vector3 enemyPosition;
 
+
+
 	void Start() {
 		explosionController = GameObject.FindGameObjectWithTag ("GameController").GetComponent<ExplosionController> ();
 		FindPlayer();
@@ -55,15 +57,15 @@ public class EnemyController : MonoBehaviour {
 				enemyPosition.x = playerX;
 			
 			transform.position = enemyPosition;
-			//transform.position += Vector3.up * LevelSpeed * Time.deltaTime;
 		}
 	}
 
 	protected virtual void moveWaiting() {
 		float screenY = Camera.main.WorldToScreenPoint(transform.position).y;
 		
-		if (screenY < Screen.height - 100)
+		if (screenY < Screen.height - 100){
 			state = State.Active;
+		}
 	}
 
 	public void kill(bool explode = false) {

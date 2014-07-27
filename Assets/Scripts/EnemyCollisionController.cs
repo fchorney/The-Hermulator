@@ -38,6 +38,8 @@ public class EnemyCollisionController : MonoBehaviour {
 			BulletController bullet = collision.collider.GetComponent<BulletController>();
 
 			enemyController.enemyHealth.Damage(bullet.getDamage());
+			enemyController.enemyHealth.Damage(collision.collider.GetComponent<BulletController>().getDamage());
+			enemyController.ShowDamage();
 			if (enemyController.enemyHealth.getHP() <= 0)
 				enemyController.kill(true);
 

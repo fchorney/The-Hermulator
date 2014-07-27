@@ -98,5 +98,15 @@ public class EnemyController : MonoBehaviour {
 		//animationController.Explode(explode);
 		Destroy (this.gameObject);
 	}
+
+	public void ShowDamage() {
+		StartCoroutine(showDamageCoroutine());
+	}
+
+	private IEnumerator showDamageCoroutine() {
+		renderer.material.color = Color.red;
+		yield return new WaitForSeconds(2);
+		renderer.material.color = Color.white;
+	}
 }
 	

@@ -3010,9 +3010,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fe412ae6b5f33e4393aea2ac0d44139, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boss: {fileID: 0}
-  intro: {fileID: 0}
-  loop: {fileID: 0}
+  boss: {fileID: 8300000, guid: 84e8576c4fa974045b5a89cdfe91a3dc, type: 3}
+  intro: {fileID: 8300000, guid: 50690c7479d60124fb4c6a40a408ca9a, type: 3}
+  loop: {fileID: 8300000, guid: ef14eaecc118cbd41a2cd73a172b3b77, type: 3}
   introDelay: .200000003
   loopDelay: 12.6999998
   fadeDelay: 3.29999995

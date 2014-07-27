@@ -4,6 +4,7 @@ using System.Collections;
 public class EnemyMovementPattern : MonoBehaviour {
 
 	protected GameObject player;
+	protected float activeTime;
 
 	public virtual void Move(GameObject obj) {
 		// do nothing;
@@ -17,6 +18,10 @@ public class EnemyMovementPattern : MonoBehaviour {
 		if (player == null) {
 			FindPlayer();
 		}
+	}
+
+	public void Activate() {
+		activeTime = Time.time;
 	}
 
 	protected void FindPlayer() {

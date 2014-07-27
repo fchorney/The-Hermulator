@@ -6,6 +6,8 @@ public class EnemyCollisionController : MonoBehaviour {
 	public Color damageColor = Color.red;
 	public Color normalColor = Color.white;
 
+	public bool DamageEnabled = true;
+
 	private EnemyController enemyController;
 
 	// time that we started displaying damage indicator
@@ -58,8 +60,10 @@ public class EnemyCollisionController : MonoBehaviour {
 					// when ship is invisible, don't register a collision
 					Physics2D.IgnoreCollision(this.collider2D, collision.collider);
 				else {
-					enemyController.kill(true);
-					this.enabled = false;
+					if (DamageEnabled) {
+						enemyController.kill(true);
+						this.enabled = false;
+					}
 				}
 			}
 			break;
@@ -67,8 +71,10 @@ public class EnemyCollisionController : MonoBehaviour {
 			BulletController bullet = collision.collider.GetComponent<BulletController>();
 			HealthController hp = this.GetComponentInParent<HealthController>();
 
-			hp.Damage(bullet.getDamage());
-			ShowDamage();
+			if (DamageEnabled) {
+				hp.Damage(bullet.getDamage());
+				ShowDamage();
+			}
 
 			if (!bullet.SurvivesEnemyCollision)
 				bullet.returnToPool();

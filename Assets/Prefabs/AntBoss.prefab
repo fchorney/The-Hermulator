@@ -416,6 +416,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &100052
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400052}
+  - 61: {fileID: 6100000}
+  - 114: {fileID: 11400018}
+  m_Layer: 10
+  m_Name: NullCollision
+  m_TagString: Enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &400000
 Transform:
   m_ObjectHideFlags: 1
@@ -453,7 +470,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400014}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!4 &400006
 Transform:
   m_ObjectHideFlags: 1
@@ -476,8 +493,8 @@ Transform:
   m_LocalPosition: {x: -.979313493, y: -1.5330925, z: 0}
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children:
-  - {fileID: 400038}
   - {fileID: 400040}
+  - {fileID: 400038}
   m_Father: {fileID: 400012}
   m_RootOrder: 6
 --- !u!4 &400010
@@ -509,8 +526,9 @@ Transform:
   - {fileID: 400042}
   - {fileID: 400002}
   - {fileID: 400008}
+  - {fileID: 400052}
   m_Father: {fileID: 400014}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!4 &400014
 Transform:
   m_ObjectHideFlags: 1
@@ -522,8 +540,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400016}
-  - {fileID: 400004}
   - {fileID: 400012}
+  - {fileID: 400004}
   - {fileID: 400030}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -677,7 +695,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400008}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!4 &400040
 Transform:
   m_ObjectHideFlags: 1
@@ -689,7 +707,7 @@ Transform:
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400008}
-  m_RootOrder: 1
+  m_RootOrder: 0
 --- !u!4 &400042
 Transform:
   m_ObjectHideFlags: 1
@@ -753,6 +771,18 @@ Transform:
   - {fileID: 400018}
   m_Father: {fileID: 400022}
   m_RootOrder: 0
+--- !u!4 &400052
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100052}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -.534770966, z: 0}
+  m_LocalScale: {x: 3.47499919, y: 2.76411986, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400012}
+  m_RootOrder: 7
 --- !u!60 &6000000
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -853,6 +883,17 @@ PolygonCollider2D:
       - {x: -2.10500002, y: -1.19500005}
       - {x: -1.92499995, y: -1.16499996}
       - {x: -1.72500002, y: -1.09500003}
+--- !u!61 &6100000
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100052}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 1, y: 1}
+  m_Center: {x: 0, y: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -866,6 +907,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageColor: {r: 1, g: 0, b: 0, a: 1}
   normalColor: {r: .113725491, g: 1, b: 0, a: 1}
+  DamageEnabled: 1
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -879,6 +921,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageColor: {r: 1, g: 0, b: 0, a: 1}
   normalColor: {r: .113725491, g: 1, b: 0, a: 1}
+  DamageEnabled: 1
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -916,7 +959,6 @@ MonoBehaviour:
   MovementActive: {fileID: 11400010}
   MovementWaiting: {fileID: 11400012}
   MovementAggressive: {fileID: 0}
-  FlightSpeed: 2
 --- !u!114 &11400010
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -928,7 +970,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2a90cbddd10a4c3ab103a659a4d7667, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
   HeadJoint: {fileID: 400012}
   LeftAntennaJoint1: {fileID: 400050}
   LeftAntennaJoint2: {fileID: 400018}
@@ -947,7 +988,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7933bb79ceb52f340b09a81e1d112ee2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FlightSpeed: 2
 --- !u!114 &11400014
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -961,6 +1001,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageColor: {r: 1, g: 0, b: 0, a: 1}
   normalColor: {r: .113725491, g: 1, b: 0, a: 1}
+  DamageEnabled: 1
 --- !u!114 &11400016
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -974,6 +1015,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageColor: {r: 1, g: 0, b: 0, a: 1}
   normalColor: {r: .113725491, g: 1, b: 0, a: 1}
+  DamageEnabled: 1
+--- !u!114 &11400018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff06d33ae6fbf3048a30caaa5b286db2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageColor: {r: 1, g: 0, b: 0, a: 1}
+  normalColor: {r: 1, g: 1, b: 1, a: 1}
+  DamageEnabled: 0
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

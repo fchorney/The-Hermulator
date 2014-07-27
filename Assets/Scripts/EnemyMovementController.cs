@@ -35,6 +35,7 @@ public class EnemyMovementController : MonoBehaviour {
 				MovementWaiting.Move(this.gameObject);
 				if (transform.position.y < gameController.activeTop) {
 					state = State.Active;
+					MovementActive.Activate();
 					activeTime = Time.time;
 				}
 				break;

@@ -84,4 +84,8 @@ public class GameController : MonoBehaviour {
 		ShootingEnabled = true;
 
 	}
+
+	public static GameController Get() {
+		return GameObject.FindGameObjectWithTag ("GameController").GetComponent<GameController> ();
+	}
 }

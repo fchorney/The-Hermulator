@@ -5,10 +5,9 @@ public class Enemy2Controller : EnemyController {
 
 	new void Start() {
 		base.Start();
-		flightSpeed = 0.5f;
 	}
 
-	protected override void moveWaiting() {
+	/*protected override void moveWaiting() {
 		base.moveWaiting();
 		if(state == State.Active) {
 			transform.parent = null;
@@ -19,7 +18,7 @@ public class Enemy2Controller : EnemyController {
 		enemyPosition.y -= flightSpeed;
 		transform.position = enemyPosition;
 
-	}
+	}*/
 
 	// this one should also shoot at player position
 }

@@ -11,7 +11,7 @@ public class EnemyShotController : MonoBehaviour {
 	private GameController gameController;
 
 	void Start() {
-		gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+		gameController = GameController.Get();
 	}
 
 	void Update()
@@ -31,6 +31,8 @@ public class EnemyShotController : MonoBehaviour {
 	}
 
 	public void Fire(){
+		if (bulletPool == null)
+			return;
 		if (CanAttack && !bulletPool.maxBullet()) {
 			
 			Rigidbody2D shot = bulletPool.getBullet ();

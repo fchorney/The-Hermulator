@@ -3,17 +3,18 @@ using System.Collections;
 
 public class EnemyController : MonoBehaviour {
 
-	private enum State {
+	protected enum State {
 		Waiting = 0,
 		Active,
 		Agressive
 	};
 
-	private State state;
+	protected State state;
 	private GameObject player;
 	private EnemyAnimationController animationController;
+	protected float flightSpeed= 0.05f;
 
-	private float speed = 0.05f;
+	protected Vector3 enemyPosition;
 
 	void Start() {
 		animationController = transform.GetComponentInChildren<EnemyAnimationController>();
@@ -26,38 +27,43 @@ public class EnemyController : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-
 		if (player == null)
 			FindPlayer();
 
+		enemyPosition = transform.position;
 		switch(state) {
 		case State.Waiting:
-			float screenY = Camera.main.WorldToScreenPoint(transform.position).y;
-
-			if (screenY < Screen.height - 100) {
-				//transform.parent = null;
-				state = State.Active;
-			}
-
+			moveWaiting();
 			break;
 		case State.Active:
-
-			if (player != null) {
-				Vector3 p = transform.position;
-				float playerX = player.transform.position.x;
-				if(p.x > playerX + speed)
-					p.x -= speed;
-				else if(p.x < playerX - speed)
-					p.x += speed;
-				else
-					p.x = playerX;
-
-				transform.position = p;
-			}
-
-			//transform.position += Vector3.up * LevelSpeed * Time.deltaTime;
+			moveActive();
+			break;
+		case State.Agressive:
+			// maybe shoot your guns or something idk
 			break;
 		}
+	}
+
+	protected virtual void moveActive() {
+		if(player != null) {
+			float playerX = player.transform.position.x;
+			if(enemyPosition.x > playerX + flightSpeed)
+				enemyPosition.x -= flightSpeed;
+			else if(enemyPosition.x < playerX - flightSpeed)
+				enemyPosition.x += flightSpeed;
+			else
+				enemyPosition.x = playerX;
+			
+			transform.position = enemyPosition;
+			//transform.position += Vector3.up * LevelSpeed * Time.deltaTime;
+		}
+	}
+
+	protected virtual void moveWaiting() {
+		float screenY = Camera.main.WorldToScreenPoint(transform.position).y;
+		
+		if (screenY < Screen.height - 100)
+			state = State.Active;
 	}
 
 	public void kill(bool explode = false) {

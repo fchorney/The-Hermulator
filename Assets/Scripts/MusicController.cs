@@ -10,8 +10,9 @@ public class MusicController : MonoBehaviour {
 	public float loopDelay = 0f;
 	public float fadeDelay = 0f;
 	public float fadeSpeed = 0f;
+	public Transform bossTrigger;
 
-	public bool enableBoss = false;
+	private bool enableBoss = false;
 
 	private AudioSource audio_intro = null;
 	private AudioSource audio_loop = null;
@@ -49,6 +50,7 @@ public class MusicController : MonoBehaviour {
 		// Initialize our private variables
 		fade = 1.0f; // Initial fade is 1.0f, aka: 100% volume
 		boss_started = false; //At the start of the level, obviously we havent started the boss
+		enableBoss = false;
 		// Assume we dont start at a boss (because that's fucking stupid)
 		stagestate = StageState.level;
 	}
@@ -90,6 +92,9 @@ public class MusicController : MonoBehaviour {
 		// If at any time the enableBoss boolean is set to true, transition to the boss state
 		if (enableBoss) {
 				stagestate = StageState.boss;
+		} else {
+			if (bossTrigger < gameController.activeTop)
+				enableBoss = true;
 		}
 	}
 }

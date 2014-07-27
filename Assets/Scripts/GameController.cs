@@ -48,10 +48,7 @@ public class GameController : MonoBehaviour {
 				Checkpoint++;
 		} else if (TopEdge.transform.position.y > activeTop) {
 			Level.transform.position -= Vector3.up * LevelSpeed * Time.deltaTime;
-		} else if (!musicController.enableBoss) {
-			musicController.enableBoss = true;
 		}
-
 
 		if (GameOverBanner.enabled && Input.GetMouseButtonDown(0))
 			Application.LoadLevel (Application.loadedLevel);

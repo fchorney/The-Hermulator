@@ -22,7 +22,7 @@ public class GameController : MonoBehaviour {
 	public bool ShootingEnabled { get; private set; }
 
 	private float LevelSpeed = 6f;
-	private float CloudSpeed = 8f;
+	private float CloudSpeed = 7.5f;
 
 	public float activeTop { get; private set; }
 	public float activeBottom { get; private set; }
@@ -59,11 +59,12 @@ public class GameController : MonoBehaviour {
 					Checkpoint++;
 			} else if (TopEdge.transform.position.y > activeTop) {
 				Level.transform.position -= Vector3.up * LevelSpeed * Time.deltaTime;
-				Cloud.transform.position -= Vector3.up * CloudSpeed * Time.deltaTime;
 			}
 		}
 		if (GameOverBanner.enabled && Input.GetMouseButtonDown(0))
 			Application.LoadLevel (Application.loadedLevel);
+
+		Cloud.transform.position -= Vector3.up * CloudSpeed * Time.deltaTime;
 	}
 
 	public void OnDeath(GameObject ship) {

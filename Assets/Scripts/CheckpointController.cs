@@ -3,7 +3,7 @@ using System.Collections;
 
 public class CheckpointController : MonoBehaviour {
 
-	public GameObject WaitForKill;
+	public GameObject[] WaitForKill;
 
 	public bool CheckpointComplete { get; private set; }
 
@@ -14,8 +14,16 @@ public class CheckpointController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (WaitForKill == null)
-			CheckpointComplete = true;
+		if (WaitForKill.Length > 0) 
+		{
+			bool alive = false;
+
+			foreach (GameObject obj in WaitForKill)
+				if (obj != null)
+					alive = true;
+
+			CheckpointComplete = !alive;
+		}
 	
 	}
 }

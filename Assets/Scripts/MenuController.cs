@@ -14,7 +14,7 @@ public class MenuController : MonoBehaviour {
 			}
 		} else {
 			if (GUI.Button (new Rect (450, 540, 100, 40), "Start")) {
-				Application.LoadLevel (1);
+				Application.LoadLevel ("Level1");
 			}
 			if (GUI.Button (new Rect (600, 540, 100, 40), "Credits")) {
 				Vector3 pos = camera.transform.position;

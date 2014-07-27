@@ -42,7 +42,8 @@ public class EnemyMovementController : MonoBehaviour {
 				break;
 			case State.Active:
 				MovementActive.Move(this);
-				shotController.Fire();
+				if (shotController != null)
+					shotController.Fire();
 				break;
 			case State.Agressive:
 				// maybe shoot your guns or something idk

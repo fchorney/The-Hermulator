@@ -13,6 +13,8 @@ public class ShipController : MonoBehaviour {
 	private ExplosionController explosionController;
 	private GameController gameController;
 
+	public Transform Target;
+
 	// Use this for initialization
 	void Start () {
 		alive = true;

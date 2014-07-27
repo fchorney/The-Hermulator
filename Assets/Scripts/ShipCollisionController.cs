@@ -16,8 +16,12 @@ public class ShipCollisionController : MonoBehaviour {
 			return;
 		}
 
+		Debug.Log ("Collide with " + collision.collider.tag);
 		if (collision.collider.tag == "Enemy") {
 			shipController.kill();
+			this.enabled = false;
+		} else if (collision.collider.tag == "Bullet") {
+			shipController.kill ();
 			this.enabled = false;
 		}
 	}

@@ -5,7 +5,7 @@ public class EnemyCollisionController : MonoBehaviour {
 
 	private EnemyController enemyController;
 	//private BulletPool bulletPool;
-	private enum CollisionType { Player, PlayerBullet };
+	private enum CollisionType { Player, Bullet };
 
 	// Use this for initialization
 	void Start () {
@@ -32,7 +32,7 @@ public class EnemyCollisionController : MonoBehaviour {
 				}
 			}
 			break;
-		case CollisionType.PlayerBullet:
+		case CollisionType.Bullet:
 			enemyController.kill(true);
 			//bulletPool.returnBullet(collision.collider.rigidbody2D);
 			break;

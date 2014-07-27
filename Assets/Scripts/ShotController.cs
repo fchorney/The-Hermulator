@@ -46,6 +46,8 @@ public class ShotController : MonoBehaviour {
 			shotTransform = bulletPool.getBullet ();
 			shotTransform.GetComponent("AudioSource").audio.Play();
 
+			shotTransform.gameObject.layer = LayerMask.NameToLayer("PlayerBullet");
+
 			switch (gunnerToggle){
 			case GunnerSide.Left:
 				shotTransform.transform.position = leftGunner.position;

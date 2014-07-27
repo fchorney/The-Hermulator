@@ -7,6 +7,8 @@ public class GameController : MonoBehaviour {
 	public Transform Level;
 	public Transform TopEdge;
 
+	public bool ShootingEnabled { get; private set; }
+
 	private float LevelSpeed = 6f;
 
 	public float activeTop { get; private set; }
@@ -20,6 +22,8 @@ public class GameController : MonoBehaviour {
 
 		activeBottom = Camera.main.ViewportToWorldPoint(new Vector3(0, 0)).y;
 		activeTop = Camera.main.ViewportToWorldPoint(new Vector3(0, 1)).y;
+
+		ShootingEnabled = true;
 	}
 
 	public void Update() {
@@ -32,28 +36,33 @@ public class GameController : MonoBehaviour {
 
 	public void OnDeath(GameObject ship) {
 		Lives --;
+		ShootingEnabled = false;
 
 		StartCoroutine(Respawn(ship));
 	}
 
 	private IEnumerator Respawn(GameObject ship) {
 		GameObject clone = null;
+
+		// clear bullets
+		foreach (GameObject obj in GameObject.FindGameObjectsWithTag("Bullet"))
+			obj.GetComponent<BulletController>().bulletPool.returnBullet(obj.rigidbody2D);
+
 		if (Lives > 0) {
 			clone = Instantiate(ship, new Vector3(-10000, 10000), Quaternion.identity) as  GameObject;
-			clone.transform.position = new Vector3(0, -10, 0);
-			yield return new WaitForSeconds(1);
-			clone.transform.position = new Vector3(0, -9, 0);
 		}
-
+	
 		Destroy(ship);
 
-		yield return new WaitForSeconds(1);
-
 		if (clone != null) {
+			yield return new WaitForSeconds(1);
+			clone.transform.position = new Vector3(0, -9, 0);
+			yield return new WaitForSeconds(1);
 			clone.transform.position = new Vector3(0, -8, 0);
-
 			clone.GetComponent<ShipController>().startSpawnTimer();
 		}
+
+		ShootingEnabled = true;
 
 	}
 }

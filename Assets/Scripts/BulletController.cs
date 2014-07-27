@@ -18,6 +18,10 @@ public class BulletController : MonoBehaviour {
 		this.enabled = true;
 	}
 
+	public void SetDirection(Vector2 direction) {
+		this.direction = direction;
+	}
+
 	public void hide(){
 		transform.renderer.enabled = false;
 		this.gameObject.SetActive (false);

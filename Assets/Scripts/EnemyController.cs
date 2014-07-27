@@ -13,7 +13,8 @@ public class EnemyController : MonoBehaviour {
 	private GameObject player;
 	private ExplosionController explosionController;
 	private GameController gameController;
-	protected float flightSpeed= 0.05f;
+	private EnemyShotController shotController;
+	protected float flightSpeed= 2f;
 
 	protected float activeTime;
 
@@ -22,6 +23,7 @@ public class EnemyController : MonoBehaviour {
 	public virtual void Start() {
 		explosionController = GameObject.FindGameObjectWithTag ("GameController").GetComponent<ExplosionController> ();
 		gameController = GameObject.FindGameObjectWithTag ("GameController").GetComponent<GameController> ();
+		shotController = transform.GetComponent<EnemyShotController>();
 		FindPlayer();
 	}
 
@@ -55,14 +57,17 @@ public class EnemyController : MonoBehaviour {
 	protected virtual void moveActive() {
 		if(player != null) {
 			float playerX = player.transform.position.x;
-			if(enemyPosition.x > playerX + flightSpeed)
-				enemyPosition.x -= flightSpeed;
-			else if(enemyPosition.x < playerX - flightSpeed)
-				enemyPosition.x += flightSpeed;
+			float delta = flightSpeed * Time.deltaTime;
+			if(enemyPosition.x > playerX + delta)
+				enemyPosition.x -= delta;
+			else if(enemyPosition.x < playerX - delta)
+				enemyPosition.x += delta;
 			else
 				enemyPosition.x = playerX;
 			
 			transform.position = enemyPosition;
+
+			shotController.Fire();
 		}
 	}
 

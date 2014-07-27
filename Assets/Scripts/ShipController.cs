@@ -9,8 +9,7 @@ public class ShipController : MonoBehaviour {
 	private float spawnTimer;
 
 	private float invincibleTime = 1.0f;
-
-	private ShipAnimationController animationController;
+	
 	private ExplosionController explosionController;
 	private GameController gameController;
 
@@ -19,7 +18,7 @@ public class ShipController : MonoBehaviour {
 		alive = true;
 		invincible = true;
 		frozen = true;
-		animationController = transform.GetComponentInChildren<ShipAnimationController>();
+
 		gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
 		explosionController = GameObject.FindGameObjectWithTag("GameController").GetComponent<ExplosionController>();
 
@@ -28,7 +27,6 @@ public class ShipController : MonoBehaviour {
 	void Update () {
 		if (!frozen && invincible && Time.time > spawnTimer + invincibleTime) {
 			invincible = false;
-			Debug.Log("NI");
 		}
 	}
 

@@ -13,8 +13,8 @@ public class ShipAnimationController : MonoBehaviour {
 	private float PropTimer;
 	private float PropInterval = 60f;
 
-	private float GunTimer;
-	private float GunInterval = 30f;
+	//private float GunTimer;
+	//private float GunInterval = 30f;
 
 	private float LeftGunTimer, RightGunTimer;
 	private float muzzleDisplayTime = .06f;
@@ -34,7 +34,7 @@ public class ShipAnimationController : MonoBehaviour {
 
 	public void Reset() {
 		PropTimer = 0;
-		GunTimer = 0;
+		//GunTimer = 0;
 
 		LeftGunTimer = 0f;
 		RightGunTimer = 0f;
@@ -73,7 +73,7 @@ public class ShipAnimationController : MonoBehaviour {
 		}
 
 		PropTimer += Time.deltaTime;
-		GunTimer += Time.deltaTime;
+		//GunTimer += Time.deltaTime;
 
 		PropRenderer.enabled = Mathf.Sin(PropTimer * PropInterval) < 0;
 

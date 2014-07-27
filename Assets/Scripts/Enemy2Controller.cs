@@ -3,7 +3,8 @@ using System.Collections;
 
 public class Enemy2Controller : EnemyController {
 
-	private void Start() {
+	new void Start() {
+		base.Start();
 		flightSpeed = 0.5f;
 	}
 

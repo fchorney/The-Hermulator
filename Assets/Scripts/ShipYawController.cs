@@ -14,8 +14,6 @@ public class ShipYawController : MonoBehaviour {
 	private State yawState;
 	private int yawCounter;
 
-	private float lastYawTime;
-	private float yawStraightenTime = 0.1f;
 	private Vector3 lastPos;
 	private int yawOn = 8;
 	private int yawOff = 5;

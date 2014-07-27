@@ -4,14 +4,14 @@ using System.Collections;
 public class EnemyCollisionController : MonoBehaviour {
 
 	private EnemyController enemyController;
-	private BulletPool bulletPool;
+	//private BulletPool bulletPool;
 	private enum CollisionType { Player, PlayerBullet };
 
 	// Use this for initialization
 	void Start () {
 		this.enabled = true;
 		enemyController = transform.GetComponentInParent<EnemyController>();
-		bulletPool = transform.GetComponentInParent<BulletPool>();
+		//bulletPool = transform.GetComponentInParent<BulletPool>();
 	}
 
 	void OnCollisionEnter2D(Collision2D collision) {

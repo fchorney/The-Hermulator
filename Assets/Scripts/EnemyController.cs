@@ -12,16 +12,16 @@ public class EnemyController : MonoBehaviour {
 	protected State state;
 	private GameObject player;
 	private ExplosionController explosionController;
+	private GameController gameController;
 	protected float flightSpeed= 0.05f;
 
 	protected float activeTime;
 
 	protected Vector3 enemyPosition;
-
-
-
-	void Start() {
+	
+	public virtual void Start() {
 		explosionController = GameObject.FindGameObjectWithTag ("GameController").GetComponent<ExplosionController> ();
+		gameController = GameObject.FindGameObjectWithTag ("GameController").GetComponent<GameController> ();
 		FindPlayer();
 	}
 
@@ -46,6 +46,10 @@ public class EnemyController : MonoBehaviour {
 			// maybe shoot your guns or something idk
 			break;
 		}
+
+		if (transform.position.y < gameController.activeBottom) {
+			Destroy(this.gameObject);
+		}
 	}
 
 	protected virtual void moveActive() {
@@ -63,9 +67,7 @@ public class EnemyController : MonoBehaviour {
 	}
 
 	protected virtual void moveWaiting() {
-		float screenY = Camera.main.WorldToScreenPoint(transform.position).y;
-		
-		if (screenY < Screen.height - 100){
+		if (transform.position.y < gameController.activeTop) {
 			state = State.Active;
 			activeTime = Time.time;
 		}

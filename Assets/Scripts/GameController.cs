@@ -9,17 +9,23 @@ public class GameController : MonoBehaviour {
 
 	private float LevelSpeed = 6f;
 
+	public float activeTop { get; private set; }
+	public float activeBottom { get; private set; }
+
 	public void Start() {
 		// Turn off gravity for the game
 		Physics2D.gravity = Vector2.zero;
 
 		GameObject.FindGameObjectWithTag("Player").GetComponent<ShipController>().startSpawnTimer();
+
+		activeBottom = Camera.main.ViewportToWorldPoint(new Vector3(0, 0)).y;
+		activeTop = Camera.main.ViewportToWorldPoint(new Vector3(0, 1)).y;
 	}
 
 	public void Update() {
 
+		// continue to move the level until we hit the top edge
 		float topY = Camera.main.WorldToScreenPoint(TopEdge.transform.position).y;
-
 		if (topY > Screen.height)
 			Level.transform.position -= Vector3.up * LevelSpeed * Time.deltaTime;
 	}

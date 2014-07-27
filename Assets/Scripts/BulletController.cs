@@ -58,7 +58,13 @@ public class BulletController : MonoBehaviour {
 			speed.x * direction.x,
 			speed.y * direction.y);
 
+		// off bottom
 		if (transform.position.y < gameController.activeBottom) {
+			returnToPool();
+		}
+
+		// off top
+		if (transform.position.y > gameController.activeTop) {
 			returnToPool();
 		}
 	}

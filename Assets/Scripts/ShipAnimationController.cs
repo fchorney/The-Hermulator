@@ -9,8 +9,6 @@ public class ShipAnimationController : MonoBehaviour {
 	public Renderer BigGunRight;
 	public Renderer SmallGunLeft;
 	public Renderer SmallGunRight;
-
-	public ParticleRenderer explode;
 	
 	private float PropTimer;
 	private float PropInterval = 60f;
@@ -23,10 +21,6 @@ public class ShipAnimationController : MonoBehaviour {
 
 	private float InvisInterval = 60f;
 	private ShipController shipController;
-
-	void Awake() {
-		explode.sortingLayerName = "Explosions";
-	}
 
 	void Start() {
 		Reset();
@@ -44,8 +38,6 @@ public class ShipAnimationController : MonoBehaviour {
 
 		LeftGunTimer = 0f;
 		RightGunTimer = 0f;
-
-		explode.particleEmitter.emit = false;
 		
 		shipController = transform.GetComponentInParent<ShipController>();
 
@@ -97,10 +89,4 @@ public class ShipAnimationController : MonoBehaviour {
 		RightGunTimer = Time.time + muzzleDisplayTime; //t.enabled = !BigGunRight.enabled;
 	}
 
-
-	public void Explode() {
-		ToggleRenderers(false);
-		explode.enabled = true;
-		explode.particleEmitter.Emit (50);
-	}
 }

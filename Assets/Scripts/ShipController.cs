@@ -11,6 +11,7 @@ public class ShipController : MonoBehaviour {
 	private float invincibleTime = 1.0f;
 
 	private ShipAnimationController animationController;
+	private ExplosionController explosionController;
 	private GameController gameController;
 
 	// Use this for initialization
@@ -20,6 +21,8 @@ public class ShipController : MonoBehaviour {
 		frozen = true;
 		animationController = transform.GetComponentInChildren<ShipAnimationController>();
 		gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+		explosionController = GameObject.FindGameObjectWithTag("GameController").GetComponent<ExplosionController>();
+
 	}
 
 	void Update () {
@@ -50,7 +53,8 @@ public class ShipController : MonoBehaviour {
 		if (alive) {
 			gameController.OnDeath(this.gameObject);
 			alive = false;
-			animationController.Explode();
+
+			explosionController.Emit(100, transform.position);
 		}
 
 	}

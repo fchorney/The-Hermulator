@@ -39,6 +39,8 @@ public class GameController : MonoBehaviour {
 			clone.transform.position = new Vector3(0, -9, 0);
 		}
 
+		Destroy(ship);
+
 		yield return new WaitForSeconds(1);
 
 		if (clone != null) {
@@ -46,8 +48,6 @@ public class GameController : MonoBehaviour {
 
 			clone.GetComponent<ShipController>().startSpawnTimer();
 		}
-
-		Destroy(ship);
 
 	}
 }

@@ -20,6 +20,8 @@ public class EnemyCollisionController : MonoBehaviour {
 		switch (ct) {
 		case CollisionType.Player:
 			ShipController ship = collision.collider.GetComponent<ShipController>();
+
+			// if ship already destroyed, don't do anything
 			if (ship) {
 				if (ship.isInvincible())
 					// when ship is invisible, don't register a collision

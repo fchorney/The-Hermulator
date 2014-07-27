@@ -14,6 +14,9 @@ public class GameController : MonoBehaviour {
 	public float activeTop { get; private set; }
 	public float activeBottom { get; private set; }
 
+	public float activeLeft { get; private set; }
+	public float activeRight { get; private set; }
+
 	public void Start() {
 		// Turn off gravity for the game
 		Physics2D.gravity = Vector2.zero;

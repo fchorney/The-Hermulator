@@ -13,8 +13,12 @@ public class EnemyController : MonoBehaviour {
 	private GameObject player;
 	private ExplosionController explosionController;
 	private GameController gameController;
+
 	private EnemyShotController shotController;
 	protected float flightSpeed= 2f;
+
+	public HealthScript enemyHealth;
+
 
 	protected float activeTime;
 
@@ -23,8 +27,15 @@ public class EnemyController : MonoBehaviour {
 	public virtual void Start() {
 		explosionController = GameObject.FindGameObjectWithTag ("GameController").GetComponent<ExplosionController> ();
 		gameController = GameObject.FindGameObjectWithTag ("GameController").GetComponent<GameController> ();
+
 		shotController = transform.GetComponent<EnemyShotController>();
+
+		enemyHealth = transform.GetComponent<HealthScript> ();
+
+
 		FindPlayer();
+
+		enemyHealth.setHP (3);
 	}
 
 	void FindPlayer() {

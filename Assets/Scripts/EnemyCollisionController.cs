@@ -33,7 +33,9 @@ public class EnemyCollisionController : MonoBehaviour {
 			}
 			break;
 		case CollisionType.Bullet:
-			enemyController.kill(true);
+			enemyController.enemyHealth.Damage(collision.collider.GetComponent<BulletController>().getDamage());
+			if (enemyController.enemyHealth.getHP() <= 0)
+				enemyController.kill(true);
 			//bulletPool.returnBullet(collision.collider.rigidbody2D);
 			break;
 		}

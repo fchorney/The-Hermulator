@@ -8,8 +8,13 @@ public class BulletController : MonoBehaviour {
 	protected Vector2 direction = new Vector2(0,8f);
 	protected GameObject player;
 	public BulletPool bulletPool;
+	public int damage = 1;
 
 	private Vector2 movement;
+
+	public int getDamage() {
+		return damage;
+	}
 
 	public void show(){
 		transform.renderer.enabled = true;
@@ -26,6 +31,10 @@ public class BulletController : MonoBehaviour {
 		transform.renderer.enabled = false;
 		this.gameObject.SetActive (false);
 		this.enabled = false;
+	}
+
+	public bool isEnemyShot() {
+		return false;
 	}
 
 	protected void FindPlayer() {

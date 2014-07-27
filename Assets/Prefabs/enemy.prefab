@@ -145,7 +145,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.00349212, y: -27.3797245, z: 0}
+  m_LocalPosition: {x: 2.35476065, y: -14.0944157, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400004}
@@ -278,6 +278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5158d6c2d66fa46bd9bdeef9c92dbd14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyHealth: {fileID: 0}
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -293,6 +294,11 @@ MonoBehaviour:
   - {fileID: 400010}
   - {fileID: 400002}
   bulletPool: {fileID: 0}
+
+  m_Script: {fileID: 11500000, guid: 8a2abad805627c54fb265fce8d186bc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnemy: 1
 --- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1

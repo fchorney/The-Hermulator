@@ -6,6 +6,8 @@ public class Enemy2Controller : EnemyController {
 	new void Start() {
 		base.Start();
 		flightSpeed = 0.5f;
+
+		enemyHealth.setHP (5);
 	}
 
 	protected override void moveWaiting() {

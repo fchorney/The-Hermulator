@@ -9,6 +9,7 @@ public class ShotController : MonoBehaviour {
 	private Rigidbody2D shotTransform;
 	private enum BulletType { Normal }
 	private BulletType bulletType;
+	public ShipAnimationController shipAnimationController;
 
 	enum GunnerSide { Left, Right };
 
@@ -19,6 +20,7 @@ public class ShotController : MonoBehaviour {
 		gunnerToggle = GunnerSide.Left;
 		bulletType = BulletType.Normal;
 		//bulletPool = transform.GetComponent<BulletPool> ();
+		shipAnimationController = transform.GetComponent<ShipAnimationController>();
 	}
 	
 	void Update()
@@ -39,22 +41,22 @@ public class ShotController : MonoBehaviour {
 	
 	// Update is called once per frame
 	public void Fire(){
-		Debug.Log ("FIRE");
 		if (CanAttack && !bulletPool.maxBullet()) {
 
 			shotTransform = bulletPool.getBullet ();
 			shotTransform.GetComponent("AudioSource").audio.Play();
 
-			Debug.Log ("SHOOT");
 			switch (gunnerToggle){
 			case GunnerSide.Left:
 				shotTransform.transform.position = leftGunner.position;
+				shipAnimationController.toggleBigGunLeft();
 
 				gunnerToggle = GunnerSide.Right;
 				break;
 
 			case GunnerSide.Right:
 				shotTransform.transform.position = rightGunner.position;
+				shipAnimationController.toggleBigGunRight();
 
 				gunnerToggle = GunnerSide.Left;
 				break;

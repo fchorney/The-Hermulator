@@ -102,6 +102,7 @@ public class ShipMovementController : MonoBehaviour {
 			// Reset the state
 			state = State.loose;
 			rigidbody2D.velocity = Vector2.zero;
+
 		}
 	}
 }

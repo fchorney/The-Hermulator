@@ -18,6 +18,9 @@ public class ShipAnimationController : MonoBehaviour {
 	private float GunTimer;
 	private float GunInterval = 30f;
 
+	private float LeftGunTimer, RightGunTimer;
+	private float muzzleDisplayTime = .06f;
+
 	private ShipController shipController;
 
 	void Awake() {
@@ -28,9 +31,15 @@ public class ShipAnimationController : MonoBehaviour {
 		PropTimer = 0;
 		GunTimer = 0;
 
+		LeftGunTimer = 0f;
+		RightGunTimer = 0f;
+
 		explode.particleEmitter.emit = false;
 
 		shipController = transform.GetComponentInParent<ShipController>();
+
+		BigGunLeft.enabled = false;
+		BigGunRight.enabled = false;
 	}
 
 	// Update is called once per frame
@@ -39,15 +48,39 @@ public class ShipAnimationController : MonoBehaviour {
 		if(!shipController.isAlive())
 			return;
 
+		Debug.Log ("Deltatime: " + Time.deltaTime);
+
 		PropTimer += Time.deltaTime;
+
+		float tmpTime = Time.time;
+		if (tmpTime >= LeftGunTimer) {
+			BigGunLeft.enabled = false;
+		} else {
+			BigGunLeft.enabled = true;
+		}
+
+		if (tmpTime >= RightGunTimer) {
+			BigGunRight.enabled = false;	
+		} else {
+			BigGunRight.enabled = true;
+		}
 
 		GunTimer += Time.deltaTime;
 
 		PropRenderer.enabled = Mathf.Sin(PropTimer * PropInterval) < 0;
 
-		BigGunLeft.enabled = BigGunRight.enabled = Mathf.Sin(GunTimer * GunInterval) < 0;
-		SmallGunLeft.enabled = SmallGunRight.enabled = Mathf.Cos(GunTimer * GunInterval) < 0;
+		//BigGunLeft.enabled = BigGunRight.enabled = Mathf.Sin(GunTimer * GunInterval) < 0;
+		//SmallGunLeft.enabled = SmallGunRight.enabled = Mathf.Cos(GunTimer * GunInterval) < 0;
 	}
+
+	public void toggleBigGunLeft(){
+		LeftGunTimer = Time.time + muzzleDisplayTime;
+	}
+
+	public void toggleBigGunRight(){
+		RightGunTimer = Time.time + muzzleDisplayTime; //t.enabled = !BigGunRight.enabled;
+	}
+
 
 	public void Explode() {
 		foreach (Renderer r in transform.GetComponentsInChildren<Renderer>()) {

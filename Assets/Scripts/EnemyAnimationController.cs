@@ -4,7 +4,6 @@ using System.Collections;
 public class EnemyAnimationController : MonoBehaviour {
 
 	public ParticleRenderer explosion;
-	public Renderer ship;
 
 	void Awake() {
 		explosion.sortingLayerName = "Explosions";
@@ -15,10 +14,10 @@ public class EnemyAnimationController : MonoBehaviour {
 		explosion.particleEmitter.emit = false;
 	}
 	
-	public void Destroy(bool explode = false) {
-		ship.enabled = false;
+	public void Explode(bool explode = false) {
 		if(!explode)
 			return;
+
 		explosion.enabled = true;
 		explosion.particleEmitter.Emit (10);
 

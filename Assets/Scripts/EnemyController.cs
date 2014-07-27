@@ -12,12 +12,14 @@ public class EnemyController : MonoBehaviour {
 	protected State state;
 	private GameObject player;
 	private EnemyAnimationController animationController;
+	private ExplosionController explosionController;
 	protected float flightSpeed= 0.05f;
 
 	protected Vector3 enemyPosition;
 
 	void Start() {
 		animationController = transform.GetComponentInChildren<EnemyAnimationController>();
+		explosionController = GameObject.FindGameObjectWithTag ("GameController").GetComponent<ExplosionController> ();
 		FindPlayer();
 	}
 
@@ -67,7 +69,13 @@ public class EnemyController : MonoBehaviour {
 	}
 
 	public void kill(bool explode = false) {
-		animationController.Destroy(explode);
+
+
+		if (explode)
+			explosionController.Emit (50, transform.position);
+
+		//animationController.Explode(explode);
+		Destroy (this.gameObject);
 	}
 }
 	

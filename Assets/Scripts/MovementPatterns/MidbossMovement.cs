@@ -3,7 +3,7 @@ using System.Collections;
 
 public class MidbossMovement : EnemyMovementPattern {
 	float amplitude = 4f;
-	float frequency = 0.5f;
+	float frequency = 0.4f;
 	
 	public override void Move (GameObject obj) {
 		Vector3 enemyPosition = obj.transform.position;

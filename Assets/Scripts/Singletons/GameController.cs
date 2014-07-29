@@ -170,7 +170,12 @@ public class GameController : MonoBehaviour {
 
 	public void ClearBullets() {
 		foreach (GameObject obj in GameObject.FindGameObjectsWithTag("Bullet"))
-			obj.GetComponent<BulletController>().returnToPool();
+		{
+			BulletController bc = obj.GetComponent<BulletController>();
+
+			if (bc != null)
+				bc.returnToPool();
+		}
 	}
 	
 	public void OnPlayerDeath(GameObject ship) {

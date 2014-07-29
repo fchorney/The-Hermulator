@@ -29,7 +29,7 @@ public class EnemyShotController : MonoBehaviour {
 	{
 		get
 		{
-			return gameController.ShootingEnabled && shotCooldown <= 0f;
+			return gameController.EnemiesEnabled && shotCooldown <= 0f;
 		}
 	}
 

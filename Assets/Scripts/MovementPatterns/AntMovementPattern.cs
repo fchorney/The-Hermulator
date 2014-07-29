@@ -74,9 +74,6 @@ public class AntMovementPattern : EnemyMovementPattern {
 
 		GameController gc = GameController.Get();
 
-		// show win banner if player isn't dead
-		gc.WinBanner.enabled = !gc.GameOverBanner.enabled;
-
 		Destroy(self);
 	}
 }

@@ -2,13 +2,20 @@
 using System.Collections;
 
 public class MenuController : MonoBehaviour {
+
+	public GUISkin skin;
+
 	private bool on_credits = false;
 
 	public BoxCollider2D StartB;
-	public BoxCollider2D Credits;
+	public BoxCollider2D Options;
 
 	private Rect rStart;
-	private Rect rCredits;
+	private Rect rOptions;
+
+	private enum State { MAIN, OPTIONS, CREDITS };
+
+	private State state;
 
 	Rect MakeRect(BoxCollider2D box) {
 		Bounds b = box.bounds;
@@ -22,23 +29,26 @@ public class MenuController : MonoBehaviour {
 	}
 
 	void Start() {
+		state = State.MAIN;
 		rStart = MakeRect(StartB);
-		rCredits = MakeRect(Credits);
+		rOptions = MakeRect(Options);
 	}
 
 	void OnGUI() {
+		GUI.skin = skin;
+		skin.button.fontSize = Screen.width / 25;
 		if (on_credits) {
-			if (Input.GetMouseButtonDown(0)) {
+			if (Input.GetMouseButtonUp(0)) {
 				Vector3 pos = camera.transform.position;
 				pos.y = 0f;
 				camera.transform.position = pos;
 				on_credits = false;
 			}
 		} else {
-			if (GUI.Button (rStart, "Start")) {
+			if (GUI.Button (rStart, "START")) {
 				Application.LoadLevel ("Level 1");
 			}
-			if (GUI.Button (rCredits, "Credits")) {
+			if (GUI.Button (rOptions, "OPTIONS")) {
 				Vector3 pos = camera.transform.position;
 				pos.y = -19.2f;
 				camera.transform.position = pos;

@@ -4,7 +4,7 @@
 TagManager:
   tags:
   - Bullet
-  - 
+  - Level
   - Enemy
   - 
   - 
@@ -48,7 +48,7 @@ TagManager:
   - name: Default
     userID: 0
     uniqueID: 0
-    locked: 0
+    locked: 1
   - name: Spawners
     userID: 5
     uniqueID: 3258083471
@@ -56,7 +56,7 @@ TagManager:
   - name: Clouds
     userID: 6
     uniqueID: 3683725303
-    locked: 0
+    locked: 1
   - name: Ships
     userID: 1
     uniqueID: 3838719171
@@ -65,6 +65,10 @@ TagManager:
     userID: 4
     uniqueID: 2687653037
     locked: 0
+  - name: MuzzleFlashes
+    userID: 7
+    uniqueID: 4191804339
+    locked: 0
   - name: Explosions
     userID: 2
     uniqueID: 3225196801
@@ -72,4 +76,4 @@ TagManager:
   - name: UI Foreground
     userID: 3
     uniqueID: 3522580167
-    locked: 0
+    locked: 1

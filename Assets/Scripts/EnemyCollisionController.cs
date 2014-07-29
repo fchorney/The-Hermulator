@@ -58,12 +58,11 @@ public class EnemyCollisionController : MonoBehaviour {
 
 			// if ship already destroyed, don't do anything
 			if (ship) {
-				if (ship.isInvincible())
+				if (ship.Invincible)
 					// when ship is invisible, don't register a collision
 					Physics2D.IgnoreCollision(this.collider2D, collision.collider);
 				else {
 					if (DamageEnabled) {
-
 						enemyController.kill(true);
 						this.enabled = false;
 					}

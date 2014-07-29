@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class ShipAnimationController : MonoBehaviour {
@@ -30,6 +30,9 @@ public class ShipAnimationController : MonoBehaviour {
 		foreach (Renderer r in transform.GetComponentsInChildren<Renderer>()) {
 			r.enabled = val; 
 		}
+		SmallGunLeft.enabled = false;
+		SmallGunRight.enabled = false;
+
 	}
 
 	public void Reset() {
@@ -51,10 +54,10 @@ public class ShipAnimationController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if(!shipController.isAlive())
+		if(!shipController.Alive)
 			return;
 
-		if (shipController.isInvincible())
+		if (shipController.Invincible)
 			ToggleRenderers(Mathf.Sin (Time.time * InvisInterval) < 0);
 		else
 			ToggleRenderers(true);

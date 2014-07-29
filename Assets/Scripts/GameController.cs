@@ -7,8 +7,11 @@ public class GameController : MonoBehaviour {
 	public Transform Level;
 	public Transform Cloud;
 	public Transform TopEdge;
+	public GameObject PlayerPrefab;
+	public Transform PlayerSpawnPoint;
 
 	public CheckpointController[] Checkpoints;
+
 	private int Checkpoint;
 
 	public Renderer GameOverBanner;
@@ -20,10 +23,19 @@ public class GameController : MonoBehaviour {
 		score += points;
 	}
 
-	public bool ShootingEnabled { get; private set; }
+	public bool EnemiesEnabled { get; private set; }
 
 	private float LevelSpeed = 6f;
 	private float CloudSpeed = 7.5f;
+
+    // time the plane animates "launching" from the bottom of the screen
+    // the player cannot move the plane while launching
+    private float SpawnNoShootTime = 0.5f;
+    // time the plane is frozen after launching,
+    // but the plane can move
+	private float SpawnInvisibleTime = 1f;
+	// seconds after death before player can respawn
+	private float WaitAfterDeathTime = 0.5f;
 
 	public float activeTop { get; private set; }
 	public float activeBottom { get; private set; }
@@ -33,60 +45,166 @@ public class GameController : MonoBehaviour {
 
 	private MusicController musicController;
 
+	private ShipController player;
+
+	private enum State { PLAYING, PLAYING_INVINCIBLE, LOST, WON, PLAYING_INVINCIBLE_NO_SHOOTING, WAIT_SPAWN, WAIT_DIED };
+	private State state;
+	private float stateTime;
+
 	public void Start() {
 		// Turn off gravity for the game
 		Physics2D.gravity = Vector2.zero;
 
-		GameObject.FindGameObjectWithTag("Player").GetComponent<ShipController>().startSpawnTimer();
+		Checkpoints = GameObject.FindGameObjectWithTag("Level").GetComponentsInChildren<CheckpointController>();
 
 		musicController = GetComponent<MusicController>();
 
 		activeBottom = Camera.main.ViewportToWorldPoint(new Vector3(0, 0)).y;
 		activeTop = Camera.main.ViewportToWorldPoint(new Vector3(0, 1)).y;
+		activeLeft = Camera.main.ViewportToWorldPoint(new Vector3(0, 0)).x;
+		activeRight = Camera.main.ViewportToWorldPoint(new Vector3(1, 0)).x;
 
-		ShootingEnabled = true;
+		EnemiesEnabled = false;
+
+		Transition(State.WAIT_SPAWN);
 
 		Checkpoint = 0;
-
 		score = 0;
 	}
 
+	private void Transition(State state) {
+		this.state = state;
+		this.stateTime = Time.time;
+
+		Debug.Log ("Transition to " + state);
+	}
+
+	private void GameOver(bool Won=false) { 
+		// show win banner if player isn't dead
+		WinBanner.enabled = Won;
+		GameOverBanner.enabled = !Won;
+
+		Transition(Won ? State.WON : State.LOST);
+	}
+	
 	public void Update() {
 
-		// continue to move the level until we hit the top edge
-		if (!GameOverBanner.enabled) {
-			if (Checkpoint < Checkpoints.Length && Checkpoints [Checkpoint].transform.position.y < activeTop) {
-				if (Checkpoints [Checkpoint].CheckpointComplete)
-					Checkpoint++;
-			} else if (TopEdge.transform.position.y > activeTop) {
+
+		switch (state) 
+		{
+
+		// wait a sec before allowing respawn
+
+		case State.WAIT_DIED:
+			if (Time.time - stateTime > this.WaitAfterDeathTime)
+				Transition(State.WAIT_SPAWN);
+			break;
+
+		
+		// wait for click to spawn
+		case State.WAIT_SPAWN:
+			if (Input.GetMouseButton(0)) {
+				player = SpawnShip();
+				Transition(State.PLAYING_INVINCIBLE_NO_SHOOTING);
+			} else {
+				EnemiesEnabled = false;
+			}
+
+			break;
+
+		// "spawning" means ship is moving toward finger, and invinc
+		// but player cannot shoot yet
+		case State.PLAYING_INVINCIBLE_NO_SHOOTING:
+			if (Time.time - stateTime > this.SpawnNoShootTime) {
+				player.ShootingEnabled = true;
+				EnemiesEnabled = true;
+				Transition(State.PLAYING_INVINCIBLE);
+			}
+			break;
+
+		// player is invincible & shooting
+		case State.PLAYING_INVINCIBLE:
+			if (Time.time - stateTime > this.SpawnInvisibleTime) {
+				player.Invincible = false;
+				Transition(State.PLAYING);
+			}
+
+			goto case State.PLAYING;
+		
+		// regular play
+		case State.PLAYING:
+
+			Cloud.transform.position -= Vector3.up * CloudSpeed * Time.deltaTime;
+
+			// all checkpoints are done, game must be over
+			if (Checkpoint == Checkpoints.Length) {
+				GameOver(true);
+			}
+
+			// the current checkpoint is done
+			else if (Checkpoints[Checkpoint].CheckpointComplete) {
+				// advance to the next one
+				Checkpoint++;
+			}
+			// scroll the level until a checkpoint is in view
+			else if (Checkpoints[Checkpoint].transform.position.y > activeTop) {
 				Level.transform.position -= Vector3.up * LevelSpeed * Time.deltaTime;
 			}
+			// else
+				// player is at checkpoint right now
+
+			break;
+
+		case State.WON:
+		case State.LOST:
+
+			if ( Input.GetMouseButtonUp(0) ) {
+				Application.LoadLevel ("Menu");
+			}
+			break;
+
 		}
 
-		if ((GameOverBanner.enabled || WinBanner.enabled) && Input.GetMouseButtonDown(0))
-			Application.LoadLevel ("Menu");
-
-		Cloud.transform.position -= Vector3.up * CloudSpeed * Time.deltaTime;
 	}
 
-	public void OnDeath(GameObject ship) {
+	public void ClearBullets() {
+		foreach (GameObject obj in GameObject.FindGameObjectsWithTag("Bullet"))
+			obj.GetComponent<BulletController>().returnToPool();
+	}
+	
+	public void OnPlayerDeath(GameObject ship) {
 		Lives --;
-		ShootingEnabled = false;
+		EnemiesEnabled = false;
+		ClearBullets();
 
-		StartCoroutine(Respawn(ship));
+		if (Lives >= 0)
+			Transition(State.WAIT_DIED);
+		else
+			GameOver();
 	}
 
-	private IEnumerator Respawn(GameObject ship) {
+	private ShipController SpawnShip() {
+
+		GameObject obj = Instantiate(PlayerPrefab, PlayerSpawnPoint.position, Quaternion.identity) as GameObject;
+
+		return obj.GetComponent<ShipController>();
+		
+	}
+	/*
+	private IEnumerator PlayerDeathCoroutine(GameObject ship) {
+		/*
 		GameObject clone = null;
 
 		// clear bullets
-		foreach (GameObject obj in GameObject.FindGameObjectsWithTag("Bullet"))
-			obj.GetComponent<BulletController>().returnToPool();
+		ClearBullets();
 
+		// if he still has lives then clone the ship...
+		// this is kind of a 
 		if (Lives > 0) {
-			clone = Instantiate(ship, new Vector3(-10000, 10000), Quaternion.identity) as  GameObject;
-		} else {
-			GameOverBanner.enabled = true;
+			//clone = Instantiate(ship, PlayerSpawnPoint, Quaternion.identity) as  GameObject;
+		}
+		else {
+			GameOver();
 		}
 	
 		Destroy(ship);
@@ -99,9 +217,11 @@ public class GameController : MonoBehaviour {
 			clone.GetComponent<ShipController>().startSpawnTimer();
 		}
 
-		ShootingEnabled = true;
+		EnemyShootingEnabled = true;
+		
 
 	}
+	*/
 
 	public static GameController Get() {
 		GameObject root = GameObject.FindGameObjectWithTag ("GameController");
@@ -109,4 +229,5 @@ public class GameController : MonoBehaviour {
 			return root.GetComponent<GameController> ();
 		return null;
 	}
+
 }

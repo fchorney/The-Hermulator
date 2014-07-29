@@ -29,6 +29,8 @@ public class EnemyMovementController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (!gameController.EnemiesEnabled)
+			return;
 		switch(state) {
 			case State.Waiting:
 				if (MovementWaiting != null)

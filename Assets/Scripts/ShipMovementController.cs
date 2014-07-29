@@ -2,12 +2,7 @@
 using System.Collections;
 
 public class ShipMovementController : MonoBehaviour {
-
-	// left and right edge the ship will use
-	// in world coordinates
-	public Transform LeftEdge;
-	public Transform RightEdge;
-
+	
 	// speed at which the ship moves to the cursor
 	// when the cursor is "far" from the player when it's
 	// 	  in "loose" state
@@ -40,8 +35,10 @@ public class ShipMovementController : MonoBehaviour {
 	void Start () {
 		state = State.loose;
 
-		minX = Camera.main.WorldToScreenPoint(LeftEdge.transform.position).x;
-		maxX = Camera.main.WorldToScreenPoint(RightEdge.transform.position).x;
+		GameController gc = GameController.Get ();
+
+		minX = Camera.main.WorldToScreenPoint(new Vector2(gc.activeLeft, 0)).x;
+		maxX = Camera.main.WorldToScreenPoint(new Vector2(gc.activeRight, 0)).x;
 
 		shipController = transform.GetComponent<ShipController>();
 	}
@@ -49,11 +46,12 @@ public class ShipMovementController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
-		if (shipController.isFrozen())
+		if (shipController.Frozen)
 			return;
+
 		if (Input.GetMouseButton (0)) {
 			ShotController weapon = GetComponent<ShotController>();
-			if (weapon != null){
+			if (weapon != null && shipController.ShootingEnabled) {
 				weapon.Fire();
 			}
 			// Grab the current mouse pos

@@ -68,6 +68,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56933e5efe689324b9862f6e17b9f0cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: {x: 1, y: 2}
   bulletPool: {fileID: 0}
   damage: 1
   SurvivesEnemyCollision: 0

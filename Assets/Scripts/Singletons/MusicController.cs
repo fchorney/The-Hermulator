@@ -56,6 +56,10 @@ public class MusicController : MonoBehaviour {
 		enableBoss = false;
 		// Assume we dont start at a boss (because that's fucking stupid)
 		stagestate = StageState.level;
+
+
+		if (PlayerPrefs.GetInt("Mute") == 1)
+			AudioListener.pause = true;
 	}
 	
 	// Update is called once per frame

@@ -26,8 +26,8 @@ public class GameController : MonoBehaviour {
 
 	public bool EnemiesEnabled { get; private set; }
 
-	private float LevelSpeed = 6f;
-	private float CloudSpeed = 7.5f;
+	private float LevelSpeed = 4f;
+	private float CloudSpeed = 6;
 
     // time the plane animates "launching" from the bottom of the screen
     // the player cannot move the plane while launching
@@ -48,7 +48,7 @@ public class GameController : MonoBehaviour {
 
 	private ShipController player;
 
-	private enum State { PLAYING, PLAYING_INVINCIBLE, LOST, WON, PLAYING_INVINCIBLE_NO_SHOOTING, WAIT_SPAWN, WAIT_DIED };
+	private enum State { PLAYING, PLAYING_INVINCIBLE, LOST, WON, PLAYING_INVINCIBLE_NO_SHOOTING, WAIT_SPAWN, WAIT_DIED, WAIT_UP };
 	private State state;
 	private float stateTime;
 
@@ -71,6 +71,10 @@ public class GameController : MonoBehaviour {
 
 		Checkpoint = 0;
 		score = 0;
+
+		foreach (GameObject obj in GameObject.FindGameObjectsWithTag("Detransform")) {
+			obj.transform.parent = null;
+		}
 	}
 
 	private void Transition(State state) {
@@ -159,11 +163,18 @@ public class GameController : MonoBehaviour {
 		case State.WON:
 		case State.LOST:
 
+			// wait for a down and up before loading menu
+			if ( Input.GetMouseButtonDown(0) ) {
+				Transition(State.WAIT_UP);
+			}
+			break;
+
+		case State.WAIT_UP:
+			
 			if ( Input.GetMouseButtonUp(0) ) {
 				Application.LoadLevel ("Menu");
 			}
 			break;
-
 		}
 
 	}

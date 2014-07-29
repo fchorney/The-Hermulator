@@ -3,7 +3,7 @@ using System.Collections;
 
 public class BulletController : MonoBehaviour {
 
-	protected Vector2 speed = new Vector2(1f,1f);
+	public Vector2 speed = new Vector2(1f,1f);
 
 	protected Vector2 direction = new Vector2(0,8f);
 	protected GameObject player;

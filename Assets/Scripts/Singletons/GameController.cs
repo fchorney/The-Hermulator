@@ -9,6 +9,7 @@ public class GameController : MonoBehaviour {
 	public Transform TopEdge;
 	public GameObject PlayerPrefab;
 	public Transform PlayerSpawnPoint;
+	public BulletPool PlayerBulletPool;
 
 	public CheckpointController[] Checkpoints;
 
@@ -186,6 +187,7 @@ public class GameController : MonoBehaviour {
 	private ShipController SpawnShip() {
 
 		GameObject obj = Instantiate(PlayerPrefab, PlayerSpawnPoint.position, Quaternion.identity) as GameObject;
+		obj.GetComponent<ShotController>().bulletPool = this.PlayerBulletPool;
 
 		return obj.GetComponent<ShipController>();
 		

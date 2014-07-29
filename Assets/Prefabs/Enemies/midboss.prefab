@@ -500,6 +500,7 @@ MonoBehaviour:
   - {fileID: 400012}
   - {fileID: 400010}
   bulletPool: {fileID: 0}
+  shotTime: .0900000036
 --- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1

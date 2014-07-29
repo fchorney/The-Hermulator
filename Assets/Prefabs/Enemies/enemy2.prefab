@@ -290,6 +290,7 @@ MonoBehaviour:
   shotSpots:
   - {fileID: 400008}
   bulletPool: {fileID: 0}
+  shotTime: .0900000036
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1

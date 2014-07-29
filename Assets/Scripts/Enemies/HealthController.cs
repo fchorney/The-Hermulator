@@ -25,7 +25,7 @@ public class HealthController : MonoBehaviour {
 	public void Damage(int damageCount)
 	{
 		hp -= damageCount;
-		Debug.Log ("HP: " + hp);
+
 		if (hp <= 0)
 		{
 			enemyController.kill(true);
